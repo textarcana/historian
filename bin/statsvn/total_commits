@@ -1,0 +1,8 @@
+#!/usr/bin/env bash
+
+FILE=$1
+
+
+xmlstarlet sel -t -v "//cache/path/revision/@number" $FILE | \
+           sort | uniq |  wc -l  | \
+           jq --slurp --raw-input 'tonumber | {"total commits for this time period": .}'

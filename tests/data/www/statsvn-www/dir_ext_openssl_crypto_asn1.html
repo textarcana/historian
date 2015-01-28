@@ -1,0 +1,163 @@
+<?xml version="1.0"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title>StatSVN - Directory ext/openssl/crypto/asn1/</title>
+ <meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1"/>
+    <meta name="Generator" content="StatSVN 0.7.0"/>
+<link rel="stylesheet" href="statsvn.css" type="text/css"/>
+  </head>
+
+<body>
+
+<h1>Directory ext/openssl/crypto/asn1/</h1>
+<div id="parentlink">&#171; <a href="index.html">Development Statistics for /trunk</a></div>
+<dl class="attributes">
+    <dt>Total Files:</dt>
+    <dd>83</dd>
+    <dt>Deleted Files:</dt>
+    <dd>0</dd>
+    <dt>Lines of Code:</dt>
+    <dd>25027</dd>
+</dl>
+<p class="dirtree">
+<a href="dir.html">[root]</a>/<a href="dir_ext.html">ext</a>/<a href="dir_ext_openssl.html">openssl</a>/<a href="dir_ext_openssl_crypto.html">crypto</a>/<strong>asn1</strong><br/>
+</p>
+
+<div class="section">
+<h2>Lines of Code</h2>
+<p class="chart"><img src="loc_module_ext_openssl_crypto_asn1.png" alt="ext/openssl/crypto/asn1/ Lines of Code" width="800" height="500" /></p></div>
+<div class="section">
+<h2>Developers</h2>
+  <table  rules="groups" summary="All authors and the number of their changes and lines of code in this directory">
+    <colgroup align="left"/>
+    <colgroup align="right"/>
+    <colgroup align="right"/>
+    <colgroup align="right"/>
+    <thead>
+      <tr>
+        <th>Author</th>
+        <th>Changes</th>
+        <th>Lines of Code</th>
+        <th>Lines per Change</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr  class="odd">
+        <th><a href="user_tortoisesvn.html" class="author">tortoisesvn</a></th>
+        <td>166 (100.0%)</td>
+        <td>15323 (100.0%)</td>
+        <td>92.3</td>
+      </tr>
+    </tbody>
+  </table>
+
+</div>
+<div class="section">
+<h2>Most Recent Commits</h2>
+<dl class="commitlist">
+  <dt><a name="1"></a>
+    <a href="user_tortoisesvn.html" class="author">tortoisesvn</a>
+    <span class="date">2015-01-22 13:57</span>
+    <span class="revisionNumberOuter">Rev.: <span class="revisionNumberInner">26211</span></span>
+  </dt>
+  <dd>
+    <p class="comment">
+Update to OpenSSL 1.0.2
+    </p>
+    <p class="commitdetails"><strong>15323</strong> lines of code changed in <span class="files">166 files</span>:</p>
+    <ul class="commitdetails">
+      <li>
+        <strong>ext/openssl/crypto/asn1</strong>:
+        Makefile&#160;<span class="change">(+3&#160;-2)</span>,
+        a_bitstr.c&#160;<span class="change">(+172&#160;-163)</span>,
+        a_bool.c&#160;<span class="new">(new)</span>,
+        a_bytes.c&#160;<span class="new">(new)</span>,
+        a_d2i_fp.c&#160;<span class="new">(new)</span>,
+        a_digest.c&#160;<span class="change">(+34&#160;-36)</span>,
+        a_dup.c&#160;<span class="new">(new)</span>,
+        a_enum.c&#160;<span class="change">(+106&#160;-107)</span>,
+        a_gentm.c&#160;<span class="change">(+223&#160;-174)</span>,
+        a_i2d_fp.c&#160;<span class="change">(+81&#160;-87)</span>,
+        a_int.c&#160;<span class="change">(+340&#160;-336)</span>,
+        a_mbstr.c&#160;<span class="new">(new)</span>,
+        a_object.c&#160;<span class="new">(new)</span>,
+        a_octet.c&#160;<span class="new">(new)</span>,
+        a_print.c&#160;<span class="change">(+64&#160;-62)</span>,
+        a_set.c&#160;<span class="new">(new)</span>,
+        a_sign.c&#160;<span class="change">(+192&#160;-194)</span>,
+        a_strex.c&#160;<span class="change">(+477&#160;-404)</span>,
+        a_strnid.c&#160;<span class="change">(+170&#160;-147)</span>,
+        a_time.c&#160;<span class="change">(+133&#160;-103)</span>,
+        a_type.c&#160;<span class="new">(new)</span>,
+        a_utctm.c&#160;<span class="change">(+252&#160;-232)</span>,
+        a_utf8.c&#160;<span class="new">(new)</span>,
+        a_verify.c&#160;<span class="change">(+138&#160;-153)</span>,
+        ameth_lib.c&#160;<span class="new">(new)</span>,
+        asn1.h&#160;<span class="change">(+925&#160;-913)</span>,
+        asn1_err.c&#160;<span class="new">(new)</span>,
+        asn1_gen.c&#160;<span class="new">(new)</span>,
+        asn1_lib.c&#160;<span class="new">(new)</span>,
+        asn1_locl.h&#160;<span class="change">(+69&#160;-79)</span>,
+        asn1_mac.h&#160;<span class="new">(new)</span>,
+        asn1_par.c&#160;<span class="change">(+320&#160;-352)</span>,
+        asn1t.h&#160;<span class="change">(+569&#160;-556)</span>,
+        asn_mime.c&#160;<span class="new">(new)</span>,
+        asn_moid.c&#160;<span class="new">(new)</span>,
+        asn_pack.c&#160;<span class="new">(new)</span>,
+        bio_asn1.c&#160;<span class="new">(new)</span>,
+        bio_ndef.c&#160;<span class="change">(+137&#160;-138)</span>,
+        charmap.h&#160;<span class="change">(+11&#160;-11)</span>,
+        d2i_pr.c&#160;<span class="new">(new)</span>,
+        d2i_pu.c&#160;<span class="new">(new)</span>,
+        evp_asn1.c&#160;<span class="change">(+118&#160;-116)</span>,
+        f_enum.c&#160;<span class="new">(new)</span>,
+        f_int.c&#160;<span class="change">(+145&#160;-149)</span>,
+        f_string.c&#160;<span class="change">(+139&#160;-142)</span>,
+        i2d_pr.c&#160;<span class="change">(+19&#160;-21)</span>,
+        i2d_pu.c&#160;<span class="new">(new)</span>,
+        n_pkey.c&#160;<span class="new">(new)</span>,
+        nsseq.c&#160;<span class="new">(new)</span>,
+        p5_pbe.c&#160;<span class="change">(+61&#160;-66)</span>,
+        p5_pbev2.c&#160;<span class="change">(+156&#160;-156)</span>,
+        p8_pkey.c&#160;<span class="change">(+71&#160;-82)</span>,
+        t_bitst.c&#160;<span class="new">(new)</span>,
+        t_crl.c&#160;<span class="new">(new)</span>,
+        t_pkey.c&#160;<span class="new">(new)</span>,
+        t_req.c&#160;<span class="new">(new)</span>,
+        t_spki.c&#160;<span class="new">(new)</span>,
+        t_x509.c&#160;<span class="new">(new)</span>,
+        t_x509a.c&#160;<span class="new">(new)</span>,
+        tasn_dec.c&#160;<span class="change">(+1024&#160;-1169)</span>,
+        tasn_enc.c&#160;<span class="change">(+511&#160;-546)</span>,
+        tasn_fre.c&#160;<span class="change">(+166&#160;-183)</span>,
+        tasn_new.c&#160;<span class="change">(+254&#160;-269)</span>,
+        tasn_prn.c&#160;<span class="new">(new)</span>,
+        tasn_typ.c&#160;<span class="new">(new)</span>,
+        tasn_utl.c&#160;<span class="change">(+169&#160;-173)</span>,
+        x_algor.c&#160;<span class="change">(+64&#160;-71)</span>,
+        x_attrib.c&#160;<span class="new">(new)</span>,
+        x_bignum.c&#160;<span class="new">(new)</span>,
+        x_crl.c&#160;<span class="change">(+355&#160;-366)</span>,
+        x_exten.c&#160;<span class="new">(new)</span>,
+        x_info.c&#160;<span class="new">(new)</span>,
+        x_long.c&#160;<span class="change">(+87&#160;-83)</span>,
+        x_name.c&#160;<span class="change">(+359&#160;-353)</span>,
+        x_nx509.c&#160;<span class="new">(new)</span>,
+        x_pkey.c&#160;<span class="change">(+76&#160;-74)</span>,
+        x_pubkey.c&#160;<span class="change">(+257&#160;-271)</span>,
+        x_req.c&#160;<span class="change">(+28&#160;-25)</span>,
+        x_sig.c&#160;<span class="new">(new)</span>,
+        x_spki.c&#160;<span class="new">(new)</span>,
+        x_val.c&#160;<span class="change">(+8&#160;-8)</span>,
+        x_x509.c&#160;<span class="new">(new)</span>,
+        x_x509a.c&#160;<span class="new">(new)</span>
+      </li>
+    </ul>
+  </dd>
+
+</dl>
+
+</div><div id="generatedby">Generated by <a href="http://www.statsvn.org">StatSVN</a> 0.7.0</div>
+</body>
+</html>

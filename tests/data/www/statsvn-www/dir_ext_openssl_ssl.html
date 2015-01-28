@@ -1,0 +1,146 @@
+<?xml version="1.0"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title>StatSVN - Directory ext/openssl/ssl/</title>
+ <meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1"/>
+    <meta name="Generator" content="StatSVN 0.7.0"/>
+<link rel="stylesheet" href="statsvn.css" type="text/css"/>
+  </head>
+
+<body>
+
+<h1>Directory ext/openssl/ssl/</h1>
+<div id="parentlink">&#171; <a href="index.html">Development Statistics for /trunk</a></div>
+<dl class="attributes">
+    <dt>Total Files:</dt>
+    <dd>65</dd>
+    <dt>Deleted Files:</dt>
+    <dd>1</dd>
+    <dt>Lines of Code:</dt>
+    <dd>65242</dd>
+</dl>
+<p class="dirtree">
+<a href="dir.html">[root]</a>/<a href="dir_ext.html">ext</a>/<a href="dir_ext_openssl.html">openssl</a>/<strong>ssl</strong><br/>
+</p>
+
+<div class="section">
+<h2>Lines of Code</h2>
+<p class="chart"><img src="loc_module_ext_openssl_ssl.png" alt="ext/openssl/ssl/ Lines of Code" width="800" height="500" /></p></div>
+<div class="section">
+<h2>Developers</h2>
+  <table  rules="groups" summary="All authors and the number of their changes and lines of code in this directory">
+    <colgroup align="left"/>
+    <colgroup align="right"/>
+    <colgroup align="right"/>
+    <colgroup align="right"/>
+    <thead>
+      <tr>
+        <th>Author</th>
+        <th>Changes</th>
+        <th>Lines of Code</th>
+        <th>Lines per Change</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr  class="odd">
+        <th><a href="user_tortoisesvn.html" class="author">tortoisesvn</a></th>
+        <td>128 (100.0%)</td>
+        <td>49308 (100.0%)</td>
+        <td>385.2</td>
+      </tr>
+    </tbody>
+  </table>
+
+</div>
+<div class="section">
+<h2>Most Recent Commits</h2>
+<dl class="commitlist">
+  <dt><a name="1"></a>
+    <a href="user_tortoisesvn.html" class="author">tortoisesvn</a>
+    <span class="date">2015-01-22 13:57</span>
+    <span class="revisionNumberOuter">Rev.: <span class="revisionNumberInner">26211</span></span>
+  </dt>
+  <dd>
+    <p class="comment">
+Update to OpenSSL 1.0.2
+    </p>
+    <p class="commitdetails"><strong>49308</strong> lines of code changed in <span class="files">128 files</span>:</p>
+    <ul class="commitdetails">
+      <li>
+        <strong>ext/openssl/ssl</strong>:
+        Makefile&#160;<span class="new">(new)</span>,
+        bio_ssl.c&#160;<span class="new">(new)</span>,
+        d1_both.c&#160;<span class="change">(+1157&#160;-1296)</span>,
+        d1_clnt.c&#160;<span class="new">(new)</span>,
+        d1_enc.c&#160;<span class="del">(del)</span>,
+        d1_lib.c&#160;<span class="new">(new)</span>,
+        d1_meth.c&#160;<span class="change">(+24&#160;-13)</span>,
+        d1_pkt.c&#160;<span class="change">(+1451&#160;-1442)</span>,
+        d1_srtp.c&#160;<span class="change">(+284&#160;-299)</span>,
+        d1_srvr.c&#160;<span class="new">(new)</span>,
+        dtls1.h&#160;<span class="change">(+175&#160;-200)</span>,
+        heartbeat_test.c&#160;<span class="change">(+347&#160;-339)</span>,
+        kssl.c&#160;<span class="change">(+1861&#160;-1822)</span>,
+        kssl.h&#160;<span class="change">(+101&#160;-96)</span>,
+        kssl_lcl.h&#160;<span class="new">(new)</span>,
+        s23_clnt.c&#160;<span class="change">(+568&#160;-567)</span>,
+        s23_lib.c&#160;<span class="new">(new)</span>,
+        s23_meth.c&#160;<span class="change">(+23&#160;-26)</span>,
+        s23_pkt.c&#160;<span class="new">(new)</span>,
+        s23_srvr.c&#160;<span class="change">(+467&#160;-475)</span>,
+        s2_clnt.c&#160;<span class="new">(new)</span>,
+        s2_enc.c&#160;<span class="new">(new)</span>,
+        s2_lib.c&#160;<span class="change">(+369&#160;-363)</span>,
+        s2_meth.c&#160;<span class="new">(new)</span>,
+        s2_pkt.c&#160;<span class="change">(+529&#160;-566)</span>,
+        s2_srvr.c&#160;<span class="new">(new)</span>,
+        s3_both.c&#160;<span class="change">(+509&#160;-616)</span>,
+        s3_cbc.c&#160;<span class="new">(new)</span>,
+        s3_clnt.c&#160;<span class="change">(+2898&#160;-2895)</span>,
+        s3_enc.c&#160;<span class="new">(new)</span>,
+        s3_lib.c&#160;<span class="change">(+3876&#160;-3711)</span>,
+        s3_meth.c&#160;<span class="new">(new)</span>,
+        s3_pkt.c&#160;<span class="new">(new)</span>,
+        s3_srvr.c&#160;<span class="change">(+2901&#160;-3083)</span>,
+        srtp.h&#160;<span class="change">(+21&#160;-25)</span>,
+        ssl-lib.com&#160;<span class="change">(+5&#160;-5)</span>,
+        ssl.h&#160;<span class="change">(+2586&#160;-2044)</span>,
+        ssl2.h&#160;<span class="new">(new)</span>,
+        ssl23.h&#160;<span class="change">(+17&#160;-16)</span>,
+        ssl3.h&#160;<span class="change">(+573&#160;-505)</span>,
+        ssl_algs.c&#160;<span class="new">(new)</span>,
+        ssl_asn1.c&#160;<span class="new">(new)</span>,
+        ssl_cert.c&#160;<span class="change">(+960&#160;-527)</span>,
+        ssl_ciph.c&#160;<span class="new">(new)</span>,
+        ssl_conf.c&#160;<span class="new">(new&#160;668)</span>,
+        ssl_err.c&#160;<span class="new">(new)</span>,
+        ssl_err2.c&#160;<span class="new">(new)</span>,
+        ssl_lib.c&#160;<span class="new">(new)</span>,
+        ssl_locl.h&#160;<span class="change">(+1004&#160;-724)</span>,
+        ssl_rsa.c&#160;<span class="change">(+837&#160;-612)</span>,
+        ssl_sess.c&#160;<span class="change">(+815&#160;-841)</span>,
+        ssl_stat.c&#160;<span class="new">(new)</span>,
+        ssl_task.c&#160;<span class="change">(+202&#160;-174)</span>,
+        ssl_txt.c&#160;<span class="change">(+159&#160;-145)</span>,
+        ssl_utst.c&#160;<span class="change">(+12&#160;-13)</span>,
+        ssltest.c&#160;<span class="new">(new)</span>,
+        t1_clnt.c&#160;<span class="change">(+25&#160;-27)</span>,
+        t1_enc.c&#160;<span class="change">(+1047&#160;-961)</span>,
+        t1_ext.c&#160;<span class="new">(new&#160;298)</span>,
+        t1_lib.c&#160;<span class="new">(new)</span>,
+        t1_meth.c&#160;<span class="new">(new)</span>,
+        t1_reneg.c&#160;<span class="change">(+113&#160;-113)</span>,
+        t1_srvr.c&#160;<span class="change">(+26&#160;-27)</span>,
+        t1_trce.c&#160;<span class="new">(new&#160;1266)</span>,
+        tls1.h&#160;<span class="new">(new)</span>,
+        tls_srp.c&#160;<span class="new">(new)</span>
+      </li>
+    </ul>
+  </dd>
+
+</dl>
+
+</div><div id="generatedby">Generated by <a href="http://www.statsvn.org">StatSVN</a> 0.7.0</div>
+</body>
+</html>

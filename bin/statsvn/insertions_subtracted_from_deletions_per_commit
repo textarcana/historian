@@ -1,0 +1,20 @@
+#!/usr/bin/env bash
+
+FILE=$1
+
+xmlstarlet sel -t -m "//cache/path/revision" -v @number -o ' ' -v @added -o ' ' -v @removed -n $FILE \
+    | sort -n | perl -lanwe 'BEGIN{$seen=qq{}};
+if($seen eq qq{}){
+    $seen=$F[0];
+    $added=$F[1];
+    $removed=$F[2]
+}elsif($F[0] ne $seen){
+    $net_add = $added - $removed;
+    print qq{[$net_add, $seen]};
+    $seen=$F[0];
+    $added=$F[1];
+    $removed=$F[2]
+}else{
+    $added+=$F[1];$removed+=$F[2]
+}'     | \
+    jq --slurp 'map({count: .[0], revision: .[1]}) | {"deletions SUBTRACTED FROM insertions per commit": .}'

@@ -1,0 +1,5000 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<log>
+<logentry
+   revision="26209">
+<author>tortoisesvn</author>
+<date>2015-01-21T21:08:59.610076Z</date>
+<paths>
+<path
+   kind="file"
+   action="M">/trunk/Languages/TortoiseUI.pot</path>
+</paths>
+<msg>Update pot file with recent resource changes.</msg>
+</logentry>
+<logentry
+   revision="26210">
+<author>XhmikosR</author>
+<date>2015-01-22T18:06:36.436167Z</date>
+<paths>
+<path
+   kind="file"
+   action="M">/trunk/contrib/coverity.bat</path>
+</paths>
+<msg>Update coverity.</msg>
+</logentry>
+<logentry
+   revision="26211">
+<author>tortoisesvn</author>
+<date>2015-01-22T18:57:15.507787Z</date>
+<paths>
+<path
+   action="M"
+   kind="file">/trunk/ext/build/OpenSSL.build</path>
+<path
+   kind="file"
+   action="M">/trunk/ext/openssl/CHANGES</path>
+<path
+   kind="file"
+   action="M">/trunk/ext/openssl/Configure</path>
+<path
+   action="M"
+   kind="file">/trunk/ext/openssl/FAQ</path>
+<path
+   action="A"
+   kind="file">/trunk/ext/openssl/GitConfigure</path>
+<path
+   action="A"
+   kind="file">/trunk/ext/openssl/GitMake</path>
+<path
+   action="M"
+   kind="file">/trunk/ext/openssl/MacOS/GetHTTPS.src/MacSocket.h</path>
+<path
+   action="M"
+   kind="file">/trunk/ext/openssl/MacOS/Randomizer.h</path>
+<path
+   action="M"
+   kind="file">/trunk/ext/openssl/MacOS/_MWERKS_GUSI_prefix.h</path>
+<path
+   action="M"
+   kind="file">/trunk/ext/openssl/MacOS/_MWERKS_prefix.h</path>
+<path
+   action="M"
+   kind="file">/trunk/ext/openssl/MacOS/buildinf.h</path>
+<path
+   kind="file"
+   action="M">/trunk/ext/openssl/MacOS/opensslconf.h</path>
+<path
+   kind="file"
+   action="M">/trunk/ext/openssl/Makefile.org</path>
+<path
+   action="M"
+   kind="file">/trunk/ext/openssl/NEWS</path>
+<path
+   action="M"
+   kind="file">/trunk/ext/openssl/README</path>
+<path
+   action="M"
+   kind="file">/trunk/ext/openssl/apps/app_rand.c</path>
+<path
+   kind="file"
+   action="M">/trunk/ext/openssl/apps/apps.c</path>
+<path
+   kind="file"
+   action="M">/trunk/ext/openssl/apps/apps.h</path>
+<path
+   kind="file"
+   action="M">/trunk/ext/openssl/apps/asn1pars.c</path>
+<path
+   kind="file"
+   action="M">/trunk/ext/openssl/apps/ca.c</path>
+<path
+   kind="file"
+   action="M">/trunk/ext/openssl/apps/ciphers.c</path>
+<path
+   kind="file"
+   action="M">/trunk/ext/openssl/apps/cms.c</path>
+<path
+   kind="file"
+   action="M">/trunk/ext/openssl/apps/crl.c</path>
+<path
+   kind="file"
+   action="M">/trunk/ext/openssl/apps/crl2p7.c</path>
+<path
+   kind="file"
+   action="M">/trunk/ext/openssl/apps/dgst.c</path>
+<path
+   action="M"
+   kind="file">/trunk/ext/openssl/apps/dh.c</path>
+<path
+   action="M"
+   kind="file">/trunk/ext/openssl/apps/dhparam.c</path>
+<path
+   kind="file"
+   action="M">/trunk/ext/openssl/apps/dsa.c</path>
+<path
+   kind="file"
+   action="M">/trunk/ext/openssl/apps/dsaparam.c</path>
+<path
+   kind="file"
+   action="M">/trunk/ext/openssl/apps/ec.c</path>
+<path
+   action="M"
+   kind="file">/trunk/ext/openssl/apps/ecparam.c</path>
+<path
+   action="M"
+   kind="file">/trunk/ext/openssl/apps/enc.c</path>
+<path
+   action="M"
+   kind="file">/trunk/ext/openssl/apps/engine.c</path>
+<path
+   action="M"
+   kind="file">/trunk/ext/openssl/apps/errstr.c</path>
+<path
+   action="M"
+   kind="file">/trunk/ext/openssl/apps/gendh.c</path>
+<path
+   action="M"
+   kind="file">/trunk/ext/openssl/apps/gendsa.c</path>
+<path
+   action="M"
+   kind="file">/trunk/ext/openssl/apps/genpkey.c</path>
+<path
+   action="M"
+   kind="file">/trunk/ext/openssl/apps/genrsa.c</path>
+<path
+   action="M"
+   kind="file">/trunk/ext/openssl/apps/makeapps.com</path>
+<path
+   action="M"
+   kind="file">/trunk/ext/openssl/apps/nseq.c</path>
+<path
+   kind="file"
+   action="M">/trunk/ext/openssl/apps/ocsp.c</path>
+<path
+   action="M"
+   kind="file">/trunk/ext/openssl/apps/openssl-vms.cnf</path>
+<path
+   action="M"
+   kind="file">/trunk/ext/openssl/apps/openssl.c</path>
+<path
+   action="M"
+   kind="file">/trunk/ext/openssl/apps/openssl.cnf</path>
+<path
+   action="M"
+   kind="file">/trunk/ext/openssl/apps/passwd.c</path>
+<path
+   kind="file"
+   action="M">/trunk/ext/openssl/apps/pkcs12.c</path>
+<path
+   kind="file"
+   action="M">/trunk/ext/openssl/apps/pkcs7.c</path>
+<path
+   kind="file"
+   action="M">/trunk/ext/openssl/apps/pkcs8.c</path>
+<path
+   kind="file"
+   action="M">/trunk/ext/openssl/apps/pkey.c</path>
+<path
+   kind="file"
+   action="M">/trunk/ext/openssl/apps/pkeyparam.c</path>
+<path
+   kind="file"
+   action="M">/trunk/ext/openssl/apps/pkeyutl.c</path>
+<path
+   kind="file"
+   action="M">/trunk/ext/openssl/apps/prime.c</path>
+<path
+   kind="file"
+   action="M">/trunk/ext/openssl/apps/progs.h</path>
+<path
+   kind="file"
+   action="M">/trunk/ext/openssl/apps/rand.c</path>
+<path
+   action="M"
+   kind="file">/trunk/ext/openssl/apps/req.c</path>
+<path
+   action="M"
+   kind="file">/trunk/ext/openssl/apps/rsa.c</path>
+<path
+   action="M"
+   kind="file">/trunk/ext/openssl/apps/rsautl.c</path>
+<path
+   action="M"
+   kind="file">/trunk/ext/openssl/apps/s_apps.h</path>
+<path
+   kind="file"
+   action="M">/trunk/ext/openssl/apps/s_cb.c</path>
+<path
+   kind="file"
+   action="M">/trunk/ext/openssl/apps/s_client.c</path>
+<path
+   action="M"
+   kind="file">/trunk/ext/openssl/apps/s_server.c</path>
+<path
+   action="M"
+   kind="file">/trunk/ext/openssl/apps/s_socket.c</path>
+<path
+   action="M"
+   kind="file">/trunk/ext/openssl/apps/s_time.c</path>
+<path
+   kind="file"
+   action="M">/trunk/ext/openssl/apps/sess_id.c</path>
+<path
+   kind="file"
+   action="M">/trunk/ext/openssl/apps/smime.c</path>
+<path
+   kind="file"
+   action="M">/trunk/ext/openssl/apps/speed.c</path>
+<path
+   kind="file"
+   action="M">/trunk/ext/openssl/apps/spkac.c</path>
+<path
+   kind="file"
+   action="M">/trunk/ext/openssl/apps/srp.c</path>
+<path
+   kind="file"
+   action="M">/trunk/ext/openssl/apps/testdsa.h</path>
+<path
+   kind="file"
+   action="M">/trunk/ext/openssl/apps/testrsa.h</path>
+<path
+   kind="file"
+   action="M">/trunk/ext/openssl/apps/timeouts.h</path>
+<path
+   kind="file"
+   action="M">/trunk/ext/openssl/apps/ts.c</path>
+<path
+   kind="file"
+   action="M">/trunk/ext/openssl/apps/verify.c</path>
+<path
+   action="M"
+   kind="file">/trunk/ext/openssl/apps/version.c</path>
+<path
+   action="M"
+   kind="file">/trunk/ext/openssl/apps/vms_decc_init.c</path>
+<path
+   kind="file"
+   action="M">/trunk/ext/openssl/apps/winrand.c</path>
+<path
+   kind="file"
+   action="M">/trunk/ext/openssl/apps/x509.c</path>
+<path
+   kind="file"
+   action="M">/trunk/ext/openssl/bugs/alpha.c</path>
+<path
+   action="M"
+   kind="file">/trunk/ext/openssl/bugs/dggccbug.c</path>
+<path
+   action="M"
+   kind="file">/trunk/ext/openssl/bugs/sgiccbug.c</path>
+<path
+   action="M"
+   kind="file">/trunk/ext/openssl/bugs/stream.c</path>
+<path
+   action="M"
+   kind="file">/trunk/ext/openssl/bugs/ultrixcc.c</path>
+<path
+   action="M"
+   kind="file">/trunk/ext/openssl/config</path>
+<path
+   action="M"
+   kind="file">/trunk/ext/openssl/crypto/LPdir_nyi.c</path>
+<path
+   action="M"
+   kind="file">/trunk/ext/openssl/crypto/LPdir_unix.c</path>
+<path
+   action="M"
+   kind="file">/trunk/ext/openssl/crypto/LPdir_vms.c</path>
+<path
+   action="M"
+   kind="file">/trunk/ext/openssl/crypto/LPdir_win.c</path>
+<path
+   action="M"
+   kind="file">/trunk/ext/openssl/crypto/LPdir_win32.c</path>
+<path
+   kind="file"
+   action="M">/trunk/ext/openssl/crypto/LPdir_wince.c</path>
+<path
+   kind="file"
+   action="M">/trunk/ext/openssl/crypto/Makefile</path>
+<path
+   action="M"
+   kind="file">/trunk/ext/openssl/crypto/aes/Makefile</path>
+<path
+   action="M"
+   kind="file">/trunk/ext/openssl/crypto/aes/aes.h</path>
+<path
+   action="M"
+   kind="file">/trunk/ext/openssl/crypto/aes/aes_cbc.c</path>
+<path
+   kind="file"
+   action="M">/trunk/ext/openssl/crypto/aes/aes_cfb.c</path>
+<path
+   kind="file"
+   action="M">/trunk/ext/openssl/crypto/aes/aes_core.c</path>
+<path
+   kind="file"
+   action="M">/trunk/ext/openssl/crypto/aes/aes_ctr.c</path>
+<path
+   kind="file"
+   action="M">/trunk/ext/openssl/crypto/aes/aes_ecb.c</path>
+<path
+   kind="file"
+   action="M">/trunk/ext/openssl/crypto/aes/aes_ige.c</path>
+<path
+   kind="file"
+   action="M">/trunk/ext/openssl/crypto/aes/aes_locl.h</path>
+<path
+   kind="file"
+   action="M">/trunk/ext/openssl/crypto/aes/aes_misc.c</path>
+<path
+   kind="file"
+   action="M">/trunk/ext/openssl/crypto/aes/aes_ofb.c</path>
+<path
+   kind="file"
+   action="M">/trunk/ext/openssl/crypto/aes/aes_wrap.c</path>
+<path
+   kind="file"
+   action="M">/trunk/ext/openssl/crypto/aes/aes_x86core.c</path>
+<path
+   action="M"
+   kind="file">/trunk/ext/openssl/crypto/aes/asm/aes-586.pl</path>
+<path
+   kind="file"
+   action="M">/trunk/ext/openssl/crypto/aes/asm/aes-armv4.pl</path>
+<path
+   kind="file"
+   action="M">/trunk/ext/openssl/crypto/aes/asm/aes-mips.pl</path>
+<path
+   kind="file"
+   action="M">/trunk/ext/openssl/crypto/aes/asm/aes-ppc.pl</path>
+<path
+   action="M"
+   kind="file">/trunk/ext/openssl/crypto/aes/asm/aes-x86_64.pl</path>
+<path
+   kind="file"
+   action="A">/trunk/ext/openssl/crypto/aes/asm/aesni-mb-x86_64.pl</path>
+<path
+   kind="file"
+   action="M">/trunk/ext/openssl/crypto/aes/asm/aesni-sha1-x86_64.pl</path>
+<path
+   kind="file"
+   action="A">/trunk/ext/openssl/crypto/aes/asm/aesni-sha256-x86_64.pl</path>
+<path
+   kind="file"
+   action="M">/trunk/ext/openssl/crypto/aes/asm/aesni-x86.pl</path>
+<path
+   kind="file"
+   action="M">/trunk/ext/openssl/crypto/aes/asm/aesni-x86_64.pl</path>
+<path
+   kind="file"
+   action="A">/trunk/ext/openssl/crypto/aes/asm/aesp8-ppc.pl</path>
+<path
+   kind="file"
+   action="A">/trunk/ext/openssl/crypto/aes/asm/aest4-sparcv9.pl</path>
+<path
+   kind="file"
+   action="A">/trunk/ext/openssl/crypto/aes/asm/aesv8-armx.pl</path>
+<path
+   action="A"
+   kind="file">/trunk/ext/openssl/crypto/aes/asm/bsaes-armv7.pl</path>
+<path
+   action="M"
+   kind="file">/trunk/ext/openssl/crypto/aes/asm/bsaes-x86_64.pl</path>
+<path
+   kind="file"
+   action="A">/trunk/ext/openssl/crypto/aes/asm/vpaes-ppc.pl</path>
+<path
+   kind="file"
+   action="M">/trunk/ext/openssl/crypto/aes/asm/vpaes-x86.pl</path>
+<path
+   kind="file"
+   action="M">/trunk/ext/openssl/crypto/aes/asm/vpaes-x86_64.pl</path>
+<path
+   kind="file"
+   action="A">/trunk/ext/openssl/crypto/arm64cpuid.S</path>
+<path
+   action="M"
+   kind="file">/trunk/ext/openssl/crypto/arm_arch.h</path>
+<path
+   action="M"
+   kind="file">/trunk/ext/openssl/crypto/armcap.c</path>
+<path
+   action="M"
+   kind="file">/trunk/ext/openssl/crypto/armv4cpuid.S</path>
+<path
+   action="M"
+   kind="file">/trunk/ext/openssl/crypto/asn1/Makefile</path>
+<path
+   action="M"
+   kind="file">/trunk/ext/openssl/crypto/asn1/a_bitstr.c</path>
+<path
+   action="M"
+   kind="file">/trunk/ext/openssl/crypto/asn1/a_bool.c</path>
+<path
+   action="M"
+   kind="file">/trunk/ext/openssl/crypto/asn1/a_bytes.c</path>
+<path
+   action="M"
+   kind="file">/trunk/ext/openssl/crypto/asn1/a_d2i_fp.c</path>
+<path
+   kind="file"
+   action="M">/trunk/ext/openssl/crypto/asn1/a_digest.c</path>
+<path
+   kind="file"
+   action="M">/trunk/ext/openssl/crypto/asn1/a_dup.c</path>
+<path
+   action="M"
+   kind="file">/trunk/ext/openssl/crypto/asn1/a_enum.c</path>
+<path
+   action="M"
+   kind="file">/trunk/ext/openssl/crypto/asn1/a_gentm.c</path>
+<path
+   action="M"
+   kind="file">/trunk/ext/openssl/crypto/asn1/a_i2d_fp.c</path>
+<path
+   action="M"
+   kind="file">/trunk/ext/openssl/crypto/asn1/a_int.c</path>
+<path
+   kind="file"
+   action="M">/trunk/ext/openssl/crypto/asn1/a_mbstr.c</path>
+<path
+   kind="file"
+   action="M">/trunk/ext/openssl/crypto/asn1/a_object.c</path>
+<path
+   kind="file"
+   action="M">/trunk/ext/openssl/crypto/asn1/a_octet.c</path>
+<path
+   kind="file"
+   action="M">/trunk/ext/openssl/crypto/asn1/a_print.c</path>
+<path
+   kind="file"
+   action="M">/trunk/ext/openssl/crypto/asn1/a_set.c</path>
+<path
+   kind="file"
+   action="M">/trunk/ext/openssl/crypto/asn1/a_sign.c</path>
+<path
+   kind="file"
+   action="M">/trunk/ext/openssl/crypto/asn1/a_strex.c</path>
+<path
+   kind="file"
+   action="M">/trunk/ext/openssl/crypto/asn1/a_strnid.c</path>
+<path
+   kind="file"
+   action="M">/trunk/ext/openssl/crypto/asn1/a_time.c</path>
+<path
+   action="M"
+   kind="file">/trunk/ext/openssl/crypto/asn1/a_type.c</path>
+<path
+   action="M"
+   kind="file">/trunk/ext/openssl/crypto/asn1/a_utctm.c</path>
+<path
+   kind="file"
+   action="M">/trunk/ext/openssl/crypto/asn1/a_utf8.c</path>
+<path
+   kind="file"
+   action="M">/trunk/ext/openssl/crypto/asn1/a_verify.c</path>
+<path
+   kind="file"
+   action="M">/trunk/ext/openssl/crypto/asn1/ameth_lib.c</path>
+<path
+   kind="file"
+   action="M">/trunk/ext/openssl/crypto/asn1/asn1.h</path>
+<path
+   action="M"
+   kind="file">/trunk/ext/openssl/crypto/asn1/asn1_err.c</path>
+<path
+   action="M"
+   kind="file">/trunk/ext/openssl/crypto/asn1/asn1_gen.c</path>
+<path
+   action="M"
+   kind="file">/trunk/ext/openssl/crypto/asn1/asn1_lib.c</path>
+<path
+   action="M"
+   kind="file">/trunk/ext/openssl/crypto/asn1/asn1_locl.h</path>
+<path
+   action="M"
+   kind="file">/trunk/ext/openssl/crypto/asn1/asn1_mac.h</path>
+<path
+   kind="file"
+   action="M">/trunk/ext/openssl/crypto/asn1/asn1_par.c</path>
+<path
+   kind="file"
+   action="M">/trunk/ext/openssl/crypto/asn1/asn1t.h</path>
+<path
+   action="M"
+   kind="file">/trunk/ext/openssl/crypto/asn1/asn_mime.c</path>
+<path
+   action="M"
+   kind="file">/trunk/ext/openssl/crypto/asn1/asn_moid.c</path>
+<path
+   action="M"
+   kind="file">/trunk/ext/openssl/crypto/asn1/asn_pack.c</path>
+<path
+   kind="file"
+   action="M">/trunk/ext/openssl/crypto/asn1/bio_asn1.c</path>
+<path
+   kind="file"
+   action="M">/trunk/ext/openssl/crypto/asn1/bio_ndef.c</path>
+<path
+   kind="file"
+   action="M">/trunk/ext/openssl/crypto/asn1/charmap.h</path>
+<path
+   kind="file"
+   action="M">/trunk/ext/openssl/crypto/asn1/d2i_pr.c</path>
+<path
+   kind="file"
+   action="M">/trunk/ext/openssl/crypto/asn1/d2i_pu.c</path>
+<path
+   kind="file"
+   action="M">/trunk/ext/openssl/crypto/asn1/evp_asn1.c</path>
+<path
+   kind="file"
+   action="M">/trunk/ext/openssl/crypto/asn1/f_enum.c</path>
+<path
+   kind="file"
+   action="M">/trunk/ext/openssl/crypto/asn1/f_int.c</path>
+<path
+   kind="file"
+   action="M">/trunk/ext/openssl/crypto/asn1/f_string.c</path>
+<path
+   kind="file"
+   action="M">/trunk/ext/openssl/crypto/asn1/i2d_pr.c</path>
+<path
+   action="M"
+   kind="file">/trunk/ext/openssl/crypto/asn1/i2d_pu.c</path>
+<path
+   kind="file"
+   action="M">/trunk/ext/openssl/crypto/asn1/n_pkey.c</path>
+<path
+   kind="file"
+   action="M">/trunk/ext/openssl/crypto/asn1/nsseq.c</path>
+<path
+   kind="file"
+   action="M">/trunk/ext/openssl/crypto/asn1/p5_pbe.c</path>
+<path
+   kind="file"
+   action="M">/trunk/ext/openssl/crypto/asn1/p5_pbev2.c</path>
+<path
+   action="M"
+   kind="file">/trunk/ext/openssl/crypto/asn1/p8_pkey.c</path>
+<path
+   action="M"
+   kind="file">/trunk/ext/openssl/crypto/asn1/t_bitst.c</path>
+<path
+   action="M"
+   kind="file">/trunk/ext/openssl/crypto/asn1/t_crl.c</path>
+<path
+   action="M"
+   kind="file">/trunk/ext/openssl/crypto/asn1/t_pkey.c</path>
+<path
+   action="M"
+   kind="file">/trunk/ext/openssl/crypto/asn1/t_req.c</path>
+<path
+   action="M"
+   kind="file">/trunk/ext/openssl/crypto/asn1/t_spki.c</path>
+<path
+   action="M"
+   kind="file">/trunk/ext/openssl/crypto/asn1/t_x509.c</path>
+<path
+   action="M"
+   kind="file">/trunk/ext/openssl/crypto/asn1/t_x509a.c</path>
+<path
+   action="M"
+   kind="file">/trunk/ext/openssl/crypto/asn1/tasn_dec.c</path>
+<path
+   kind="file"
+   action="M">/trunk/ext/openssl/crypto/asn1/tasn_enc.c</path>
+<path
+   kind="file"
+   action="M">/trunk/ext/openssl/crypto/asn1/tasn_fre.c</path>
+<path
+   action="M"
+   kind="file">/trunk/ext/openssl/crypto/asn1/tasn_new.c</path>
+<path
+   action="M"
+   kind="file">/trunk/ext/openssl/crypto/asn1/tasn_prn.c</path>
+<path
+   action="M"
+   kind="file">/trunk/ext/openssl/crypto/asn1/tasn_typ.c</path>
+<path
+   action="M"
+   kind="file">/trunk/ext/openssl/crypto/asn1/tasn_utl.c</path>
+<path
+   kind="file"
+   action="M">/trunk/ext/openssl/crypto/asn1/x_algor.c</path>
+<path
+   kind="file"
+   action="M">/trunk/ext/openssl/crypto/asn1/x_attrib.c</path>
+<path
+   kind="file"
+   action="M">/trunk/ext/openssl/crypto/asn1/x_bignum.c</path>
+<path
+   kind="file"
+   action="M">/trunk/ext/openssl/crypto/asn1/x_crl.c</path>
+<path
+   kind="file"
+   action="M">/trunk/ext/openssl/crypto/asn1/x_exten.c</path>
+<path
+   kind="file"
+   action="M">/trunk/ext/openssl/crypto/asn1/x_info.c</path>
+<path
+   kind="file"
+   action="M">/trunk/ext/openssl/crypto/asn1/x_long.c</path>
+<path
+   kind="file"
+   action="M">/trunk/ext/openssl/crypto/asn1/x_name.c</path>
+<path
+   kind="file"
+   action="M">/trunk/ext/openssl/crypto/asn1/x_nx509.c</path>
+<path
+   action="M"
+   kind="file">/trunk/ext/openssl/crypto/asn1/x_pkey.c</path>
+<path
+   action="M"
+   kind="file">/trunk/ext/openssl/crypto/asn1/x_pubkey.c</path>
+<path
+   kind="file"
+   action="M">/trunk/ext/openssl/crypto/asn1/x_req.c</path>
+<path
+   kind="file"
+   action="M">/trunk/ext/openssl/crypto/asn1/x_sig.c</path>
+<path
+   kind="file"
+   action="M">/trunk/ext/openssl/crypto/asn1/x_spki.c</path>
+<path
+   kind="file"
+   action="M">/trunk/ext/openssl/crypto/asn1/x_val.c</path>
+<path
+   kind="file"
+   action="M">/trunk/ext/openssl/crypto/asn1/x_x509.c</path>
+<path
+   action="M"
+   kind="file">/trunk/ext/openssl/crypto/asn1/x_x509a.c</path>
+<path
+   kind="file"
+   action="M">/trunk/ext/openssl/crypto/bf/bf_cbc.c</path>
+<path
+   kind="file"
+   action="M">/trunk/ext/openssl/crypto/bf/bf_cfb64.c</path>
+<path
+   kind="file"
+   action="M">/trunk/ext/openssl/crypto/bf/bf_ecb.c</path>
+<path
+   kind="file"
+   action="M">/trunk/ext/openssl/crypto/bf/bf_enc.c</path>
+<path
+   action="M"
+   kind="file">/trunk/ext/openssl/crypto/bf/bf_locl.h</path>
+<path
+   action="M"
+   kind="file">/trunk/ext/openssl/crypto/bf/bf_ofb64.c</path>
+<path
+   action="M"
+   kind="file">/trunk/ext/openssl/crypto/bf/bf_opts.c</path>
+<path
+   action="M"
+   kind="file">/trunk/ext/openssl/crypto/bf/bf_pi.h</path>
+<path
+   action="M"
+   kind="file">/trunk/ext/openssl/crypto/bf/bf_skey.c</path>
+<path
+   action="M"
+   kind="file">/trunk/ext/openssl/crypto/bf/bfspeed.c</path>
+<path
+   action="M"
+   kind="file">/trunk/ext/openssl/crypto/bf/bftest.c</path>
+<path
+   action="M"
+   kind="file">/trunk/ext/openssl/crypto/bf/blowfish.h</path>
+<path
+   action="M"
+   kind="file">/trunk/ext/openssl/crypto/bio/b_dump.c</path>
+<path
+   kind="file"
+   action="M">/trunk/ext/openssl/crypto/bio/b_print.c</path>
+<path
+   kind="file"
+   action="M">/trunk/ext/openssl/crypto/bio/b_sock.c</path>
+<path
+   action="M"
+   kind="file">/trunk/ext/openssl/crypto/bio/bf_buff.c</path>
+<path
+   action="M"
+   kind="file">/trunk/ext/openssl/crypto/bio/bf_lbuf.c</path>
+<path
+   action="M"
+   kind="file">/trunk/ext/openssl/crypto/bio/bf_nbio.c</path>
+<path
+   action="M"
+   kind="file">/trunk/ext/openssl/crypto/bio/bf_null.c</path>
+<path
+   kind="file"
+   action="M">/trunk/ext/openssl/crypto/bio/bio.h</path>
+<path
+   kind="file"
+   action="M">/trunk/ext/openssl/crypto/bio/bio_cb.c</path>
+<path
+   kind="file"
+   action="M">/trunk/ext/openssl/crypto/bio/bio_err.c</path>
+<path
+   kind="file"
+   action="M">/trunk/ext/openssl/crypto/bio/bio_lcl.h</path>
+<path
+   kind="file"
+   action="M">/trunk/ext/openssl/crypto/bio/bio_lib.c</path>
+<path
+   kind="file"
+   action="M">/trunk/ext/openssl/crypto/bio/bss_acpt.c</path>
+<path
+   kind="file"
+   action="M">/trunk/ext/openssl/crypto/bio/bss_bio.c</path>
+<path
+   kind="file"
+   action="M">/trunk/ext/openssl/crypto/bio/bss_conn.c</path>
+<path
+   kind="file"
+   action="M">/trunk/ext/openssl/crypto/bio/bss_dgram.c</path>
+<path
+   action="M"
+   kind="file">/trunk/ext/openssl/crypto/bio/bss_fd.c</path>
+<path
+   action="M"
+   kind="file">/trunk/ext/openssl/crypto/bio/bss_file.c</path>
+<path
+   kind="file"
+   action="M">/trunk/ext/openssl/crypto/bio/bss_log.c</path>
+<path
+   kind="file"
+   action="M">/trunk/ext/openssl/crypto/bio/bss_mem.c</path>
+<path
+   kind="file"
+   action="M">/trunk/ext/openssl/crypto/bio/bss_null.c</path>
+<path
+   action="M"
+   kind="file">/trunk/ext/openssl/crypto/bio/bss_rtcp.c</path>
+<path
+   action="M"
+   kind="file">/trunk/ext/openssl/crypto/bio/bss_sock.c</path>
+<path
+   action="M"
+   kind="file">/trunk/ext/openssl/crypto/bn/Makefile</path>
+<path
+   action="M"
+   kind="file">/trunk/ext/openssl/crypto/bn/asm/armv4-gf2m.pl</path>
+<path
+   action="M"
+   kind="file">/trunk/ext/openssl/crypto/bn/asm/armv4-mont.pl</path>
+<path
+   action="M"
+   kind="file">/trunk/ext/openssl/crypto/bn/asm/mips-mont.pl</path>
+<path
+   action="M"
+   kind="file">/trunk/ext/openssl/crypto/bn/asm/mips.pl</path>
+<path
+   action="A"
+   kind="file">/trunk/ext/openssl/crypto/bn/asm/mips3.s</path>
+<path
+   action="M"
+   kind="file">/trunk/ext/openssl/crypto/bn/asm/ppc-mont.pl</path>
+<path
+   kind="file"
+   action="M">/trunk/ext/openssl/crypto/bn/asm/ppc.pl</path>
+<path
+   kind="file"
+   action="M">/trunk/ext/openssl/crypto/bn/asm/ppc64-mont.pl</path>
+<path
+   action="A"
+   kind="file">/trunk/ext/openssl/crypto/bn/asm/rsaz-avx2.pl</path>
+<path
+   kind="file"
+   action="A">/trunk/ext/openssl/crypto/bn/asm/rsaz-x86_64.pl</path>
+<path
+   kind="file"
+   action="A">/trunk/ext/openssl/crypto/bn/asm/sparct4-mont.pl</path>
+<path
+   kind="file"
+   action="A">/trunk/ext/openssl/crypto/bn/asm/sparcv9-gf2m.pl</path>
+<path
+   kind="file"
+   action="A">/trunk/ext/openssl/crypto/bn/asm/vis3-mont.pl</path>
+<path
+   kind="file"
+   action="M">/trunk/ext/openssl/crypto/bn/asm/x86_64-gcc.c</path>
+<path
+   kind="file"
+   action="M">/trunk/ext/openssl/crypto/bn/asm/x86_64-mont.pl</path>
+<path
+   kind="file"
+   action="M">/trunk/ext/openssl/crypto/bn/asm/x86_64-mont5.pl</path>
+<path
+   action="M"
+   kind="file">/trunk/ext/openssl/crypto/bn/bn.h</path>
+<path
+   action="M"
+   kind="file">/trunk/ext/openssl/crypto/bn/bn_add.c</path>
+<path
+   kind="file"
+   action="M">/trunk/ext/openssl/crypto/bn/bn_asm.c</path>
+<path
+   kind="file"
+   action="M">/trunk/ext/openssl/crypto/bn/bn_blind.c</path>
+<path
+   kind="file"
+   action="M">/trunk/ext/openssl/crypto/bn/bn_const.c</path>
+<path
+   kind="file"
+   action="M">/trunk/ext/openssl/crypto/bn/bn_ctx.c</path>
+<path
+   action="M"
+   kind="file">/trunk/ext/openssl/crypto/bn/bn_depr.c</path>
+<path
+   action="M"
+   kind="file">/trunk/ext/openssl/crypto/bn/bn_div.c</path>
+<path
+   action="M"
+   kind="file">/trunk/ext/openssl/crypto/bn/bn_err.c</path>
+<path
+   action="M"
+   kind="file">/trunk/ext/openssl/crypto/bn/bn_exp.c</path>
+<path
+   action="M"
+   kind="file">/trunk/ext/openssl/crypto/bn/bn_exp2.c</path>
+<path
+   action="M"
+   kind="file">/trunk/ext/openssl/crypto/bn/bn_gcd.c</path>
+<path
+   action="M"
+   kind="file">/trunk/ext/openssl/crypto/bn/bn_gf2m.c</path>
+<path
+   action="M"
+   kind="file">/trunk/ext/openssl/crypto/bn/bn_kron.c</path>
+<path
+   action="M"
+   kind="file">/trunk/ext/openssl/crypto/bn/bn_lcl.h</path>
+<path
+   kind="file"
+   action="M">/trunk/ext/openssl/crypto/bn/bn_lib.c</path>
+<path
+   kind="file"
+   action="M">/trunk/ext/openssl/crypto/bn/bn_mod.c</path>
+<path
+   action="M"
+   kind="file">/trunk/ext/openssl/crypto/bn/bn_mont.c</path>
+<path
+   action="M"
+   kind="file">/trunk/ext/openssl/crypto/bn/bn_mpi.c</path>
+<path
+   action="M"
+   kind="file">/trunk/ext/openssl/crypto/bn/bn_mul.c</path>
+<path
+   action="M"
+   kind="file">/trunk/ext/openssl/crypto/bn/bn_nist.c</path>
+<path
+   kind="file"
+   action="M">/trunk/ext/openssl/crypto/bn/bn_prime.c</path>
+<path
+   kind="file"
+   action="M">/trunk/ext/openssl/crypto/bn/bn_prime.h</path>
+<path
+   kind="file"
+   action="M">/trunk/ext/openssl/crypto/bn/bn_print.c</path>
+<path
+   kind="file"
+   action="M">/trunk/ext/openssl/crypto/bn/bn_rand.c</path>
+<path
+   kind="file"
+   action="M">/trunk/ext/openssl/crypto/bn/bn_recp.c</path>
+<path
+   kind="file"
+   action="M">/trunk/ext/openssl/crypto/bn/bn_shift.c</path>
+<path
+   kind="file"
+   action="M">/trunk/ext/openssl/crypto/bn/bn_sqr.c</path>
+<path
+   kind="file"
+   action="M">/trunk/ext/openssl/crypto/bn/bn_sqrt.c</path>
+<path
+   kind="file"
+   action="M">/trunk/ext/openssl/crypto/bn/bn_word.c</path>
+<path
+   action="M"
+   kind="file">/trunk/ext/openssl/crypto/bn/bn_x931p.c</path>
+<path
+   action="M"
+   kind="file">/trunk/ext/openssl/crypto/bn/bnspeed.c</path>
+<path
+   kind="file"
+   action="M">/trunk/ext/openssl/crypto/bn/bntest.c</path>
+<path
+   kind="file"
+   action="M">/trunk/ext/openssl/crypto/bn/divtest.c</path>
+<path
+   kind="file"
+   action="M">/trunk/ext/openssl/crypto/bn/exp.c</path>
+<path
+   kind="file"
+   action="M">/trunk/ext/openssl/crypto/bn/expspeed.c</path>
+<path
+   action="M"
+   kind="file">/trunk/ext/openssl/crypto/bn/exptest.c</path>
+<path
+   action="A"
+   kind="file">/trunk/ext/openssl/crypto/bn/rsaz_exp.c</path>
+<path
+   action="A"
+   kind="file">/trunk/ext/openssl/crypto/bn/rsaz_exp.h</path>
+<path
+   action="M"
+   kind="file">/trunk/ext/openssl/crypto/bn/vms-helper.c</path>
+<path
+   action="M"
+   kind="file">/trunk/ext/openssl/crypto/buffer/buf_err.c</path>
+<path
+   action="M"
+   kind="file">/trunk/ext/openssl/crypto/buffer/buf_str.c</path>
+<path
+   action="M"
+   kind="file">/trunk/ext/openssl/crypto/buffer/buffer.c</path>
+<path
+   action="M"
+   kind="file">/trunk/ext/openssl/crypto/buffer/buffer.h</path>
+<path
+   action="M"
+   kind="file">/trunk/ext/openssl/crypto/camellia/Makefile</path>
+<path
+   action="M"
+   kind="file">/trunk/ext/openssl/crypto/camellia/asm/cmll-x86_64.pl</path>
+<path
+   kind="file"
+   action="A">/trunk/ext/openssl/crypto/camellia/asm/cmllt4-sparcv9.pl</path>
+<path
+   kind="file"
+   action="M">/trunk/ext/openssl/crypto/camellia/camellia.c</path>
+<path
+   kind="file"
+   action="M">/trunk/ext/openssl/crypto/camellia/camellia.h</path>
+<path
+   kind="file"
+   action="M">/trunk/ext/openssl/crypto/camellia/cmll_cbc.c</path>
+<path
+   kind="file"
+   action="M">/trunk/ext/openssl/crypto/camellia/cmll_cfb.c</path>
+<path
+   kind="file"
+   action="M">/trunk/ext/openssl/crypto/camellia/cmll_ctr.c</path>
+<path
+   kind="file"
+   action="M">/trunk/ext/openssl/crypto/camellia/cmll_ecb.c</path>
+<path
+   kind="file"
+   action="M">/trunk/ext/openssl/crypto/camellia/cmll_locl.h</path>
+<path
+   kind="file"
+   action="M">/trunk/ext/openssl/crypto/camellia/cmll_misc.c</path>
+<path
+   action="M"
+   kind="file">/trunk/ext/openssl/crypto/camellia/cmll_ofb.c</path>
+<path
+   action="M"
+   kind="file">/trunk/ext/openssl/crypto/camellia/cmll_utl.c</path>
+<path
+   kind="file"
+   action="M">/trunk/ext/openssl/crypto/cast/c_cfb64.c</path>
+<path
+   kind="file"
+   action="M">/trunk/ext/openssl/crypto/cast/c_ecb.c</path>
+<path
+   kind="file"
+   action="M">/trunk/ext/openssl/crypto/cast/c_enc.c</path>
+<path
+   action="M"
+   kind="file">/trunk/ext/openssl/crypto/cast/c_ofb64.c</path>
+<path
+   action="M"
+   kind="file">/trunk/ext/openssl/crypto/cast/c_skey.c</path>
+<path
+   action="M"
+   kind="file">/trunk/ext/openssl/crypto/cast/cast.h</path>
+<path
+   action="M"
+   kind="file">/trunk/ext/openssl/crypto/cast/cast_lcl.h</path>
+<path
+   action="M"
+   kind="file">/trunk/ext/openssl/crypto/cast/cast_s.h</path>
+<path
+   action="M"
+   kind="file">/trunk/ext/openssl/crypto/cast/cast_spd.c</path>
+<path
+   action="M"
+   kind="file">/trunk/ext/openssl/crypto/cast/castopts.c</path>
+<path
+   action="M"
+   kind="file">/trunk/ext/openssl/crypto/cast/casttest.c</path>
+<path
+   action="M"
+   kind="file">/trunk/ext/openssl/crypto/cmac/cm_ameth.c</path>
+<path
+   action="M"
+   kind="file">/trunk/ext/openssl/crypto/cmac/cm_pmeth.c</path>
+<path
+   kind="file"
+   action="M">/trunk/ext/openssl/crypto/cmac/cmac.c</path>
+<path
+   action="M"
+   kind="file">/trunk/ext/openssl/crypto/cmac/cmac.h</path>
+<path
+   action="M"
+   kind="file">/trunk/ext/openssl/crypto/cms/Makefile</path>
+<path
+   action="M"
+   kind="file">/trunk/ext/openssl/crypto/cms/cms.h</path>
+<path
+   action="M"
+   kind="file">/trunk/ext/openssl/crypto/cms/cms_asn1.c</path>
+<path
+   kind="file"
+   action="M">/trunk/ext/openssl/crypto/cms/cms_att.c</path>
+<path
+   kind="file"
+   action="M">/trunk/ext/openssl/crypto/cms/cms_cd.c</path>
+<path
+   kind="file"
+   action="M">/trunk/ext/openssl/crypto/cms/cms_dd.c</path>
+<path
+   kind="file"
+   action="M">/trunk/ext/openssl/crypto/cms/cms_enc.c</path>
+<path
+   kind="file"
+   action="M">/trunk/ext/openssl/crypto/cms/cms_env.c</path>
+<path
+   kind="file"
+   action="M">/trunk/ext/openssl/crypto/cms/cms_err.c</path>
+<path
+   kind="file"
+   action="M">/trunk/ext/openssl/crypto/cms/cms_ess.c</path>
+<path
+   kind="file"
+   action="M">/trunk/ext/openssl/crypto/cms/cms_io.c</path>
+<path
+   kind="file"
+   action="A">/trunk/ext/openssl/crypto/cms/cms_kari.c</path>
+<path
+   action="M"
+   kind="file">/trunk/ext/openssl/crypto/cms/cms_lcl.h</path>
+<path
+   action="M"
+   kind="file">/trunk/ext/openssl/crypto/cms/cms_lib.c</path>
+<path
+   kind="file"
+   action="M">/trunk/ext/openssl/crypto/cms/cms_pwri.c</path>
+<path
+   kind="file"
+   action="M">/trunk/ext/openssl/crypto/cms/cms_sd.c</path>
+<path
+   kind="file"
+   action="M">/trunk/ext/openssl/crypto/cms/cms_smime.c</path>
+<path
+   kind="file"
+   action="M">/trunk/ext/openssl/crypto/comp/c_rle.c</path>
+<path
+   action="M"
+   kind="file">/trunk/ext/openssl/crypto/comp/c_zlib.c</path>
+<path
+   action="M"
+   kind="file">/trunk/ext/openssl/crypto/comp/comp.h</path>
+<path
+   action="M"
+   kind="file">/trunk/ext/openssl/crypto/comp/comp_err.c</path>
+<path
+   action="M"
+   kind="file">/trunk/ext/openssl/crypto/comp/comp_lib.c</path>
+<path
+   action="M"
+   kind="file">/trunk/ext/openssl/crypto/conf/cnf_save.c</path>
+<path
+   kind="file"
+   action="M">/trunk/ext/openssl/crypto/conf/conf.h</path>
+<path
+   kind="file"
+   action="M">/trunk/ext/openssl/crypto/conf/conf_api.c</path>
+<path
+   action="M"
+   kind="file">/trunk/ext/openssl/crypto/conf/conf_api.h</path>
+<path
+   action="M"
+   kind="file">/trunk/ext/openssl/crypto/conf/conf_def.c</path>
+<path
+   kind="file"
+   action="M">/trunk/ext/openssl/crypto/conf/conf_def.h</path>
+<path
+   kind="file"
+   action="M">/trunk/ext/openssl/crypto/conf/conf_err.c</path>
+<path
+   kind="file"
+   action="M">/trunk/ext/openssl/crypto/conf/conf_lib.c</path>
+<path
+   kind="file"
+   action="M">/trunk/ext/openssl/crypto/conf/conf_mall.c</path>
+<path
+   kind="file"
+   action="M">/trunk/ext/openssl/crypto/conf/conf_mod.c</path>
+<path
+   kind="file"
+   action="M">/trunk/ext/openssl/crypto/conf/conf_sap.c</path>
+<path
+   kind="file"
+   action="M">/trunk/ext/openssl/crypto/conf/test.c</path>
+<path
+   action="M"
+   kind="file">/trunk/ext/openssl/crypto/constant_time_locl.h</path>
+<path
+   action="M"
+   kind="file">/trunk/ext/openssl/crypto/constant_time_test.c</path>
+<path
+   kind="file"
+   action="M">/trunk/ext/openssl/crypto/cpt_err.c</path>
+<path
+   kind="file"
+   action="M">/trunk/ext/openssl/crypto/cryptlib.c</path>
+<path
+   kind="file"
+   action="M">/trunk/ext/openssl/crypto/cryptlib.h</path>
+<path
+   action="M"
+   kind="file">/trunk/ext/openssl/crypto/crypto-lib.com</path>
+<path
+   action="M"
+   kind="file">/trunk/ext/openssl/crypto/crypto.h</path>
+<path
+   action="M"
+   kind="file">/trunk/ext/openssl/crypto/cversion.c</path>
+<path
+   action="M"
+   kind="file">/trunk/ext/openssl/crypto/des/Makefile</path>
+<path
+   action="M"
+   kind="file">/trunk/ext/openssl/crypto/des/asm/des-586.pl</path>
+<path
+   action="M"
+   kind="file">/trunk/ext/openssl/crypto/des/asm/des_enc.m4</path>
+<path
+   action="A"
+   kind="file">/trunk/ext/openssl/crypto/des/asm/dest4-sparcv9.pl</path>
+<path
+   action="M"
+   kind="file">/trunk/ext/openssl/crypto/des/cbc3_enc.c</path>
+<path
+   action="M"
+   kind="file">/trunk/ext/openssl/crypto/des/cbc_cksm.c</path>
+<path
+   kind="file"
+   action="M">/trunk/ext/openssl/crypto/des/cbc_enc.c</path>
+<path
+   kind="file"
+   action="M">/trunk/ext/openssl/crypto/des/cfb64ede.c</path>
+<path
+   action="M"
+   kind="file">/trunk/ext/openssl/crypto/des/cfb64enc.c</path>
+<path
+   action="M"
+   kind="file">/trunk/ext/openssl/crypto/des/cfb_enc.c</path>
+<path
+   action="M"
+   kind="file">/trunk/ext/openssl/crypto/des/des.c</path>
+<path
+   action="M"
+   kind="file">/trunk/ext/openssl/crypto/des/des.h</path>
+<path
+   kind="file"
+   action="M">/trunk/ext/openssl/crypto/des/des_enc.c</path>
+<path
+   kind="file"
+   action="M">/trunk/ext/openssl/crypto/des/des_locl.h</path>
+<path
+   kind="file"
+   action="M">/trunk/ext/openssl/crypto/des/des_old.c</path>
+<path
+   kind="file"
+   action="M">/trunk/ext/openssl/crypto/des/des_old.h</path>
+<path
+   kind="file"
+   action="M">/trunk/ext/openssl/crypto/des/des_old2.c</path>
+<path
+   kind="file"
+   action="M">/trunk/ext/openssl/crypto/des/des_opts.c</path>
+<path
+   kind="file"
+   action="M">/trunk/ext/openssl/crypto/des/des_ver.h</path>
+<path
+   kind="file"
+   action="M">/trunk/ext/openssl/crypto/des/destest.c</path>
+<path
+   kind="file"
+   action="M">/trunk/ext/openssl/crypto/des/ecb3_enc.c</path>
+<path
+   action="M"
+   kind="file">/trunk/ext/openssl/crypto/des/ecb_enc.c</path>
+<path
+   action="M"
+   kind="file">/trunk/ext/openssl/crypto/des/ede_cbcm_enc.c</path>
+<path
+   kind="file"
+   action="M">/trunk/ext/openssl/crypto/des/enc_read.c</path>
+<path
+   kind="file"
+   action="M">/trunk/ext/openssl/crypto/des/enc_writ.c</path>
+<path
+   kind="file"
+   action="M">/trunk/ext/openssl/crypto/des/fcrypt.c</path>
+<path
+   action="M"
+   kind="file">/trunk/ext/openssl/crypto/des/fcrypt_b.c</path>
+<path
+   action="M"
+   kind="file">/trunk/ext/openssl/crypto/des/ncbc_enc.c</path>
+<path
+   action="M"
+   kind="file">/trunk/ext/openssl/crypto/des/ofb64ede.c</path>
+<path
+   action="M"
+   kind="file">/trunk/ext/openssl/crypto/des/ofb64enc.c</path>
+<path
+   action="M"
+   kind="file">/trunk/ext/openssl/crypto/des/ofb_enc.c</path>
+<path
+   action="M"
+   kind="file">/trunk/ext/openssl/crypto/des/pcbc_enc.c</path>
+<path
+   kind="file"
+   action="M">/trunk/ext/openssl/crypto/des/qud_cksm.c</path>
+<path
+   kind="file"
+   action="M">/trunk/ext/openssl/crypto/des/rand_key.c</path>
+<path
+   kind="file"
+   action="M">/trunk/ext/openssl/crypto/des/read2pwd.c</path>
+<path
+   kind="file"
+   action="M">/trunk/ext/openssl/crypto/des/read_pwd.c</path>
+<path
+   kind="file"
+   action="M">/trunk/ext/openssl/crypto/des/rpc_des.h</path>
+<path
+   kind="file"
+   action="M">/trunk/ext/openssl/crypto/des/rpc_enc.c</path>
+<path
+   kind="file"
+   action="M">/trunk/ext/openssl/crypto/des/rpw.c</path>
+<path
+   kind="file"
+   action="M">/trunk/ext/openssl/crypto/des/set_key.c</path>
+<path
+   kind="file"
+   action="M">/trunk/ext/openssl/crypto/des/speed.c</path>
+<path
+   action="M"
+   kind="file">/trunk/ext/openssl/crypto/des/spr.h</path>
+<path
+   action="M"
+   kind="file">/trunk/ext/openssl/crypto/des/str2key.c</path>
+<path
+   kind="file"
+   action="M">/trunk/ext/openssl/crypto/des/xcbc_enc.c</path>
+<path
+   kind="file"
+   action="M">/trunk/ext/openssl/crypto/dh/Makefile</path>
+<path
+   kind="file"
+   action="M">/trunk/ext/openssl/crypto/dh/dh.h</path>
+<path
+   kind="file"
+   action="M">/trunk/ext/openssl/crypto/dh/dh_ameth.c</path>
+<path
+   action="M"
+   kind="file">/trunk/ext/openssl/crypto/dh/dh_asn1.c</path>
+<path
+   action="M"
+   kind="file">/trunk/ext/openssl/crypto/dh/dh_check.c</path>
+<path
+   action="M"
+   kind="file">/trunk/ext/openssl/crypto/dh/dh_depr.c</path>
+<path
+   action="M"
+   kind="file">/trunk/ext/openssl/crypto/dh/dh_err.c</path>
+<path
+   action="M"
+   kind="file">/trunk/ext/openssl/crypto/dh/dh_gen.c</path>
+<path
+   action="A"
+   kind="file">/trunk/ext/openssl/crypto/dh/dh_kdf.c</path>
+<path
+   action="M"
+   kind="file">/trunk/ext/openssl/crypto/dh/dh_key.c</path>
+<path
+   action="M"
+   kind="file">/trunk/ext/openssl/crypto/dh/dh_lib.c</path>
+<path
+   action="M"
+   kind="file">/trunk/ext/openssl/crypto/dh/dh_pmeth.c</path>
+<path
+   kind="file"
+   action="M">/trunk/ext/openssl/crypto/dh/dh_prn.c</path>
+<path
+   kind="file"
+   action="A">/trunk/ext/openssl/crypto/dh/dh_rfc5114.c</path>
+<path
+   action="M"
+   kind="file">/trunk/ext/openssl/crypto/dh/dhtest.c</path>
+<path
+   action="M"
+   kind="file">/trunk/ext/openssl/crypto/dh/p1024.c</path>
+<path
+   action="M"
+   kind="file">/trunk/ext/openssl/crypto/dh/p192.c</path>
+<path
+   kind="file"
+   action="M">/trunk/ext/openssl/crypto/dh/p512.c</path>
+<path
+   kind="file"
+   action="M">/trunk/ext/openssl/crypto/dsa/dsa.h</path>
+<path
+   kind="file"
+   action="M">/trunk/ext/openssl/crypto/dsa/dsa_ameth.c</path>
+<path
+   kind="file"
+   action="M">/trunk/ext/openssl/crypto/dsa/dsa_asn1.c</path>
+<path
+   kind="file"
+   action="M">/trunk/ext/openssl/crypto/dsa/dsa_depr.c</path>
+<path
+   kind="file"
+   action="M">/trunk/ext/openssl/crypto/dsa/dsa_err.c</path>
+<path
+   kind="file"
+   action="M">/trunk/ext/openssl/crypto/dsa/dsa_gen.c</path>
+<path
+   kind="file"
+   action="M">/trunk/ext/openssl/crypto/dsa/dsa_key.c</path>
+<path
+   kind="file"
+   action="M">/trunk/ext/openssl/crypto/dsa/dsa_lib.c</path>
+<path
+   kind="file"
+   action="M">/trunk/ext/openssl/crypto/dsa/dsa_locl.h</path>
+<path
+   action="M"
+   kind="file">/trunk/ext/openssl/crypto/dsa/dsa_ossl.c</path>
+<path
+   action="M"
+   kind="file">/trunk/ext/openssl/crypto/dsa/dsa_pmeth.c</path>
+<path
+   kind="file"
+   action="M">/trunk/ext/openssl/crypto/dsa/dsa_prn.c</path>
+<path
+   kind="file"
+   action="M">/trunk/ext/openssl/crypto/dsa/dsa_sign.c</path>
+<path
+   kind="file"
+   action="M">/trunk/ext/openssl/crypto/dsa/dsa_vrf.c</path>
+<path
+   action="M"
+   kind="file">/trunk/ext/openssl/crypto/dsa/dsagen.c</path>
+<path
+   action="M"
+   kind="file">/trunk/ext/openssl/crypto/dsa/dsatest.c</path>
+<path
+   action="M"
+   kind="file">/trunk/ext/openssl/crypto/dso/dso.h</path>
+<path
+   action="M"
+   kind="file">/trunk/ext/openssl/crypto/dso/dso_beos.c</path>
+<path
+   action="M"
+   kind="file">/trunk/ext/openssl/crypto/dso/dso_dl.c</path>
+<path
+   action="M"
+   kind="file">/trunk/ext/openssl/crypto/dso/dso_dlfcn.c</path>
+<path
+   kind="file"
+   action="M">/trunk/ext/openssl/crypto/dso/dso_err.c</path>
+<path
+   kind="file"
+   action="M">/trunk/ext/openssl/crypto/dso/dso_lib.c</path>
+<path
+   action="M"
+   kind="file">/trunk/ext/openssl/crypto/dso/dso_null.c</path>
+<path
+   action="M"
+   kind="file">/trunk/ext/openssl/crypto/dso/dso_openssl.c</path>
+<path
+   action="M"
+   kind="file">/trunk/ext/openssl/crypto/dso/dso_vms.c</path>
+<path
+   action="M"
+   kind="file">/trunk/ext/openssl/crypto/dso/dso_win32.c</path>
+<path
+   kind="file"
+   action="M">/trunk/ext/openssl/crypto/ebcdic.c</path>
+<path
+   kind="file"
+   action="M">/trunk/ext/openssl/crypto/ebcdic.h</path>
+<path
+   kind="file"
+   action="M">/trunk/ext/openssl/crypto/ec/Makefile</path>
+<path
+   kind="dir"
+   action="A">/trunk/ext/openssl/crypto/ec/asm</path>
+<path
+   kind="file"
+   action="A">/trunk/ext/openssl/crypto/ec/asm/ecp_nistz256-avx2.pl</path>
+<path
+   kind="file"
+   action="A">/trunk/ext/openssl/crypto/ec/asm/ecp_nistz256-x86_64.pl</path>
+<path
+   kind="file"
+   action="M">/trunk/ext/openssl/crypto/ec/ec.h</path>
+<path
+   kind="file"
+   action="M">/trunk/ext/openssl/crypto/ec/ec2_mult.c</path>
+<path
+   action="M"
+   kind="file">/trunk/ext/openssl/crypto/ec/ec2_oct.c</path>
+<path
+   action="M"
+   kind="file">/trunk/ext/openssl/crypto/ec/ec2_smpl.c</path>
+<path
+   kind="file"
+   action="M">/trunk/ext/openssl/crypto/ec/ec_ameth.c</path>
+<path
+   kind="file"
+   action="M">/trunk/ext/openssl/crypto/ec/ec_asn1.c</path>
+<path
+   kind="file"
+   action="M">/trunk/ext/openssl/crypto/ec/ec_check.c</path>
+<path
+   kind="file"
+   action="M">/trunk/ext/openssl/crypto/ec/ec_curve.c</path>
+<path
+   action="M"
+   kind="file">/trunk/ext/openssl/crypto/ec/ec_cvt.c</path>
+<path
+   action="M"
+   kind="file">/trunk/ext/openssl/crypto/ec/ec_err.c</path>
+<path
+   action="M"
+   kind="file">/trunk/ext/openssl/crypto/ec/ec_key.c</path>
+<path
+   action="M"
+   kind="file">/trunk/ext/openssl/crypto/ec/ec_lcl.h</path>
+<path
+   action="M"
+   kind="file">/trunk/ext/openssl/crypto/ec/ec_lib.c</path>
+<path
+   action="M"
+   kind="file">/trunk/ext/openssl/crypto/ec/ec_mult.c</path>
+<path
+   action="M"
+   kind="file">/trunk/ext/openssl/crypto/ec/ec_oct.c</path>
+<path
+   action="M"
+   kind="file">/trunk/ext/openssl/crypto/ec/ec_pmeth.c</path>
+<path
+   action="M"
+   kind="file">/trunk/ext/openssl/crypto/ec/ec_print.c</path>
+<path
+   kind="file"
+   action="M">/trunk/ext/openssl/crypto/ec/eck_prn.c</path>
+<path
+   kind="file"
+   action="M">/trunk/ext/openssl/crypto/ec/ecp_mont.c</path>
+<path
+   action="M"
+   kind="file">/trunk/ext/openssl/crypto/ec/ecp_nist.c</path>
+<path
+   action="M"
+   kind="file">/trunk/ext/openssl/crypto/ec/ecp_nistp224.c</path>
+<path
+   action="M"
+   kind="file">/trunk/ext/openssl/crypto/ec/ecp_nistp256.c</path>
+<path
+   action="M"
+   kind="file">/trunk/ext/openssl/crypto/ec/ecp_nistp521.c</path>
+<path
+   kind="file"
+   action="M">/trunk/ext/openssl/crypto/ec/ecp_nistputil.c</path>
+<path
+   kind="file"
+   action="A">/trunk/ext/openssl/crypto/ec/ecp_nistz256.c</path>
+<path
+   kind="file"
+   action="A">/trunk/ext/openssl/crypto/ec/ecp_nistz256_table.c</path>
+<path
+   kind="file"
+   action="M">/trunk/ext/openssl/crypto/ec/ecp_oct.c</path>
+<path
+   kind="file"
+   action="M">/trunk/ext/openssl/crypto/ec/ecp_smpl.c</path>
+<path
+   kind="file"
+   action="M">/trunk/ext/openssl/crypto/ec/ectest.c</path>
+<path
+   kind="file"
+   action="M">/trunk/ext/openssl/crypto/ecdh/Makefile</path>
+<path
+   kind="file"
+   action="M">/trunk/ext/openssl/crypto/ecdh/ecdh.h</path>
+<path
+   kind="file"
+   action="M">/trunk/ext/openssl/crypto/ecdh/ecdhtest.c</path>
+<path
+   action="M"
+   kind="file">/trunk/ext/openssl/crypto/ecdh/ech_err.c</path>
+<path
+   kind="file"
+   action="A">/trunk/ext/openssl/crypto/ecdh/ech_kdf.c</path>
+<path
+   action="M"
+   kind="file">/trunk/ext/openssl/crypto/ecdh/ech_key.c</path>
+<path
+   action="M"
+   kind="file">/trunk/ext/openssl/crypto/ecdh/ech_lib.c</path>
+<path
+   action="M"
+   kind="file">/trunk/ext/openssl/crypto/ecdh/ech_locl.h</path>
+<path
+   action="M"
+   kind="file">/trunk/ext/openssl/crypto/ecdh/ech_ossl.c</path>
+<path
+   action="M"
+   kind="file">/trunk/ext/openssl/crypto/ecdsa/Makefile</path>
+<path
+   action="M"
+   kind="file">/trunk/ext/openssl/crypto/ecdsa/ecdsa.h</path>
+<path
+   action="M"
+   kind="file">/trunk/ext/openssl/crypto/ecdsa/ecdsatest.c</path>
+<path
+   action="M"
+   kind="file">/trunk/ext/openssl/crypto/ecdsa/ecs_asn1.c</path>
+<path
+   action="M"
+   kind="file">/trunk/ext/openssl/crypto/ecdsa/ecs_err.c</path>
+<path
+   kind="file"
+   action="M">/trunk/ext/openssl/crypto/ecdsa/ecs_lib.c</path>
+<path
+   kind="file"
+   action="M">/trunk/ext/openssl/crypto/ecdsa/ecs_locl.h</path>
+<path
+   action="M"
+   kind="file">/trunk/ext/openssl/crypto/ecdsa/ecs_ossl.c</path>
+<path
+   action="M"
+   kind="file">/trunk/ext/openssl/crypto/ecdsa/ecs_sign.c</path>
+<path
+   action="M"
+   kind="file">/trunk/ext/openssl/crypto/ecdsa/ecs_vrf.c</path>
+<path
+   kind="file"
+   action="M">/trunk/ext/openssl/crypto/engine/Makefile</path>
+<path
+   kind="file"
+   action="M">/trunk/ext/openssl/crypto/engine/eng_all.c</path>
+<path
+   kind="file"
+   action="M">/trunk/ext/openssl/crypto/engine/eng_cnf.c</path>
+<path
+   kind="file"
+   action="M">/trunk/ext/openssl/crypto/engine/eng_cryptodev.c</path>
+<path
+   kind="file"
+   action="M">/trunk/ext/openssl/crypto/engine/eng_ctrl.c</path>
+<path
+   kind="file"
+   action="M">/trunk/ext/openssl/crypto/engine/eng_dyn.c</path>
+<path
+   kind="file"
+   action="M">/trunk/ext/openssl/crypto/engine/eng_err.c</path>
+<path
+   kind="file"
+   action="M">/trunk/ext/openssl/crypto/engine/eng_fat.c</path>
+<path
+   kind="file"
+   action="M">/trunk/ext/openssl/crypto/engine/eng_init.c</path>
+<path
+   action="M"
+   kind="file">/trunk/ext/openssl/crypto/engine/eng_int.h</path>
+<path
+   action="M"
+   kind="file">/trunk/ext/openssl/crypto/engine/eng_lib.c</path>
+<path
+   kind="file"
+   action="M">/trunk/ext/openssl/crypto/engine/eng_list.c</path>
+<path
+   kind="file"
+   action="M">/trunk/ext/openssl/crypto/engine/eng_openssl.c</path>
+<path
+   kind="file"
+   action="M">/trunk/ext/openssl/crypto/engine/eng_pkey.c</path>
+<path
+   action="M"
+   kind="file">/trunk/ext/openssl/crypto/engine/eng_rdrand.c</path>
+<path
+   action="M"
+   kind="file">/trunk/ext/openssl/crypto/engine/eng_rsax.c</path>
+<path
+   action="M"
+   kind="file">/trunk/ext/openssl/crypto/engine/eng_table.c</path>
+<path
+   action="M"
+   kind="file">/trunk/ext/openssl/crypto/engine/engine.h</path>
+<path
+   action="M"
+   kind="file">/trunk/ext/openssl/crypto/engine/enginetest.c</path>
+<path
+   action="M"
+   kind="file">/trunk/ext/openssl/crypto/engine/tb_asnmth.c</path>
+<path
+   action="M"
+   kind="file">/trunk/ext/openssl/crypto/engine/tb_cipher.c</path>
+<path
+   action="M"
+   kind="file">/trunk/ext/openssl/crypto/engine/tb_dh.c</path>
+<path
+   action="M"
+   kind="file">/trunk/ext/openssl/crypto/engine/tb_digest.c</path>
+<path
+   action="M"
+   kind="file">/trunk/ext/openssl/crypto/engine/tb_dsa.c</path>
+<path
+   kind="file"
+   action="M">/trunk/ext/openssl/crypto/engine/tb_ecdh.c</path>
+<path
+   action="M"
+   kind="file">/trunk/ext/openssl/crypto/engine/tb_ecdsa.c</path>
+<path
+   action="M"
+   kind="file">/trunk/ext/openssl/crypto/engine/tb_pkmeth.c</path>
+<path
+   action="M"
+   kind="file">/trunk/ext/openssl/crypto/engine/tb_rand.c</path>
+<path
+   action="M"
+   kind="file">/trunk/ext/openssl/crypto/engine/tb_rsa.c</path>
+<path
+   kind="file"
+   action="M">/trunk/ext/openssl/crypto/engine/tb_store.c</path>
+<path
+   kind="file"
+   action="M">/trunk/ext/openssl/crypto/err/err.c</path>
+<path
+   kind="file"
+   action="M">/trunk/ext/openssl/crypto/err/err.h</path>
+<path
+   kind="file"
+   action="M">/trunk/ext/openssl/crypto/err/err_all.c</path>
+<path
+   kind="file"
+   action="M">/trunk/ext/openssl/crypto/err/err_prn.c</path>
+<path
+   kind="file"
+   action="M">/trunk/ext/openssl/crypto/err/openssl.ec</path>
+<path
+   action="M"
+   kind="file">/trunk/ext/openssl/crypto/evp/Makefile</path>
+<path
+   action="M"
+   kind="file">/trunk/ext/openssl/crypto/evp/bio_b64.c</path>
+<path
+   kind="file"
+   action="M">/trunk/ext/openssl/crypto/evp/bio_enc.c</path>
+<path
+   kind="file"
+   action="M">/trunk/ext/openssl/crypto/evp/bio_md.c</path>
+<path
+   kind="file"
+   action="M">/trunk/ext/openssl/crypto/evp/bio_ok.c</path>
+<path
+   kind="file"
+   action="M">/trunk/ext/openssl/crypto/evp/c_all.c</path>
+<path
+   action="M"
+   kind="file">/trunk/ext/openssl/crypto/evp/c_allc.c</path>
+<path
+   action="M"
+   kind="file">/trunk/ext/openssl/crypto/evp/c_alld.c</path>
+<path
+   action="M"
+   kind="file">/trunk/ext/openssl/crypto/evp/digest.c</path>
+<path
+   action="M"
+   kind="file">/trunk/ext/openssl/crypto/evp/e_aes.c</path>
+<path
+   action="M"
+   kind="file">/trunk/ext/openssl/crypto/evp/e_aes_cbc_hmac_sha1.c</path>
+<path
+   action="A"
+   kind="file">/trunk/ext/openssl/crypto/evp/e_aes_cbc_hmac_sha256.c</path>
+<path
+   action="M"
+   kind="file">/trunk/ext/openssl/crypto/evp/e_bf.c</path>
+<path
+   action="M"
+   kind="file">/trunk/ext/openssl/crypto/evp/e_camellia.c</path>
+<path
+   action="M"
+   kind="file">/trunk/ext/openssl/crypto/evp/e_cast.c</path>
+<path
+   kind="file"
+   action="M">/trunk/ext/openssl/crypto/evp/e_des.c</path>
+<path
+   kind="file"
+   action="M">/trunk/ext/openssl/crypto/evp/e_des3.c</path>
+<path
+   action="M"
+   kind="file">/trunk/ext/openssl/crypto/evp/e_dsa.c</path>
+<path
+   action="M"
+   kind="file">/trunk/ext/openssl/crypto/evp/e_idea.c</path>
+<path
+   action="M"
+   kind="file">/trunk/ext/openssl/crypto/evp/e_null.c</path>
+<path
+   kind="file"
+   action="M">/trunk/ext/openssl/crypto/evp/e_old.c</path>
+<path
+   kind="file"
+   action="M">/trunk/ext/openssl/crypto/evp/e_rc2.c</path>
+<path
+   kind="file"
+   action="M">/trunk/ext/openssl/crypto/evp/e_rc4.c</path>
+<path
+   kind="file"
+   action="M">/trunk/ext/openssl/crypto/evp/e_rc4_hmac_md5.c</path>
+<path
+   kind="file"
+   action="M">/trunk/ext/openssl/crypto/evp/e_rc5.c</path>
+<path
+   kind="file"
+   action="M">/trunk/ext/openssl/crypto/evp/e_seed.c</path>
+<path
+   kind="file"
+   action="M">/trunk/ext/openssl/crypto/evp/e_xcbc_d.c</path>
+<path
+   kind="file"
+   action="M">/trunk/ext/openssl/crypto/evp/encode.c</path>
+<path
+   kind="file"
+   action="M">/trunk/ext/openssl/crypto/evp/evp.h</path>
+<path
+   kind="file"
+   action="M">/trunk/ext/openssl/crypto/evp/evp_acnf.c</path>
+<path
+   action="M"
+   kind="file">/trunk/ext/openssl/crypto/evp/evp_cnf.c</path>
+<path
+   kind="file"
+   action="M">/trunk/ext/openssl/crypto/evp/evp_enc.c</path>
+<path
+   kind="file"
+   action="M">/trunk/ext/openssl/crypto/evp/evp_err.c</path>
+<path
+   kind="file"
+   action="D">/trunk/ext/openssl/crypto/evp/evp_fips.c</path>
+<path
+   kind="file"
+   action="M">/trunk/ext/openssl/crypto/evp/evp_key.c</path>
+<path
+   action="M"
+   kind="file">/trunk/ext/openssl/crypto/evp/evp_lib.c</path>
+<path
+   action="M"
+   kind="file">/trunk/ext/openssl/crypto/evp/evp_locl.h</path>
+<path
+   action="M"
+   kind="file">/trunk/ext/openssl/crypto/evp/evp_pbe.c</path>
+<path
+   action="M"
+   kind="file">/trunk/ext/openssl/crypto/evp/evp_pkey.c</path>
+<path
+   action="M"
+   kind="file">/trunk/ext/openssl/crypto/evp/evp_test.c</path>
+<path
+   action="M"
+   kind="file">/trunk/ext/openssl/crypto/evp/evptests.txt</path>
+<path
+   action="M"
+   kind="file">/trunk/ext/openssl/crypto/evp/m_dss.c</path>
+<path
+   action="M"
+   kind="file">/trunk/ext/openssl/crypto/evp/m_dss1.c</path>
+<path
+   action="M"
+   kind="file">/trunk/ext/openssl/crypto/evp/m_ecdsa.c</path>
+<path
+   action="M"
+   kind="file">/trunk/ext/openssl/crypto/evp/m_md2.c</path>
+<path
+   kind="file"
+   action="M">/trunk/ext/openssl/crypto/evp/m_md4.c</path>
+<path
+   action="M"
+   kind="file">/trunk/ext/openssl/crypto/evp/m_md5.c</path>
+<path
+   action="M"
+   kind="file">/trunk/ext/openssl/crypto/evp/m_mdc2.c</path>
+<path
+   kind="file"
+   action="M">/trunk/ext/openssl/crypto/evp/m_null.c</path>
+<path
+   kind="file"
+   action="M">/trunk/ext/openssl/crypto/evp/m_ripemd.c</path>
+<path
+   kind="file"
+   action="M">/trunk/ext/openssl/crypto/evp/m_sha.c</path>
+<path
+   kind="file"
+   action="M">/trunk/ext/openssl/crypto/evp/m_sha1.c</path>
+<path
+   kind="file"
+   action="M">/trunk/ext/openssl/crypto/evp/m_sigver.c</path>
+<path
+   kind="file"
+   action="M">/trunk/ext/openssl/crypto/evp/m_wp.c</path>
+<path
+   kind="file"
+   action="M">/trunk/ext/openssl/crypto/evp/names.c</path>
+<path
+   kind="file"
+   action="M">/trunk/ext/openssl/crypto/evp/openbsd_hw.c</path>
+<path
+   action="M"
+   kind="file">/trunk/ext/openssl/crypto/evp/p5_crpt.c</path>
+<path
+   action="M"
+   kind="file">/trunk/ext/openssl/crypto/evp/p5_crpt2.c</path>
+<path
+   kind="file"
+   action="M">/trunk/ext/openssl/crypto/evp/p_dec.c</path>
+<path
+   kind="file"
+   action="M">/trunk/ext/openssl/crypto/evp/p_enc.c</path>
+<path
+   action="M"
+   kind="file">/trunk/ext/openssl/crypto/evp/p_lib.c</path>
+<path
+   action="M"
+   kind="file">/trunk/ext/openssl/crypto/evp/p_open.c</path>
+<path
+   action="M"
+   kind="file">/trunk/ext/openssl/crypto/evp/p_seal.c</path>
+<path
+   action="M"
+   kind="file">/trunk/ext/openssl/crypto/evp/p_sign.c</path>
+<path
+   action="M"
+   kind="file">/trunk/ext/openssl/crypto/evp/p_verify.c</path>
+<path
+   action="M"
+   kind="file">/trunk/ext/openssl/crypto/evp/pmeth_fn.c</path>
+<path
+   action="M"
+   kind="file">/trunk/ext/openssl/crypto/evp/pmeth_gn.c</path>
+<path
+   action="M"
+   kind="file">/trunk/ext/openssl/crypto/evp/pmeth_lib.c</path>
+<path
+   kind="file"
+   action="M">/trunk/ext/openssl/crypto/ex_data.c</path>
+<path
+   action="M"
+   kind="file">/trunk/ext/openssl/crypto/fips_err.h</path>
+<path
+   action="M"
+   kind="file">/trunk/ext/openssl/crypto/fips_ers.c</path>
+<path
+   action="M"
+   kind="file">/trunk/ext/openssl/crypto/hmac/hm_ameth.c</path>
+<path
+   action="M"
+   kind="file">/trunk/ext/openssl/crypto/hmac/hm_pmeth.c</path>
+<path
+   kind="file"
+   action="M">/trunk/ext/openssl/crypto/hmac/hmac.c</path>
+<path
+   kind="file"
+   action="M">/trunk/ext/openssl/crypto/hmac/hmac.h</path>
+<path
+   kind="file"
+   action="M">/trunk/ext/openssl/crypto/hmac/hmactest.c</path>
+<path
+   kind="file"
+   action="M">/trunk/ext/openssl/crypto/idea/i_cbc.c</path>
+<path
+   kind="file"
+   action="M">/trunk/ext/openssl/crypto/idea/i_cfb64.c</path>
+<path
+   kind="file"
+   action="M">/trunk/ext/openssl/crypto/idea/i_ecb.c</path>
+<path
+   kind="file"
+   action="M">/trunk/ext/openssl/crypto/idea/i_ofb64.c</path>
+<path
+   kind="file"
+   action="M">/trunk/ext/openssl/crypto/idea/i_skey.c</path>
+<path
+   kind="file"
+   action="M">/trunk/ext/openssl/crypto/idea/idea.h</path>
+<path
+   action="M"
+   kind="file">/trunk/ext/openssl/crypto/idea/idea_lcl.h</path>
+<path
+   action="M"
+   kind="file">/trunk/ext/openssl/crypto/idea/idea_spd.c</path>
+<path
+   kind="file"
+   action="M">/trunk/ext/openssl/crypto/idea/ideatest.c</path>
+<path
+   kind="file"
+   action="M">/trunk/ext/openssl/crypto/install-crypto.com</path>
+<path
+   kind="file"
+   action="M">/trunk/ext/openssl/crypto/jpake/jpake.c</path>
+<path
+   kind="file"
+   action="M">/trunk/ext/openssl/crypto/jpake/jpake.h</path>
+<path
+   action="M"
+   kind="file">/trunk/ext/openssl/crypto/jpake/jpake_err.c</path>
+<path
+   action="M"
+   kind="file">/trunk/ext/openssl/crypto/jpake/jpaketest.c</path>
+<path
+   action="M"
+   kind="file">/trunk/ext/openssl/crypto/krb5/krb5_asn.c</path>
+<path
+   action="M"
+   kind="file">/trunk/ext/openssl/crypto/krb5/krb5_asn.h</path>
+<path
+   action="M"
+   kind="file">/trunk/ext/openssl/crypto/lhash/lh_stats.c</path>
+<path
+   action="M"
+   kind="file">/trunk/ext/openssl/crypto/lhash/lh_test.c</path>
+<path
+   action="M"
+   kind="file">/trunk/ext/openssl/crypto/lhash/lhash.c</path>
+<path
+   action="M"
+   kind="file">/trunk/ext/openssl/crypto/lhash/lhash.h</path>
+<path
+   action="M"
+   kind="file">/trunk/ext/openssl/crypto/md2/md2.c</path>
+<path
+   kind="file"
+   action="M">/trunk/ext/openssl/crypto/md2/md2.h</path>
+<path
+   action="M"
+   kind="file">/trunk/ext/openssl/crypto/md2/md2_dgst.c</path>
+<path
+   kind="file"
+   action="M">/trunk/ext/openssl/crypto/md2/md2_one.c</path>
+<path
+   kind="file"
+   action="M">/trunk/ext/openssl/crypto/md2/md2test.c</path>
+<path
+   kind="file"
+   action="M">/trunk/ext/openssl/crypto/md32_common.h</path>
+<path
+   kind="file"
+   action="M">/trunk/ext/openssl/crypto/md4/md4.c</path>
+<path
+   kind="file"
+   action="M">/trunk/ext/openssl/crypto/md4/md4.h</path>
+<path
+   kind="file"
+   action="M">/trunk/ext/openssl/crypto/md4/md4_dgst.c</path>
+<path
+   kind="file"
+   action="M">/trunk/ext/openssl/crypto/md4/md4_locl.h</path>
+<path
+   kind="file"
+   action="M">/trunk/ext/openssl/crypto/md4/md4_one.c</path>
+<path
+   kind="file"
+   action="M">/trunk/ext/openssl/crypto/md4/md4test.c</path>
+<path
+   action="M"
+   kind="file">/trunk/ext/openssl/crypto/md5/Makefile</path>
+<path
+   action="A"
+   kind="file">/trunk/ext/openssl/crypto/md5/asm/md5-sparcv9.pl</path>
+<path
+   kind="file"
+   action="M">/trunk/ext/openssl/crypto/md5/md5.c</path>
+<path
+   kind="file"
+   action="M">/trunk/ext/openssl/crypto/md5/md5.h</path>
+<path
+   kind="file"
+   action="M">/trunk/ext/openssl/crypto/md5/md5_dgst.c</path>
+<path
+   action="M"
+   kind="file">/trunk/ext/openssl/crypto/md5/md5_locl.h</path>
+<path
+   action="M"
+   kind="file">/trunk/ext/openssl/crypto/md5/md5_one.c</path>
+<path
+   action="M"
+   kind="file">/trunk/ext/openssl/crypto/md5/md5test.c</path>
+<path
+   action="M"
+   kind="file">/trunk/ext/openssl/crypto/mdc2/mdc2.h</path>
+<path
+   action="M"
+   kind="file">/trunk/ext/openssl/crypto/mdc2/mdc2_one.c</path>
+<path
+   action="M"
+   kind="file">/trunk/ext/openssl/crypto/mdc2/mdc2dgst.c</path>
+<path
+   action="M"
+   kind="file">/trunk/ext/openssl/crypto/mdc2/mdc2test.c</path>
+<path
+   action="M"
+   kind="file">/trunk/ext/openssl/crypto/mem.c</path>
+<path
+   action="M"
+   kind="file">/trunk/ext/openssl/crypto/mem_clr.c</path>
+<path
+   kind="file"
+   action="M">/trunk/ext/openssl/crypto/mem_dbg.c</path>
+<path
+   kind="file"
+   action="M">/trunk/ext/openssl/crypto/modes/Makefile</path>
+<path
+   action="A"
+   kind="file">/trunk/ext/openssl/crypto/modes/asm/aesni-gcm-x86_64.pl</path>
+<path
+   action="M"
+   kind="file">/trunk/ext/openssl/crypto/modes/asm/ghash-armv4.pl</path>
+<path
+   action="M"
+   kind="file">/trunk/ext/openssl/crypto/modes/asm/ghash-s390x.pl</path>
+<path
+   kind="file"
+   action="M">/trunk/ext/openssl/crypto/modes/asm/ghash-sparcv9.pl</path>
+<path
+   kind="file"
+   action="M">/trunk/ext/openssl/crypto/modes/asm/ghash-x86.pl</path>
+<path
+   kind="file"
+   action="M">/trunk/ext/openssl/crypto/modes/asm/ghash-x86_64.pl</path>
+<path
+   kind="file"
+   action="A">/trunk/ext/openssl/crypto/modes/asm/ghashp8-ppc.pl</path>
+<path
+   kind="file"
+   action="A">/trunk/ext/openssl/crypto/modes/asm/ghashv8-armx.pl</path>
+<path
+   kind="file"
+   action="M">/trunk/ext/openssl/crypto/modes/cbc128.c</path>
+<path
+   kind="file"
+   action="M">/trunk/ext/openssl/crypto/modes/ccm128.c</path>
+<path
+   kind="file"
+   action="M">/trunk/ext/openssl/crypto/modes/cfb128.c</path>
+<path
+   kind="file"
+   action="M">/trunk/ext/openssl/crypto/modes/ctr128.c</path>
+<path
+   action="M"
+   kind="file">/trunk/ext/openssl/crypto/modes/cts128.c</path>
+<path
+   action="M"
+   kind="file">/trunk/ext/openssl/crypto/modes/gcm128.c</path>
+<path
+   kind="file"
+   action="M">/trunk/ext/openssl/crypto/modes/modes.h</path>
+<path
+   kind="file"
+   action="M">/trunk/ext/openssl/crypto/modes/modes_lcl.h</path>
+<path
+   kind="file"
+   action="M">/trunk/ext/openssl/crypto/modes/ofb128.c</path>
+<path
+   action="A"
+   kind="file">/trunk/ext/openssl/crypto/modes/wrap128.c</path>
+<path
+   action="M"
+   kind="file">/trunk/ext/openssl/crypto/modes/xts128.c</path>
+<path
+   action="M"
+   kind="file">/trunk/ext/openssl/crypto/o_dir.c</path>
+<path
+   action="M"
+   kind="file">/trunk/ext/openssl/crypto/o_dir.h</path>
+<path
+   action="M"
+   kind="file">/trunk/ext/openssl/crypto/o_dir_test.c</path>
+<path
+   action="M"
+   kind="file">/trunk/ext/openssl/crypto/o_fips.c</path>
+<path
+   kind="file"
+   action="M">/trunk/ext/openssl/crypto/o_init.c</path>
+<path
+   kind="file"
+   action="M">/trunk/ext/openssl/crypto/o_str.c</path>
+<path
+   action="M"
+   kind="file">/trunk/ext/openssl/crypto/o_str.h</path>
+<path
+   action="M"
+   kind="file">/trunk/ext/openssl/crypto/o_time.c</path>
+<path
+   action="M"
+   kind="file">/trunk/ext/openssl/crypto/o_time.h</path>
+<path
+   action="M"
+   kind="file">/trunk/ext/openssl/crypto/objects/o_names.c</path>
+<path
+   kind="file"
+   action="M">/trunk/ext/openssl/crypto/objects/obj_dat.c</path>
+<path
+   kind="file"
+   action="M">/trunk/ext/openssl/crypto/objects/obj_dat.h</path>
+<path
+   kind="file"
+   action="M">/trunk/ext/openssl/crypto/objects/obj_err.c</path>
+<path
+   kind="file"
+   action="M">/trunk/ext/openssl/crypto/objects/obj_lib.c</path>
+<path
+   kind="file"
+   action="M">/trunk/ext/openssl/crypto/objects/obj_mac.h</path>
+<path
+   kind="file"
+   action="M">/trunk/ext/openssl/crypto/objects/obj_mac.num</path>
+<path
+   kind="file"
+   action="M">/trunk/ext/openssl/crypto/objects/obj_xref.c</path>
+<path
+   kind="file"
+   action="M">/trunk/ext/openssl/crypto/objects/obj_xref.h</path>
+<path
+   action="M"
+   kind="file">/trunk/ext/openssl/crypto/objects/obj_xref.txt</path>
+<path
+   action="M"
+   kind="file">/trunk/ext/openssl/crypto/objects/objects.h</path>
+<path
+   kind="file"
+   action="M">/trunk/ext/openssl/crypto/objects/objects.txt</path>
+<path
+   kind="file"
+   action="M">/trunk/ext/openssl/crypto/objects/objxref.pl</path>
+<path
+   kind="file"
+   action="M">/trunk/ext/openssl/crypto/ocsp/ocsp.h</path>
+<path
+   kind="file"
+   action="M">/trunk/ext/openssl/crypto/ocsp/ocsp_asn.c</path>
+<path
+   action="M"
+   kind="file">/trunk/ext/openssl/crypto/ocsp/ocsp_cl.c</path>
+<path
+   action="M"
+   kind="file">/trunk/ext/openssl/crypto/ocsp/ocsp_err.c</path>
+<path
+   action="M"
+   kind="file">/trunk/ext/openssl/crypto/ocsp/ocsp_ext.c</path>
+<path
+   action="M"
+   kind="file">/trunk/ext/openssl/crypto/ocsp/ocsp_ht.c</path>
+<path
+   action="M"
+   kind="file">/trunk/ext/openssl/crypto/ocsp/ocsp_lib.c</path>
+<path
+   action="M"
+   kind="file">/trunk/ext/openssl/crypto/ocsp/ocsp_prn.c</path>
+<path
+   action="M"
+   kind="file">/trunk/ext/openssl/crypto/ocsp/ocsp_srv.c</path>
+<path
+   action="M"
+   kind="file">/trunk/ext/openssl/crypto/ocsp/ocsp_vfy.c</path>
+<path
+   action="A"
+   kind="file">/trunk/ext/openssl/crypto/opensslconf.h</path>
+<path
+   kind="file"
+   action="M">/trunk/ext/openssl/crypto/opensslv.h</path>
+<path
+   kind="file"
+   action="M">/trunk/ext/openssl/crypto/ossl_typ.h</path>
+<path
+   action="M"
+   kind="file">/trunk/ext/openssl/crypto/pem/Makefile</path>
+<path
+   action="M"
+   kind="file">/trunk/ext/openssl/crypto/pem/pem.h</path>
+<path
+   action="M"
+   kind="file">/trunk/ext/openssl/crypto/pem/pem2.h</path>
+<path
+   kind="file"
+   action="M">/trunk/ext/openssl/crypto/pem/pem_all.c</path>
+<path
+   kind="file"
+   action="M">/trunk/ext/openssl/crypto/pem/pem_err.c</path>
+<path
+   kind="file"
+   action="M">/trunk/ext/openssl/crypto/pem/pem_info.c</path>
+<path
+   kind="file"
+   action="M">/trunk/ext/openssl/crypto/pem/pem_lib.c</path>
+<path
+   kind="file"
+   action="M">/trunk/ext/openssl/crypto/pem/pem_oth.c</path>
+<path
+   kind="file"
+   action="M">/trunk/ext/openssl/crypto/pem/pem_pk8.c</path>
+<path
+   kind="file"
+   action="M">/trunk/ext/openssl/crypto/pem/pem_pkey.c</path>
+<path
+   action="M"
+   kind="file">/trunk/ext/openssl/crypto/pem/pem_seal.c</path>
+<path
+   kind="file"
+   action="M">/trunk/ext/openssl/crypto/pem/pem_sign.c</path>
+<path
+   kind="file"
+   action="M">/trunk/ext/openssl/crypto/pem/pem_x509.c</path>
+<path
+   kind="file"
+   action="M">/trunk/ext/openssl/crypto/pem/pem_xaux.c</path>
+<path
+   kind="file"
+   action="M">/trunk/ext/openssl/crypto/pem/pvkfmt.c</path>
+<path
+   action="M"
+   kind="file">/trunk/ext/openssl/crypto/perlasm/ppc-xlate.pl</path>
+<path
+   action="A"
+   kind="file">/trunk/ext/openssl/crypto/perlasm/sparcv9_modes.pl</path>
+<path
+   action="M"
+   kind="file">/trunk/ext/openssl/crypto/perlasm/x86_64-xlate.pl</path>
+<path
+   action="M"
+   kind="file">/trunk/ext/openssl/crypto/perlasm/x86asm.pl</path>
+<path
+   action="M"
+   kind="file">/trunk/ext/openssl/crypto/perlasm/x86gas.pl</path>
+<path
+   kind="file"
+   action="M">/trunk/ext/openssl/crypto/perlasm/x86masm.pl</path>
+<path
+   kind="file"
+   action="M">/trunk/ext/openssl/crypto/perlasm/x86nasm.pl</path>
+<path
+   action="M"
+   kind="file">/trunk/ext/openssl/crypto/pkcs12/p12_add.c</path>
+<path
+   action="M"
+   kind="file">/trunk/ext/openssl/crypto/pkcs12/p12_asn.c</path>
+<path
+   action="M"
+   kind="file">/trunk/ext/openssl/crypto/pkcs12/p12_attr.c</path>
+<path
+   kind="file"
+   action="M">/trunk/ext/openssl/crypto/pkcs12/p12_crpt.c</path>
+<path
+   kind="file"
+   action="M">/trunk/ext/openssl/crypto/pkcs12/p12_crt.c</path>
+<path
+   kind="file"
+   action="M">/trunk/ext/openssl/crypto/pkcs12/p12_decr.c</path>
+<path
+   kind="file"
+   action="M">/trunk/ext/openssl/crypto/pkcs12/p12_init.c</path>
+<path
+   kind="file"
+   action="M">/trunk/ext/openssl/crypto/pkcs12/p12_key.c</path>
+<path
+   kind="file"
+   action="M">/trunk/ext/openssl/crypto/pkcs12/p12_kiss.c</path>
+<path
+   kind="file"
+   action="M">/trunk/ext/openssl/crypto/pkcs12/p12_mutl.c</path>
+<path
+   kind="file"
+   action="M">/trunk/ext/openssl/crypto/pkcs12/p12_npas.c</path>
+<path
+   kind="file"
+   action="M">/trunk/ext/openssl/crypto/pkcs12/p12_p8d.c</path>
+<path
+   action="M"
+   kind="file">/trunk/ext/openssl/crypto/pkcs12/p12_p8e.c</path>
+<path
+   kind="file"
+   action="M">/trunk/ext/openssl/crypto/pkcs12/p12_utl.c</path>
+<path
+   kind="file"
+   action="M">/trunk/ext/openssl/crypto/pkcs12/pk12err.c</path>
+<path
+   kind="file"
+   action="M">/trunk/ext/openssl/crypto/pkcs12/pkcs12.h</path>
+<path
+   kind="file"
+   action="M">/trunk/ext/openssl/crypto/pkcs7/bio_pk7.c</path>
+<path
+   action="M"
+   kind="file">/trunk/ext/openssl/crypto/pkcs7/pk7_asn1.c</path>
+<path
+   action="M"
+   kind="file">/trunk/ext/openssl/crypto/pkcs7/pk7_attr.c</path>
+<path
+   action="M"
+   kind="file">/trunk/ext/openssl/crypto/pkcs7/pk7_dgst.c</path>
+<path
+   action="M"
+   kind="file">/trunk/ext/openssl/crypto/pkcs7/pk7_doit.c</path>
+<path
+   action="M"
+   kind="file">/trunk/ext/openssl/crypto/pkcs7/pk7_enc.c</path>
+<path
+   action="M"
+   kind="file">/trunk/ext/openssl/crypto/pkcs7/pk7_lib.c</path>
+<path
+   action="M"
+   kind="file">/trunk/ext/openssl/crypto/pkcs7/pk7_mime.c</path>
+<path
+   action="M"
+   kind="file">/trunk/ext/openssl/crypto/pkcs7/pk7_smime.c</path>
+<path
+   action="M"
+   kind="file">/trunk/ext/openssl/crypto/pkcs7/pkcs7.h</path>
+<path
+   kind="file"
+   action="M">/trunk/ext/openssl/crypto/pkcs7/pkcs7err.c</path>
+<path
+   action="A"
+   kind="file">/trunk/ext/openssl/crypto/ppc_arch.h</path>
+<path
+   action="M"
+   kind="file">/trunk/ext/openssl/crypto/ppccap.c</path>
+<path
+   action="M"
+   kind="file">/trunk/ext/openssl/crypto/ppccpuid.pl</path>
+<path
+   action="M"
+   kind="file">/trunk/ext/openssl/crypto/pqueue/pq_test.c</path>
+<path
+   kind="file"
+   action="M">/trunk/ext/openssl/crypto/pqueue/pqueue.c</path>
+<path
+   kind="file"
+   action="M">/trunk/ext/openssl/crypto/pqueue/pqueue.h</path>
+<path
+   kind="file"
+   action="M">/trunk/ext/openssl/crypto/rand/md_rand.c</path>
+<path
+   kind="file"
+   action="M">/trunk/ext/openssl/crypto/rand/rand.h</path>
+<path
+   kind="file"
+   action="M">/trunk/ext/openssl/crypto/rand/rand_egd.c</path>
+<path
+   kind="file"
+   action="M">/trunk/ext/openssl/crypto/rand/rand_err.c</path>
+<path
+   kind="file"
+   action="M">/trunk/ext/openssl/crypto/rand/rand_lcl.h</path>
+<path
+   kind="file"
+   action="M">/trunk/ext/openssl/crypto/rand/rand_lib.c</path>
+<path
+   kind="file"
+   action="M">/trunk/ext/openssl/crypto/rand/rand_nw.c</path>
+<path
+   action="M"
+   kind="file">/trunk/ext/openssl/crypto/rand/rand_os2.c</path>
+<path
+   action="M"
+   kind="file">/trunk/ext/openssl/crypto/rand/rand_unix.c</path>
+<path
+   kind="file"
+   action="M">/trunk/ext/openssl/crypto/rand/rand_vms.c</path>
+<path
+   kind="file"
+   action="M">/trunk/ext/openssl/crypto/rand/rand_win.c</path>
+<path
+   kind="file"
+   action="M">/trunk/ext/openssl/crypto/rand/randfile.c</path>
+<path
+   kind="file"
+   action="M">/trunk/ext/openssl/crypto/rand/randtest.c</path>
+<path
+   kind="file"
+   action="M">/trunk/ext/openssl/crypto/rc2/rc2.h</path>
+<path
+   kind="file"
+   action="M">/trunk/ext/openssl/crypto/rc2/rc2_cbc.c</path>
+<path
+   kind="file"
+   action="M">/trunk/ext/openssl/crypto/rc2/rc2_ecb.c</path>
+<path
+   kind="file"
+   action="M">/trunk/ext/openssl/crypto/rc2/rc2_locl.h</path>
+<path
+   kind="file"
+   action="M">/trunk/ext/openssl/crypto/rc2/rc2_skey.c</path>
+<path
+   action="M"
+   kind="file">/trunk/ext/openssl/crypto/rc2/rc2cfb64.c</path>
+<path
+   action="M"
+   kind="file">/trunk/ext/openssl/crypto/rc2/rc2ofb64.c</path>
+<path
+   kind="file"
+   action="M">/trunk/ext/openssl/crypto/rc2/rc2speed.c</path>
+<path
+   kind="file"
+   action="M">/trunk/ext/openssl/crypto/rc2/rc2test.c</path>
+<path
+   kind="file"
+   action="M">/trunk/ext/openssl/crypto/rc2/tab.c</path>
+<path
+   kind="file"
+   action="M">/trunk/ext/openssl/crypto/rc4/Makefile</path>
+<path
+   action="M"
+   kind="file">/trunk/ext/openssl/crypto/rc4/asm/rc4-586.pl</path>
+<path
+   action="M"
+   kind="file">/trunk/ext/openssl/crypto/rc4/rc4.c</path>
+<path
+   action="M"
+   kind="file">/trunk/ext/openssl/crypto/rc4/rc4.h</path>
+<path
+   action="M"
+   kind="file">/trunk/ext/openssl/crypto/rc4/rc4_enc.c</path>
+<path
+   action="M"
+   kind="file">/trunk/ext/openssl/crypto/rc4/rc4_locl.h</path>
+<path
+   action="M"
+   kind="file">/trunk/ext/openssl/crypto/rc4/rc4_skey.c</path>
+<path
+   action="M"
+   kind="file">/trunk/ext/openssl/crypto/rc4/rc4_utl.c</path>
+<path
+   action="M"
+   kind="file">/trunk/ext/openssl/crypto/rc4/rc4speed.c</path>
+<path
+   kind="file"
+   action="M">/trunk/ext/openssl/crypto/rc4/rc4test.c</path>
+<path
+   kind="file"
+   action="M">/trunk/ext/openssl/crypto/rc5/rc5.h</path>
+<path
+   action="M"
+   kind="file">/trunk/ext/openssl/crypto/rc5/rc5_ecb.c</path>
+<path
+   action="M"
+   kind="file">/trunk/ext/openssl/crypto/rc5/rc5_enc.c</path>
+<path
+   action="M"
+   kind="file">/trunk/ext/openssl/crypto/rc5/rc5_locl.h</path>
+<path
+   action="M"
+   kind="file">/trunk/ext/openssl/crypto/rc5/rc5_skey.c</path>
+<path
+   kind="file"
+   action="M">/trunk/ext/openssl/crypto/rc5/rc5cfb64.c</path>
+<path
+   kind="file"
+   action="M">/trunk/ext/openssl/crypto/rc5/rc5ofb64.c</path>
+<path
+   kind="file"
+   action="M">/trunk/ext/openssl/crypto/rc5/rc5speed.c</path>
+<path
+   kind="file"
+   action="M">/trunk/ext/openssl/crypto/rc5/rc5test.c</path>
+<path
+   kind="file"
+   action="M">/trunk/ext/openssl/crypto/ripemd/ripemd.h</path>
+<path
+   kind="file"
+   action="M">/trunk/ext/openssl/crypto/ripemd/rmd160.c</path>
+<path
+   kind="file"
+   action="M">/trunk/ext/openssl/crypto/ripemd/rmd_dgst.c</path>
+<path
+   kind="file"
+   action="M">/trunk/ext/openssl/crypto/ripemd/rmd_locl.h</path>
+<path
+   kind="file"
+   action="M">/trunk/ext/openssl/crypto/ripemd/rmd_one.c</path>
+<path
+   action="M"
+   kind="file">/trunk/ext/openssl/crypto/ripemd/rmdconst.h</path>
+<path
+   action="M"
+   kind="file">/trunk/ext/openssl/crypto/ripemd/rmdtest.c</path>
+<path
+   kind="file"
+   action="M">/trunk/ext/openssl/crypto/rsa/Makefile</path>
+<path
+   kind="file"
+   action="M">/trunk/ext/openssl/crypto/rsa/rsa.h</path>
+<path
+   kind="file"
+   action="M">/trunk/ext/openssl/crypto/rsa/rsa_ameth.c</path>
+<path
+   action="M"
+   kind="file">/trunk/ext/openssl/crypto/rsa/rsa_asn1.c</path>
+<path
+   action="M"
+   kind="file">/trunk/ext/openssl/crypto/rsa/rsa_chk.c</path>
+<path
+   action="M"
+   kind="file">/trunk/ext/openssl/crypto/rsa/rsa_crpt.c</path>
+<path
+   action="M"
+   kind="file">/trunk/ext/openssl/crypto/rsa/rsa_depr.c</path>
+<path
+   action="M"
+   kind="file">/trunk/ext/openssl/crypto/rsa/rsa_eay.c</path>
+<path
+   action="M"
+   kind="file">/trunk/ext/openssl/crypto/rsa/rsa_err.c</path>
+<path
+   action="M"
+   kind="file">/trunk/ext/openssl/crypto/rsa/rsa_gen.c</path>
+<path
+   action="M"
+   kind="file">/trunk/ext/openssl/crypto/rsa/rsa_lib.c</path>
+<path
+   action="M"
+   kind="file">/trunk/ext/openssl/crypto/rsa/rsa_locl.h</path>
+<path
+   action="M"
+   kind="file">/trunk/ext/openssl/crypto/rsa/rsa_none.c</path>
+<path
+   action="M"
+   kind="file">/trunk/ext/openssl/crypto/rsa/rsa_null.c</path>
+<path
+   action="M"
+   kind="file">/trunk/ext/openssl/crypto/rsa/rsa_oaep.c</path>
+<path
+   kind="file"
+   action="M">/trunk/ext/openssl/crypto/rsa/rsa_pk1.c</path>
+<path
+   kind="file"
+   action="M">/trunk/ext/openssl/crypto/rsa/rsa_pmeth.c</path>
+<path
+   kind="file"
+   action="M">/trunk/ext/openssl/crypto/rsa/rsa_prn.c</path>
+<path
+   kind="file"
+   action="M">/trunk/ext/openssl/crypto/rsa/rsa_pss.c</path>
+<path
+   kind="file"
+   action="M">/trunk/ext/openssl/crypto/rsa/rsa_saos.c</path>
+<path
+   kind="file"
+   action="M">/trunk/ext/openssl/crypto/rsa/rsa_sign.c</path>
+<path
+   kind="file"
+   action="M">/trunk/ext/openssl/crypto/rsa/rsa_ssl.c</path>
+<path
+   kind="file"
+   action="M">/trunk/ext/openssl/crypto/rsa/rsa_test.c</path>
+<path
+   kind="file"
+   action="M">/trunk/ext/openssl/crypto/rsa/rsa_x931.c</path>
+<path
+   action="M"
+   kind="file">/trunk/ext/openssl/crypto/s390xcap.c</path>
+<path
+   action="M"
+   kind="file">/trunk/ext/openssl/crypto/seed/seed.c</path>
+<path
+   kind="file"
+   action="M">/trunk/ext/openssl/crypto/seed/seed.h</path>
+<path
+   kind="file"
+   action="M">/trunk/ext/openssl/crypto/seed/seed_cbc.c</path>
+<path
+   kind="file"
+   action="M">/trunk/ext/openssl/crypto/seed/seed_cfb.c</path>
+<path
+   kind="file"
+   action="M">/trunk/ext/openssl/crypto/seed/seed_ecb.c</path>
+<path
+   action="M"
+   kind="file">/trunk/ext/openssl/crypto/seed/seed_locl.h</path>
+<path
+   action="M"
+   kind="file">/trunk/ext/openssl/crypto/seed/seed_ofb.c</path>
+<path
+   action="M"
+   kind="file">/trunk/ext/openssl/crypto/sha/Makefile</path>
+<path
+   action="M"
+   kind="file">/trunk/ext/openssl/crypto/sha/asm/sha1-586.pl</path>
+<path
+   action="M"
+   kind="file">/trunk/ext/openssl/crypto/sha/asm/sha1-armv4-large.pl</path>
+<path
+   action="A"
+   kind="file">/trunk/ext/openssl/crypto/sha/asm/sha1-armv8.pl</path>
+<path
+   action="A"
+   kind="file">/trunk/ext/openssl/crypto/sha/asm/sha1-mb-x86_64.pl</path>
+<path
+   action="M"
+   kind="file">/trunk/ext/openssl/crypto/sha/asm/sha1-mips.pl</path>
+<path
+   kind="file"
+   action="M">/trunk/ext/openssl/crypto/sha/asm/sha1-ppc.pl</path>
+<path
+   kind="file"
+   action="M">/trunk/ext/openssl/crypto/sha/asm/sha1-sparcv9.pl</path>
+<path
+   action="M"
+   kind="file">/trunk/ext/openssl/crypto/sha/asm/sha1-x86_64.pl</path>
+<path
+   action="M"
+   kind="file">/trunk/ext/openssl/crypto/sha/asm/sha256-586.pl</path>
+<path
+   action="M"
+   kind="file">/trunk/ext/openssl/crypto/sha/asm/sha256-armv4.pl</path>
+<path
+   kind="file"
+   action="A">/trunk/ext/openssl/crypto/sha/asm/sha256-mb-x86_64.pl</path>
+<path
+   kind="file"
+   action="M">/trunk/ext/openssl/crypto/sha/asm/sha512-586.pl</path>
+<path
+   kind="file"
+   action="M">/trunk/ext/openssl/crypto/sha/asm/sha512-armv4.pl</path>
+<path
+   kind="file"
+   action="A">/trunk/ext/openssl/crypto/sha/asm/sha512-armv8.pl</path>
+<path
+   kind="file"
+   action="M">/trunk/ext/openssl/crypto/sha/asm/sha512-ia64.pl</path>
+<path
+   kind="file"
+   action="M">/trunk/ext/openssl/crypto/sha/asm/sha512-mips.pl</path>
+<path
+   kind="file"
+   action="M">/trunk/ext/openssl/crypto/sha/asm/sha512-ppc.pl</path>
+<path
+   kind="file"
+   action="M">/trunk/ext/openssl/crypto/sha/asm/sha512-sparcv9.pl</path>
+<path
+   kind="file"
+   action="M">/trunk/ext/openssl/crypto/sha/asm/sha512-x86_64.pl</path>
+<path
+   action="A"
+   kind="file">/trunk/ext/openssl/crypto/sha/asm/sha512p8-ppc.pl</path>
+<path
+   action="M"
+   kind="file">/trunk/ext/openssl/crypto/sha/sha.c</path>
+<path
+   kind="file"
+   action="M">/trunk/ext/openssl/crypto/sha/sha.h</path>
+<path
+   kind="file"
+   action="M">/trunk/ext/openssl/crypto/sha/sha1.c</path>
+<path
+   kind="file"
+   action="M">/trunk/ext/openssl/crypto/sha/sha1_one.c</path>
+<path
+   action="M"
+   kind="file">/trunk/ext/openssl/crypto/sha/sha1dgst.c</path>
+<path
+   action="M"
+   kind="file">/trunk/ext/openssl/crypto/sha/sha1test.c</path>
+<path
+   action="M"
+   kind="file">/trunk/ext/openssl/crypto/sha/sha256.c</path>
+<path
+   action="M"
+   kind="file">/trunk/ext/openssl/crypto/sha/sha256t.c</path>
+<path
+   action="M"
+   kind="file">/trunk/ext/openssl/crypto/sha/sha512.c</path>
+<path
+   action="M"
+   kind="file">/trunk/ext/openssl/crypto/sha/sha512t.c</path>
+<path
+   kind="file"
+   action="M">/trunk/ext/openssl/crypto/sha/sha_dgst.c</path>
+<path
+   kind="file"
+   action="M">/trunk/ext/openssl/crypto/sha/sha_locl.h</path>
+<path
+   action="M"
+   kind="file">/trunk/ext/openssl/crypto/sha/sha_one.c</path>
+<path
+   action="M"
+   kind="file">/trunk/ext/openssl/crypto/sha/shatest.c</path>
+<path
+   action="A"
+   kind="file">/trunk/ext/openssl/crypto/sparc_arch.h</path>
+<path
+   action="M"
+   kind="file">/trunk/ext/openssl/crypto/sparccpuid.S</path>
+<path
+   kind="file"
+   action="M">/trunk/ext/openssl/crypto/sparcv9cap.c</path>
+<path
+   kind="file"
+   action="M">/trunk/ext/openssl/crypto/srp/Makefile</path>
+<path
+   kind="file"
+   action="M">/trunk/ext/openssl/crypto/srp/srp.h</path>
+<path
+   kind="file"
+   action="M">/trunk/ext/openssl/crypto/srp/srp_grps.h</path>
+<path
+   kind="file"
+   action="M">/trunk/ext/openssl/crypto/srp/srp_lcl.h</path>
+<path
+   kind="file"
+   action="M">/trunk/ext/openssl/crypto/srp/srp_lib.c</path>
+<path
+   kind="file"
+   action="M">/trunk/ext/openssl/crypto/srp/srp_vfy.c</path>
+<path
+   kind="file"
+   action="M">/trunk/ext/openssl/crypto/srp/srptest.c</path>
+<path
+   kind="file"
+   action="M">/trunk/ext/openssl/crypto/stack/safestack.h</path>
+<path
+   action="M"
+   kind="file">/trunk/ext/openssl/crypto/stack/stack.c</path>
+<path
+   kind="file"
+   action="M">/trunk/ext/openssl/crypto/stack/stack.h</path>
+<path
+   kind="file"
+   action="M">/trunk/ext/openssl/crypto/store/store.h</path>
+<path
+   kind="file"
+   action="M">/trunk/ext/openssl/crypto/store/str_err.c</path>
+<path
+   kind="file"
+   action="M">/trunk/ext/openssl/crypto/store/str_lib.c</path>
+<path
+   action="M"
+   kind="file">/trunk/ext/openssl/crypto/store/str_locl.h</path>
+<path
+   action="M"
+   kind="file">/trunk/ext/openssl/crypto/store/str_mem.c</path>
+<path
+   action="M"
+   kind="file">/trunk/ext/openssl/crypto/store/str_meth.c</path>
+<path
+   action="M"
+   kind="file">/trunk/ext/openssl/crypto/symhacks.h</path>
+<path
+   action="M"
+   kind="file">/trunk/ext/openssl/crypto/threads/mttest.c</path>
+<path
+   action="M"
+   kind="file">/trunk/ext/openssl/crypto/threads/th-lock.c</path>
+<path
+   action="M"
+   kind="file">/trunk/ext/openssl/crypto/ts/ts.h</path>
+<path
+   action="M"
+   kind="file">/trunk/ext/openssl/crypto/ts/ts_asn1.c</path>
+<path
+   action="M"
+   kind="file">/trunk/ext/openssl/crypto/ts/ts_conf.c</path>
+<path
+   kind="file"
+   action="M">/trunk/ext/openssl/crypto/ts/ts_err.c</path>
+<path
+   kind="file"
+   action="M">/trunk/ext/openssl/crypto/ts/ts_lib.c</path>
+<path
+   action="M"
+   kind="file">/trunk/ext/openssl/crypto/ts/ts_req_print.c</path>
+<path
+   action="M"
+   kind="file">/trunk/ext/openssl/crypto/ts/ts_req_utils.c</path>
+<path
+   action="M"
+   kind="file">/trunk/ext/openssl/crypto/ts/ts_rsp_print.c</path>
+<path
+   kind="file"
+   action="M">/trunk/ext/openssl/crypto/ts/ts_rsp_sign.c</path>
+<path
+   kind="file"
+   action="M">/trunk/ext/openssl/crypto/ts/ts_rsp_utils.c</path>
+<path
+   kind="file"
+   action="M">/trunk/ext/openssl/crypto/ts/ts_rsp_verify.c</path>
+<path
+   kind="file"
+   action="M">/trunk/ext/openssl/crypto/ts/ts_verify_ctx.c</path>
+<path
+   kind="file"
+   action="M">/trunk/ext/openssl/crypto/txt_db/txt_db.c</path>
+<path
+   kind="file"
+   action="M">/trunk/ext/openssl/crypto/txt_db/txt_db.h</path>
+<path
+   kind="file"
+   action="M">/trunk/ext/openssl/crypto/ui/ui.h</path>
+<path
+   kind="file"
+   action="M">/trunk/ext/openssl/crypto/ui/ui_compat.c</path>
+<path
+   kind="file"
+   action="M">/trunk/ext/openssl/crypto/ui/ui_compat.h</path>
+<path
+   action="M"
+   kind="file">/trunk/ext/openssl/crypto/ui/ui_err.c</path>
+<path
+   action="M"
+   kind="file">/trunk/ext/openssl/crypto/ui/ui_lib.c</path>
+<path
+   kind="file"
+   action="M">/trunk/ext/openssl/crypto/ui/ui_locl.h</path>
+<path
+   action="M"
+   kind="file">/trunk/ext/openssl/crypto/ui/ui_openssl.c</path>
+<path
+   action="M"
+   kind="file">/trunk/ext/openssl/crypto/ui/ui_util.c</path>
+<path
+   action="M"
+   kind="file">/trunk/ext/openssl/crypto/uid.c</path>
+<path
+   action="M"
+   kind="file">/trunk/ext/openssl/crypto/vms_rms.h</path>
+<path
+   action="M"
+   kind="file">/trunk/ext/openssl/crypto/whrlpool/asm/wp-mmx.pl</path>
+<path
+   action="M"
+   kind="file">/trunk/ext/openssl/crypto/whrlpool/asm/wp-x86_64.pl</path>
+<path
+   action="M"
+   kind="file">/trunk/ext/openssl/crypto/whrlpool/whrlpool.h</path>
+<path
+   action="M"
+   kind="file">/trunk/ext/openssl/crypto/whrlpool/wp_block.c</path>
+<path
+   kind="file"
+   action="M">/trunk/ext/openssl/crypto/whrlpool/wp_dgst.c</path>
+<path
+   kind="file"
+   action="M">/trunk/ext/openssl/crypto/whrlpool/wp_locl.h</path>
+<path
+   action="M"
+   kind="file">/trunk/ext/openssl/crypto/whrlpool/wp_test.c</path>
+<path
+   action="M"
+   kind="file">/trunk/ext/openssl/crypto/x509/Makefile</path>
+<path
+   action="M"
+   kind="file">/trunk/ext/openssl/crypto/x509/by_dir.c</path>
+<path
+   action="M"
+   kind="file">/trunk/ext/openssl/crypto/x509/by_file.c</path>
+<path
+   kind="file"
+   action="A">/trunk/ext/openssl/crypto/x509/vpm_int.h</path>
+<path
+   kind="file"
+   action="M">/trunk/ext/openssl/crypto/x509/x509.h</path>
+<path
+   kind="file"
+   action="M">/trunk/ext/openssl/crypto/x509/x509_att.c</path>
+<path
+   kind="file"
+   action="M">/trunk/ext/openssl/crypto/x509/x509_cmp.c</path>
+<path
+   kind="file"
+   action="M">/trunk/ext/openssl/crypto/x509/x509_d2.c</path>
+<path
+   kind="file"
+   action="M">/trunk/ext/openssl/crypto/x509/x509_def.c</path>
+<path
+   kind="file"
+   action="M">/trunk/ext/openssl/crypto/x509/x509_err.c</path>
+<path
+   kind="file"
+   action="M">/trunk/ext/openssl/crypto/x509/x509_ext.c</path>
+<path
+   kind="file"
+   action="M">/trunk/ext/openssl/crypto/x509/x509_lu.c</path>
+<path
+   action="M"
+   kind="file">/trunk/ext/openssl/crypto/x509/x509_obj.c</path>
+<path
+   kind="file"
+   action="M">/trunk/ext/openssl/crypto/x509/x509_r2x.c</path>
+<path
+   kind="file"
+   action="M">/trunk/ext/openssl/crypto/x509/x509_req.c</path>
+<path
+   kind="file"
+   action="M">/trunk/ext/openssl/crypto/x509/x509_set.c</path>
+<path
+   kind="file"
+   action="M">/trunk/ext/openssl/crypto/x509/x509_trs.c</path>
+<path
+   action="M"
+   kind="file">/trunk/ext/openssl/crypto/x509/x509_txt.c</path>
+<path
+   action="M"
+   kind="file">/trunk/ext/openssl/crypto/x509/x509_v3.c</path>
+<path
+   action="M"
+   kind="file">/trunk/ext/openssl/crypto/x509/x509_vfy.c</path>
+<path
+   action="M"
+   kind="file">/trunk/ext/openssl/crypto/x509/x509_vfy.h</path>
+<path
+   action="M"
+   kind="file">/trunk/ext/openssl/crypto/x509/x509_vpm.c</path>
+<path
+   action="M"
+   kind="file">/trunk/ext/openssl/crypto/x509/x509cset.c</path>
+<path
+   action="M"
+   kind="file">/trunk/ext/openssl/crypto/x509/x509name.c</path>
+<path
+   action="M"
+   kind="file">/trunk/ext/openssl/crypto/x509/x509rset.c</path>
+<path
+   action="M"
+   kind="file">/trunk/ext/openssl/crypto/x509/x509spki.c</path>
+<path
+   kind="file"
+   action="M">/trunk/ext/openssl/crypto/x509/x509type.c</path>
+<path
+   kind="file"
+   action="M">/trunk/ext/openssl/crypto/x509/x_all.c</path>
+<path
+   action="M"
+   kind="file">/trunk/ext/openssl/crypto/x509v3/Makefile</path>
+<path
+   action="M"
+   kind="file">/trunk/ext/openssl/crypto/x509v3/ext_dat.h</path>
+<path
+   action="M"
+   kind="file">/trunk/ext/openssl/crypto/x509v3/pcy_cache.c</path>
+<path
+   kind="file"
+   action="M">/trunk/ext/openssl/crypto/x509v3/pcy_data.c</path>
+<path
+   kind="file"
+   action="M">/trunk/ext/openssl/crypto/x509v3/pcy_int.h</path>
+<path
+   kind="file"
+   action="M">/trunk/ext/openssl/crypto/x509v3/pcy_lib.c</path>
+<path
+   kind="file"
+   action="M">/trunk/ext/openssl/crypto/x509v3/pcy_map.c</path>
+<path
+   kind="file"
+   action="M">/trunk/ext/openssl/crypto/x509v3/pcy_node.c</path>
+<path
+   kind="file"
+   action="M">/trunk/ext/openssl/crypto/x509v3/pcy_tree.c</path>
+<path
+   kind="file"
+   action="M">/trunk/ext/openssl/crypto/x509v3/tabtest.c</path>
+<path
+   action="M"
+   kind="file">/trunk/ext/openssl/crypto/x509v3/v3_addr.c</path>
+<path
+   action="M"
+   kind="file">/trunk/ext/openssl/crypto/x509v3/v3_akey.c</path>
+<path
+   action="M"
+   kind="file">/trunk/ext/openssl/crypto/x509v3/v3_akeya.c</path>
+<path
+   action="M"
+   kind="file">/trunk/ext/openssl/crypto/x509v3/v3_alt.c</path>
+<path
+   action="M"
+   kind="file">/trunk/ext/openssl/crypto/x509v3/v3_asid.c</path>
+<path
+   action="M"
+   kind="file">/trunk/ext/openssl/crypto/x509v3/v3_bcons.c</path>
+<path
+   action="M"
+   kind="file">/trunk/ext/openssl/crypto/x509v3/v3_bitst.c</path>
+<path
+   action="M"
+   kind="file">/trunk/ext/openssl/crypto/x509v3/v3_conf.c</path>
+<path
+   action="M"
+   kind="file">/trunk/ext/openssl/crypto/x509v3/v3_cpols.c</path>
+<path
+   kind="file"
+   action="M">/trunk/ext/openssl/crypto/x509v3/v3_crld.c</path>
+<path
+   kind="file"
+   action="M">/trunk/ext/openssl/crypto/x509v3/v3_enum.c</path>
+<path
+   action="M"
+   kind="file">/trunk/ext/openssl/crypto/x509v3/v3_extku.c</path>
+<path
+   action="M"
+   kind="file">/trunk/ext/openssl/crypto/x509v3/v3_genn.c</path>
+<path
+   action="M"
+   kind="file">/trunk/ext/openssl/crypto/x509v3/v3_ia5.c</path>
+<path
+   action="M"
+   kind="file">/trunk/ext/openssl/crypto/x509v3/v3_info.c</path>
+<path
+   kind="file"
+   action="M">/trunk/ext/openssl/crypto/x509v3/v3_int.c</path>
+<path
+   kind="file"
+   action="M">/trunk/ext/openssl/crypto/x509v3/v3_lib.c</path>
+<path
+   kind="file"
+   action="M">/trunk/ext/openssl/crypto/x509v3/v3_ncons.c</path>
+<path
+   kind="file"
+   action="M">/trunk/ext/openssl/crypto/x509v3/v3_ocsp.c</path>
+<path
+   kind="file"
+   action="M">/trunk/ext/openssl/crypto/x509v3/v3_pci.c</path>
+<path
+   kind="file"
+   action="M">/trunk/ext/openssl/crypto/x509v3/v3_pcia.c</path>
+<path
+   kind="file"
+   action="M">/trunk/ext/openssl/crypto/x509v3/v3_pcons.c</path>
+<path
+   kind="file"
+   action="M">/trunk/ext/openssl/crypto/x509v3/v3_pku.c</path>
+<path
+   kind="file"
+   action="M">/trunk/ext/openssl/crypto/x509v3/v3_pmaps.c</path>
+<path
+   action="M"
+   kind="file">/trunk/ext/openssl/crypto/x509v3/v3_prn.c</path>
+<path
+   kind="file"
+   action="M">/trunk/ext/openssl/crypto/x509v3/v3_purp.c</path>
+<path
+   kind="file"
+   action="A">/trunk/ext/openssl/crypto/x509v3/v3_scts.c</path>
+<path
+   kind="file"
+   action="M">/trunk/ext/openssl/crypto/x509v3/v3_skey.c</path>
+<path
+   kind="file"
+   action="M">/trunk/ext/openssl/crypto/x509v3/v3_sxnet.c</path>
+<path
+   action="M"
+   kind="file">/trunk/ext/openssl/crypto/x509v3/v3_utl.c</path>
+<path
+   action="M"
+   kind="file">/trunk/ext/openssl/crypto/x509v3/v3conf.c</path>
+<path
+   action="M"
+   kind="file">/trunk/ext/openssl/crypto/x509v3/v3err.c</path>
+<path
+   action="A"
+   kind="file">/trunk/ext/openssl/crypto/x509v3/v3nametest.c</path>
+<path
+   action="M"
+   kind="file">/trunk/ext/openssl/crypto/x509v3/v3prin.c</path>
+<path
+   action="M"
+   kind="file">/trunk/ext/openssl/crypto/x509v3/x509v3.h</path>
+<path
+   action="M"
+   kind="file">/trunk/ext/openssl/crypto/x86_64cpuid.pl</path>
+<path
+   action="M"
+   kind="file">/trunk/ext/openssl/crypto/x86cpuid.pl</path>
+<path
+   action="M"
+   kind="file">/trunk/ext/openssl/demos/asn1/ocsp.c</path>
+<path
+   kind="file"
+   action="M">/trunk/ext/openssl/demos/b64.c</path>
+<path
+   kind="file"
+   action="M">/trunk/ext/openssl/demos/bio/Makefile</path>
+<path
+   action="M"
+   kind="file">/trunk/ext/openssl/demos/bio/README</path>
+<path
+   action="A"
+   kind="file">/trunk/ext/openssl/demos/bio/accept.cnf</path>
+<path
+   action="A"
+   kind="file">/trunk/ext/openssl/demos/bio/client-arg.c</path>
+<path
+   kind="file"
+   action="A">/trunk/ext/openssl/demos/bio/client-conf.c</path>
+<path
+   kind="file"
+   action="A">/trunk/ext/openssl/demos/bio/connect.cnf</path>
+<path
+   kind="file"
+   action="M">/trunk/ext/openssl/demos/bio/saccept.c</path>
+<path
+   kind="file"
+   action="M">/trunk/ext/openssl/demos/bio/sconnect.c</path>
+<path
+   kind="file"
+   action="A">/trunk/ext/openssl/demos/bio/server-arg.c</path>
+<path
+   kind="file"
+   action="A">/trunk/ext/openssl/demos/bio/server-conf.c</path>
+<path
+   action="M"
+   kind="file">/trunk/ext/openssl/demos/bio/server.pem</path>
+<path
+   action="M"
+   kind="file">/trunk/ext/openssl/demos/cms/cms_comp.c</path>
+<path
+   kind="file"
+   action="M">/trunk/ext/openssl/demos/cms/cms_ddec.c</path>
+<path
+   kind="file"
+   action="M">/trunk/ext/openssl/demos/cms/cms_dec.c</path>
+<path
+   kind="file"
+   action="M">/trunk/ext/openssl/demos/cms/cms_denc.c</path>
+<path
+   kind="file"
+   action="M">/trunk/ext/openssl/demos/cms/cms_enc.c</path>
+<path
+   action="M"
+   kind="file">/trunk/ext/openssl/demos/cms/cms_sign.c</path>
+<path
+   action="M"
+   kind="file">/trunk/ext/openssl/demos/cms/cms_sign2.c</path>
+<path
+   action="M"
+   kind="file">/trunk/ext/openssl/demos/cms/cms_uncomp.c</path>
+<path
+   action="M"
+   kind="file">/trunk/ext/openssl/demos/cms/cms_ver.c</path>
+<path
+   action="M"
+   kind="file">/trunk/ext/openssl/demos/easy_tls/easy-tls.c</path>
+<path
+   action="M"
+   kind="file">/trunk/ext/openssl/demos/easy_tls/easy-tls.h</path>
+<path
+   action="M"
+   kind="file">/trunk/ext/openssl/demos/easy_tls/test.c</path>
+<path
+   action="M"
+   kind="file">/trunk/ext/openssl/demos/easy_tls/test.h</path>
+<path
+   action="M"
+   kind="file">/trunk/ext/openssl/demos/engines/cluster_labs/cluster_labs.h</path>
+<path
+   kind="file"
+   action="M">/trunk/ext/openssl/demos/engines/cluster_labs/hw_cluster_labs.c</path>
+<path
+   action="M"
+   kind="file">/trunk/ext/openssl/demos/engines/cluster_labs/hw_cluster_labs_err.c</path>
+<path
+   action="M"
+   kind="file">/trunk/ext/openssl/demos/engines/cluster_labs/hw_cluster_labs_err.h</path>
+<path
+   action="M"
+   kind="file">/trunk/ext/openssl/demos/engines/ibmca/hw_ibmca.c</path>
+<path
+   action="M"
+   kind="file">/trunk/ext/openssl/demos/engines/ibmca/hw_ibmca_err.c</path>
+<path
+   kind="file"
+   action="M">/trunk/ext/openssl/demos/engines/ibmca/hw_ibmca_err.h</path>
+<path
+   kind="file"
+   action="M">/trunk/ext/openssl/demos/engines/ibmca/ica_openssl_api.h</path>
+<path
+   kind="file"
+   action="M">/trunk/ext/openssl/demos/engines/rsaref/rsaref.c</path>
+<path
+   kind="file"
+   action="M">/trunk/ext/openssl/demos/engines/rsaref/rsaref_err.c</path>
+<path
+   kind="file"
+   action="M">/trunk/ext/openssl/demos/engines/rsaref/rsaref_err.h</path>
+<path
+   kind="file"
+   action="M">/trunk/ext/openssl/demos/engines/zencod/hw_zencod.c</path>
+<path
+   kind="file"
+   action="M">/trunk/ext/openssl/demos/engines/zencod/hw_zencod.h</path>
+<path
+   kind="file"
+   action="M">/trunk/ext/openssl/demos/engines/zencod/hw_zencod_err.c</path>
+<path
+   action="M"
+   kind="file">/trunk/ext/openssl/demos/engines/zencod/hw_zencod_err.h</path>
+<path
+   action="M"
+   kind="file">/trunk/ext/openssl/demos/pkcs12/pkread.c</path>
+<path
+   kind="file"
+   action="M">/trunk/ext/openssl/demos/pkcs12/pkwrite.c</path>
+<path
+   kind="file"
+   action="M">/trunk/ext/openssl/demos/prime/prime.c</path>
+<path
+   kind="file"
+   action="M">/trunk/ext/openssl/demos/selfsign.c</path>
+<path
+   kind="file"
+   action="M">/trunk/ext/openssl/demos/sign/sign.c</path>
+<path
+   action="M"
+   kind="file">/trunk/ext/openssl/demos/smime/smdec.c</path>
+<path
+   action="M"
+   kind="file">/trunk/ext/openssl/demos/smime/smenc.c</path>
+<path
+   action="M"
+   kind="file">/trunk/ext/openssl/demos/smime/smsign.c</path>
+<path
+   action="M"
+   kind="file">/trunk/ext/openssl/demos/smime/smsign2.c</path>
+<path
+   action="M"
+   kind="file">/trunk/ext/openssl/demos/smime/smver.c</path>
+<path
+   action="M"
+   kind="file">/trunk/ext/openssl/demos/spkigen.c</path>
+<path
+   action="M"
+   kind="file">/trunk/ext/openssl/demos/state_machine/state_machine.c</path>
+<path
+   action="M"
+   kind="file">/trunk/ext/openssl/demos/tunala/breakage.c</path>
+<path
+   action="M"
+   kind="file">/trunk/ext/openssl/demos/tunala/buffer.c</path>
+<path
+   kind="file"
+   action="M">/trunk/ext/openssl/demos/tunala/cb.c</path>
+<path
+   kind="file"
+   action="M">/trunk/ext/openssl/demos/tunala/ip.c</path>
+<path
+   action="M"
+   kind="file">/trunk/ext/openssl/demos/tunala/sm.c</path>
+<path
+   action="M"
+   kind="file">/trunk/ext/openssl/demos/tunala/tunala.c</path>
+<path
+   kind="file"
+   action="M">/trunk/ext/openssl/demos/tunala/tunala.h</path>
+<path
+   kind="file"
+   action="M">/trunk/ext/openssl/demos/x509/mkcert.c</path>
+<path
+   kind="file"
+   action="M">/trunk/ext/openssl/demos/x509/mkreq.c</path>
+<path
+   kind="file"
+   action="M">/trunk/ext/openssl/doc/apps/c_rehash.pod</path>
+<path
+   kind="file"
+   action="M">/trunk/ext/openssl/doc/apps/ciphers.pod</path>
+<path
+   kind="file"
+   action="M">/trunk/ext/openssl/doc/apps/cms.pod</path>
+<path
+   action="M"
+   kind="file">/trunk/ext/openssl/doc/apps/genpkey.pod</path>
+<path
+   action="M"
+   kind="file">/trunk/ext/openssl/doc/apps/pkcs8.pod</path>
+<path
+   kind="file"
+   action="M">/trunk/ext/openssl/doc/apps/req.pod</path>
+<path
+   kind="file"
+   action="M">/trunk/ext/openssl/doc/apps/s_client.pod</path>
+<path
+   kind="file"
+   action="M">/trunk/ext/openssl/doc/apps/s_server.pod</path>
+<path
+   kind="file"
+   action="M">/trunk/ext/openssl/doc/apps/verify.pod</path>
+<path
+   action="M"
+   kind="file">/trunk/ext/openssl/doc/apps/x509.pod</path>
+<path
+   action="M"
+   kind="file">/trunk/ext/openssl/doc/crypto/ASN1_STRING_length.pod</path>
+<path
+   action="M"
+   kind="file">/trunk/ext/openssl/doc/crypto/ASN1_STRING_print_ex.pod</path>
+<path
+   action="M"
+   kind="file">/trunk/ext/openssl/doc/crypto/BIO_f_ssl.pod</path>
+<path
+   action="M"
+   kind="file">/trunk/ext/openssl/doc/crypto/BIO_find_type.pod</path>
+<path
+   action="M"
+   kind="file">/trunk/ext/openssl/doc/crypto/BIO_s_accept.pod</path>
+<path
+   action="M"
+   kind="file">/trunk/ext/openssl/doc/crypto/BIO_s_connect.pod</path>
+<path
+   action="M"
+   kind="file">/trunk/ext/openssl/doc/crypto/BN_BLINDING_new.pod</path>
+<path
+   action="M"
+   kind="file">/trunk/ext/openssl/doc/crypto/BN_CTX_new.pod</path>
+<path
+   kind="file"
+   action="M">/trunk/ext/openssl/doc/crypto/BN_generate_prime.pod</path>
+<path
+   action="M"
+   kind="file">/trunk/ext/openssl/doc/crypto/BN_rand.pod</path>
+<path
+   action="M"
+   kind="file">/trunk/ext/openssl/doc/crypto/CMS_add0_cert.pod</path>
+<path
+   action="M"
+   kind="file">/trunk/ext/openssl/doc/crypto/CMS_get0_RecipientInfos.pod</path>
+<path
+   action="M"
+   kind="file">/trunk/ext/openssl/doc/crypto/CMS_get0_SignerInfos.pod</path>
+<path
+   kind="file"
+   action="M">/trunk/ext/openssl/doc/crypto/CMS_verify.pod</path>
+<path
+   kind="file"
+   action="M">/trunk/ext/openssl/doc/crypto/DH_generate_parameters.pod</path>
+<path
+   kind="file"
+   action="M">/trunk/ext/openssl/doc/crypto/DSA_generate_parameters.pod</path>
+<path
+   kind="file"
+   action="A">/trunk/ext/openssl/doc/crypto/EC_GFp_simple_method.pod</path>
+<path
+   kind="file"
+   action="A">/trunk/ext/openssl/doc/crypto/EC_GROUP_copy.pod</path>
+<path
+   kind="file"
+   action="A">/trunk/ext/openssl/doc/crypto/EC_GROUP_new.pod</path>
+<path
+   action="A"
+   kind="file">/trunk/ext/openssl/doc/crypto/EC_KEY_new.pod</path>
+<path
+   kind="file"
+   action="A">/trunk/ext/openssl/doc/crypto/EC_POINT_add.pod</path>
+<path
+   kind="file"
+   action="A">/trunk/ext/openssl/doc/crypto/EC_POINT_new.pod</path>
+<path
+   kind="file"
+   action="M">/trunk/ext/openssl/doc/crypto/ERR_remove_state.pod</path>
+<path
+   action="M"
+   kind="file">/trunk/ext/openssl/doc/crypto/EVP_BytesToKey.pod</path>
+<path
+   action="M"
+   kind="file">/trunk/ext/openssl/doc/crypto/EVP_DigestInit.pod</path>
+<path
+   action="M"
+   kind="file">/trunk/ext/openssl/doc/crypto/EVP_DigestVerifyInit.pod</path>
+<path
+   action="M"
+   kind="file">/trunk/ext/openssl/doc/crypto/EVP_EncryptInit.pod</path>
+<path
+   action="M"
+   kind="file">/trunk/ext/openssl/doc/crypto/EVP_PKEY_CTX_ctrl.pod</path>
+<path
+   action="M"
+   kind="file">/trunk/ext/openssl/doc/crypto/EVP_PKEY_cmp.pod</path>
+<path
+   action="M"
+   kind="file">/trunk/ext/openssl/doc/crypto/OPENSSL_VERSION_NUMBER.pod</path>
+<path
+   action="M"
+   kind="file">/trunk/ext/openssl/doc/crypto/OPENSSL_ia32cap.pod</path>
+<path
+   action="A"
+   kind="file">/trunk/ext/openssl/doc/crypto/OPENSSL_instrument_bus.pod</path>
+<path
+   kind="file"
+   action="M">/trunk/ext/openssl/doc/crypto/OPENSSL_load_builtin_modules.pod</path>
+<path
+   action="M"
+   kind="file">/trunk/ext/openssl/doc/crypto/OpenSSL_add_all_algorithms.pod</path>
+<path
+   action="M"
+   kind="file">/trunk/ext/openssl/doc/crypto/PKCS7_verify.pod</path>
+<path
+   kind="file"
+   action="M">/trunk/ext/openssl/doc/crypto/RAND_egd.pod</path>
+<path
+   kind="file"
+   action="M">/trunk/ext/openssl/doc/crypto/RSA_generate_key.pod</path>
+<path
+   kind="file"
+   action="A">/trunk/ext/openssl/doc/crypto/SSLeay_version.pod</path>
+<path
+   kind="file"
+   action="M">/trunk/ext/openssl/doc/crypto/X509_NAME_add_entry_by_txt.pod</path>
+<path
+   kind="file"
+   action="M">/trunk/ext/openssl/doc/crypto/X509_STORE_CTX_get_error.pod</path>
+<path
+   kind="file"
+   action="M">/trunk/ext/openssl/doc/crypto/X509_VERIFY_PARAM_set_flags.pod</path>
+<path
+   kind="file"
+   action="A">/trunk/ext/openssl/doc/crypto/X509_check_host.pod</path>
+<path
+   kind="file"
+   action="M">/trunk/ext/openssl/doc/crypto/crypto.pod</path>
+<path
+   action="M"
+   kind="file">/trunk/ext/openssl/doc/crypto/d2i_DSAPublicKey.pod</path>
+<path
+   action="A"
+   kind="file">/trunk/ext/openssl/doc/crypto/d2i_ECPKParameters.pod</path>
+<path
+   kind="file"
+   action="M">/trunk/ext/openssl/doc/crypto/d2i_X509.pod</path>
+<path
+   kind="file"
+   action="M">/trunk/ext/openssl/doc/crypto/d2i_X509_CRL.pod</path>
+<path
+   kind="file"
+   action="A">/trunk/ext/openssl/doc/crypto/ec.pod</path>
+<path
+   kind="file"
+   action="M">/trunk/ext/openssl/doc/crypto/ecdsa.pod</path>
+<path
+   action="M"
+   kind="file">/trunk/ext/openssl/doc/crypto/evp.pod</path>
+<path
+   action="M"
+   kind="file">/trunk/ext/openssl/doc/crypto/hmac.pod</path>
+<path
+   action="M"
+   kind="file">/trunk/ext/openssl/doc/crypto/i2d_PKCS7_bio_stream.pod</path>
+<path
+   action="M"
+   kind="file">/trunk/ext/openssl/doc/crypto/rand.pod</path>
+<path
+   action="M"
+   kind="file">/trunk/ext/openssl/doc/ssl/SSL_CIPHER_get_name.pod</path>
+<path
+   action="A"
+   kind="file">/trunk/ext/openssl/doc/ssl/SSL_CONF_CTX_new.pod</path>
+<path
+   action="A"
+   kind="file">/trunk/ext/openssl/doc/ssl/SSL_CONF_CTX_set1_prefix.pod</path>
+<path
+   action="A"
+   kind="file">/trunk/ext/openssl/doc/ssl/SSL_CONF_CTX_set_flags.pod</path>
+<path
+   action="A"
+   kind="file">/trunk/ext/openssl/doc/ssl/SSL_CONF_CTX_set_ssl_ctx.pod</path>
+<path
+   kind="file"
+   action="A">/trunk/ext/openssl/doc/ssl/SSL_CONF_cmd.pod</path>
+<path
+   kind="file"
+   action="A">/trunk/ext/openssl/doc/ssl/SSL_CONF_cmd_argv.pod</path>
+<path
+   action="A"
+   kind="file">/trunk/ext/openssl/doc/ssl/SSL_CTX_add1_chain_cert.pod</path>
+<path
+   action="M"
+   kind="file">/trunk/ext/openssl/doc/ssl/SSL_CTX_add_extra_chain_cert.pod</path>
+<path
+   action="M"
+   kind="file">/trunk/ext/openssl/doc/ssl/SSL_CTX_sess_set_cache_size.pod</path>
+<path
+   kind="file"
+   action="A">/trunk/ext/openssl/doc/ssl/SSL_CTX_set1_curves.pod</path>
+<path
+   kind="file"
+   action="A">/trunk/ext/openssl/doc/ssl/SSL_CTX_set1_verify_cert_store.pod</path>
+<path
+   kind="file"
+   action="A">/trunk/ext/openssl/doc/ssl/SSL_CTX_set_cert_cb.pod</path>
+<path
+   kind="file"
+   action="M">/trunk/ext/openssl/doc/ssl/SSL_CTX_set_cert_store.pod</path>
+<path
+   kind="file"
+   action="M">/trunk/ext/openssl/doc/ssl/SSL_CTX_set_cipher_list.pod</path>
+<path
+   kind="file"
+   action="A">/trunk/ext/openssl/doc/ssl/SSL_CTX_set_custom_cli_ext.pod</path>
+<path
+   kind="file"
+   action="M">/trunk/ext/openssl/doc/ssl/SSL_CTX_set_tmp_rsa_callback.pod</path>
+<path
+   kind="file"
+   action="M">/trunk/ext/openssl/doc/ssl/SSL_CTX_use_certificate.pod</path>
+<path
+   kind="file"
+   action="M">/trunk/ext/openssl/doc/ssl/SSL_CTX_use_psk_identity_hint.pod</path>
+<path
+   action="A"
+   kind="file">/trunk/ext/openssl/doc/ssl/SSL_CTX_use_serverinfo.pod</path>
+<path
+   action="M"
+   kind="file">/trunk/ext/openssl/doc/ssl/SSL_accept.pod</path>
+<path
+   kind="file"
+   action="M">/trunk/ext/openssl/doc/ssl/SSL_do_handshake.pod</path>
+<path
+   kind="file"
+   action="M">/trunk/ext/openssl/doc/ssl/SSL_shutdown.pod</path>
+<path
+   kind="file"
+   action="M">/trunk/ext/openssl/doc/ssl/ssl.pod</path>
+<path
+   action="M"
+   kind="file">/trunk/ext/openssl/doc/ssleay.txt</path>
+<path
+   action="M"
+   kind="file">/trunk/ext/openssl/e_os.h</path>
+<path
+   action="M"
+   kind="file">/trunk/ext/openssl/e_os2.h</path>
+<path
+   action="M"
+   kind="file">/trunk/ext/openssl/engines/Makefile</path>
+<path
+   action="M"
+   kind="file">/trunk/ext/openssl/engines/ccgost/Makefile</path>
+<path
+   action="M"
+   kind="file">/trunk/ext/openssl/engines/ccgost/e_gost_err.c</path>
+<path
+   kind="file"
+   action="M">/trunk/ext/openssl/engines/ccgost/e_gost_err.h</path>
+<path
+   kind="file"
+   action="M">/trunk/ext/openssl/engines/ccgost/gost2001.c</path>
+<path
+   action="M"
+   kind="file">/trunk/ext/openssl/engines/ccgost/gost2001_keyx.c</path>
+<path
+   action="M"
+   kind="file">/trunk/ext/openssl/engines/ccgost/gost2001_keyx.h</path>
+<path
+   action="M"
+   kind="file">/trunk/ext/openssl/engines/ccgost/gost89.c</path>
+<path
+   kind="file"
+   action="M">/trunk/ext/openssl/engines/ccgost/gost89.h</path>
+<path
+   kind="file"
+   action="M">/trunk/ext/openssl/engines/ccgost/gost94_keyx.c</path>
+<path
+   kind="file"
+   action="M">/trunk/ext/openssl/engines/ccgost/gost_ameth.c</path>
+<path
+   kind="file"
+   action="M">/trunk/ext/openssl/engines/ccgost/gost_asn1.c</path>
+<path
+   kind="file"
+   action="M">/trunk/ext/openssl/engines/ccgost/gost_crypt.c</path>
+<path
+   kind="file"
+   action="M">/trunk/ext/openssl/engines/ccgost/gost_ctl.c</path>
+<path
+   kind="file"
+   action="M">/trunk/ext/openssl/engines/ccgost/gost_eng.c</path>
+<path
+   kind="file"
+   action="M">/trunk/ext/openssl/engines/ccgost/gost_keywrap.c</path>
+<path
+   kind="file"
+   action="M">/trunk/ext/openssl/engines/ccgost/gost_keywrap.h</path>
+<path
+   action="M"
+   kind="file">/trunk/ext/openssl/engines/ccgost/gost_lcl.h</path>
+<path
+   action="M"
+   kind="file">/trunk/ext/openssl/engines/ccgost/gost_md.c</path>
+<path
+   kind="file"
+   action="M">/trunk/ext/openssl/engines/ccgost/gost_params.c</path>
+<path
+   kind="file"
+   action="M">/trunk/ext/openssl/engines/ccgost/gost_params.h</path>
+<path
+   kind="file"
+   action="M">/trunk/ext/openssl/engines/ccgost/gost_pmeth.c</path>
+<path
+   action="M"
+   kind="file">/trunk/ext/openssl/engines/ccgost/gost_sign.c</path>
+<path
+   action="M"
+   kind="file">/trunk/ext/openssl/engines/ccgost/gosthash.c</path>
+<path
+   action="M"
+   kind="file">/trunk/ext/openssl/engines/ccgost/gosthash.h</path>
+<path
+   action="M"
+   kind="file">/trunk/ext/openssl/engines/ccgost/gostsum.c</path>
+<path
+   action="M"
+   kind="file">/trunk/ext/openssl/engines/e_4758cca.c</path>
+<path
+   action="M"
+   kind="file">/trunk/ext/openssl/engines/e_4758cca_err.c</path>
+<path
+   action="M"
+   kind="file">/trunk/ext/openssl/engines/e_4758cca_err.h</path>
+<path
+   action="M"
+   kind="file">/trunk/ext/openssl/engines/e_aep.c</path>
+<path
+   action="M"
+   kind="file">/trunk/ext/openssl/engines/e_aep_err.c</path>
+<path
+   action="M"
+   kind="file">/trunk/ext/openssl/engines/e_aep_err.h</path>
+<path
+   kind="file"
+   action="M">/trunk/ext/openssl/engines/e_atalla.c</path>
+<path
+   action="M"
+   kind="file">/trunk/ext/openssl/engines/e_atalla_err.c</path>
+<path
+   action="M"
+   kind="file">/trunk/ext/openssl/engines/e_atalla_err.h</path>
+<path
+   action="M"
+   kind="file">/trunk/ext/openssl/engines/e_capi.c</path>
+<path
+   action="M"
+   kind="file">/trunk/ext/openssl/engines/e_capi_err.c</path>
+<path
+   kind="file"
+   action="M">/trunk/ext/openssl/engines/e_capi_err.h</path>
+<path
+   kind="file"
+   action="M">/trunk/ext/openssl/engines/e_chil.c</path>
+<path
+   kind="file"
+   action="M">/trunk/ext/openssl/engines/e_chil_err.c</path>
+<path
+   kind="file"
+   action="M">/trunk/ext/openssl/engines/e_chil_err.h</path>
+<path
+   kind="file"
+   action="M">/trunk/ext/openssl/engines/e_cswift.c</path>
+<path
+   kind="file"
+   action="M">/trunk/ext/openssl/engines/e_cswift_err.c</path>
+<path
+   kind="file"
+   action="M">/trunk/ext/openssl/engines/e_cswift_err.h</path>
+<path
+   kind="file"
+   action="M">/trunk/ext/openssl/engines/e_gmp.c</path>
+<path
+   kind="file"
+   action="M">/trunk/ext/openssl/engines/e_gmp_err.c</path>
+<path
+   kind="file"
+   action="M">/trunk/ext/openssl/engines/e_gmp_err.h</path>
+<path
+   kind="file"
+   action="M">/trunk/ext/openssl/engines/e_nuron.c</path>
+<path
+   kind="file"
+   action="M">/trunk/ext/openssl/engines/e_nuron_err.c</path>
+<path
+   action="M"
+   kind="file">/trunk/ext/openssl/engines/e_nuron_err.h</path>
+<path
+   action="M"
+   kind="file">/trunk/ext/openssl/engines/e_padlock.c</path>
+<path
+   action="M"
+   kind="file">/trunk/ext/openssl/engines/e_sureware.c</path>
+<path
+   action="M"
+   kind="file">/trunk/ext/openssl/engines/e_sureware_err.c</path>
+<path
+   action="M"
+   kind="file">/trunk/ext/openssl/engines/e_sureware_err.h</path>
+<path
+   action="M"
+   kind="file">/trunk/ext/openssl/engines/e_ubsec.c</path>
+<path
+   action="M"
+   kind="file">/trunk/ext/openssl/engines/e_ubsec_err.c</path>
+<path
+   action="M"
+   kind="file">/trunk/ext/openssl/engines/e_ubsec_err.h</path>
+<path
+   action="M"
+   kind="file">/trunk/ext/openssl/engines/makeengines.com</path>
+<path
+   kind="file"
+   action="M">/trunk/ext/openssl/engines/vendor_defns/aep.h</path>
+<path
+   kind="file"
+   action="M">/trunk/ext/openssl/engines/vendor_defns/atalla.h</path>
+<path
+   action="M"
+   kind="file">/trunk/ext/openssl/engines/vendor_defns/cswift.h</path>
+<path
+   action="M"
+   kind="file">/trunk/ext/openssl/engines/vendor_defns/hw_4758_cca.h</path>
+<path
+   action="M"
+   kind="file">/trunk/ext/openssl/engines/vendor_defns/hw_ubsec.h</path>
+<path
+   kind="file"
+   action="M">/trunk/ext/openssl/engines/vendor_defns/hwcryptohook.h</path>
+<path
+   kind="file"
+   action="M">/trunk/ext/openssl/engines/vendor_defns/sureware.h</path>
+<path
+   kind="file"
+   action="M">/trunk/ext/openssl/makevms.com</path>
+<path
+   kind="file"
+   action="M">/trunk/ext/openssl/ms/applink.c</path>
+<path
+   kind="file"
+   action="M">/trunk/ext/openssl/ms/tlhelp32.h</path>
+<path
+   kind="file"
+   action="M">/trunk/ext/openssl/ms/uplink.c</path>
+<path
+   action="M"
+   kind="file">/trunk/ext/openssl/openssl.spec</path>
+<path
+   kind="file"
+   action="M">/trunk/ext/openssl/ssl/Makefile</path>
+<path
+   kind="file"
+   action="M">/trunk/ext/openssl/ssl/bio_ssl.c</path>
+<path
+   kind="file"
+   action="M">/trunk/ext/openssl/ssl/d1_both.c</path>
+<path
+   kind="file"
+   action="M">/trunk/ext/openssl/ssl/d1_clnt.c</path>
+<path
+   action="D"
+   kind="file">/trunk/ext/openssl/ssl/d1_enc.c</path>
+<path
+   action="M"
+   kind="file">/trunk/ext/openssl/ssl/d1_lib.c</path>
+<path
+   action="M"
+   kind="file">/trunk/ext/openssl/ssl/d1_meth.c</path>
+<path
+   action="M"
+   kind="file">/trunk/ext/openssl/ssl/d1_pkt.c</path>
+<path
+   action="M"
+   kind="file">/trunk/ext/openssl/ssl/d1_srtp.c</path>
+<path
+   action="M"
+   kind="file">/trunk/ext/openssl/ssl/d1_srvr.c</path>
+<path
+   action="M"
+   kind="file">/trunk/ext/openssl/ssl/dtls1.h</path>
+<path
+   action="M"
+   kind="file">/trunk/ext/openssl/ssl/heartbeat_test.c</path>
+<path
+   action="M"
+   kind="file">/trunk/ext/openssl/ssl/kssl.c</path>
+<path
+   kind="file"
+   action="M">/trunk/ext/openssl/ssl/kssl.h</path>
+<path
+   kind="file"
+   action="M">/trunk/ext/openssl/ssl/kssl_lcl.h</path>
+<path
+   action="M"
+   kind="file">/trunk/ext/openssl/ssl/s23_clnt.c</path>
+<path
+   action="M"
+   kind="file">/trunk/ext/openssl/ssl/s23_lib.c</path>
+<path
+   action="M"
+   kind="file">/trunk/ext/openssl/ssl/s23_meth.c</path>
+<path
+   kind="file"
+   action="M">/trunk/ext/openssl/ssl/s23_pkt.c</path>
+<path
+   kind="file"
+   action="M">/trunk/ext/openssl/ssl/s23_srvr.c</path>
+<path
+   kind="file"
+   action="M">/trunk/ext/openssl/ssl/s2_clnt.c</path>
+<path
+   kind="file"
+   action="M">/trunk/ext/openssl/ssl/s2_enc.c</path>
+<path
+   kind="file"
+   action="M">/trunk/ext/openssl/ssl/s2_lib.c</path>
+<path
+   kind="file"
+   action="M">/trunk/ext/openssl/ssl/s2_meth.c</path>
+<path
+   kind="file"
+   action="M">/trunk/ext/openssl/ssl/s2_pkt.c</path>
+<path
+   kind="file"
+   action="M">/trunk/ext/openssl/ssl/s2_srvr.c</path>
+<path
+   kind="file"
+   action="M">/trunk/ext/openssl/ssl/s3_both.c</path>
+<path
+   kind="file"
+   action="M">/trunk/ext/openssl/ssl/s3_cbc.c</path>
+<path
+   kind="file"
+   action="M">/trunk/ext/openssl/ssl/s3_clnt.c</path>
+<path
+   kind="file"
+   action="M">/trunk/ext/openssl/ssl/s3_enc.c</path>
+<path
+   action="M"
+   kind="file">/trunk/ext/openssl/ssl/s3_lib.c</path>
+<path
+   action="M"
+   kind="file">/trunk/ext/openssl/ssl/s3_meth.c</path>
+<path
+   action="M"
+   kind="file">/trunk/ext/openssl/ssl/s3_pkt.c</path>
+<path
+   action="M"
+   kind="file">/trunk/ext/openssl/ssl/s3_srvr.c</path>
+<path
+   action="M"
+   kind="file">/trunk/ext/openssl/ssl/srtp.h</path>
+<path
+   action="M"
+   kind="file">/trunk/ext/openssl/ssl/ssl-lib.com</path>
+<path
+   action="M"
+   kind="file">/trunk/ext/openssl/ssl/ssl.h</path>
+<path
+   action="M"
+   kind="file">/trunk/ext/openssl/ssl/ssl2.h</path>
+<path
+   action="M"
+   kind="file">/trunk/ext/openssl/ssl/ssl23.h</path>
+<path
+   kind="file"
+   action="M">/trunk/ext/openssl/ssl/ssl3.h</path>
+<path
+   kind="file"
+   action="M">/trunk/ext/openssl/ssl/ssl_algs.c</path>
+<path
+   action="M"
+   kind="file">/trunk/ext/openssl/ssl/ssl_asn1.c</path>
+<path
+   action="M"
+   kind="file">/trunk/ext/openssl/ssl/ssl_cert.c</path>
+<path
+   action="M"
+   kind="file">/trunk/ext/openssl/ssl/ssl_ciph.c</path>
+<path
+   kind="file"
+   action="A">/trunk/ext/openssl/ssl/ssl_conf.c</path>
+<path
+   kind="file"
+   action="M">/trunk/ext/openssl/ssl/ssl_err.c</path>
+<path
+   kind="file"
+   action="M">/trunk/ext/openssl/ssl/ssl_err2.c</path>
+<path
+   kind="file"
+   action="M">/trunk/ext/openssl/ssl/ssl_lib.c</path>
+<path
+   kind="file"
+   action="M">/trunk/ext/openssl/ssl/ssl_locl.h</path>
+<path
+   kind="file"
+   action="M">/trunk/ext/openssl/ssl/ssl_rsa.c</path>
+<path
+   kind="file"
+   action="M">/trunk/ext/openssl/ssl/ssl_sess.c</path>
+<path
+   kind="file"
+   action="M">/trunk/ext/openssl/ssl/ssl_stat.c</path>
+<path
+   kind="file"
+   action="M">/trunk/ext/openssl/ssl/ssl_task.c</path>
+<path
+   action="M"
+   kind="file">/trunk/ext/openssl/ssl/ssl_txt.c</path>
+<path
+   action="M"
+   kind="file">/trunk/ext/openssl/ssl/ssl_utst.c</path>
+<path
+   kind="file"
+   action="M">/trunk/ext/openssl/ssl/ssltest.c</path>
+<path
+   kind="file"
+   action="M">/trunk/ext/openssl/ssl/t1_clnt.c</path>
+<path
+   kind="file"
+   action="M">/trunk/ext/openssl/ssl/t1_enc.c</path>
+<path
+   kind="file"
+   action="A">/trunk/ext/openssl/ssl/t1_ext.c</path>
+<path
+   action="M"
+   kind="file">/trunk/ext/openssl/ssl/t1_lib.c</path>
+<path
+   action="M"
+   kind="file">/trunk/ext/openssl/ssl/t1_meth.c</path>
+<path
+   action="M"
+   kind="file">/trunk/ext/openssl/ssl/t1_reneg.c</path>
+<path
+   action="M"
+   kind="file">/trunk/ext/openssl/ssl/t1_srvr.c</path>
+<path
+   action="A"
+   kind="file">/trunk/ext/openssl/ssl/t1_trce.c</path>
+<path
+   action="M"
+   kind="file">/trunk/ext/openssl/ssl/tls1.h</path>
+<path
+   action="M"
+   kind="file">/trunk/ext/openssl/ssl/tls_srp.c</path>
+<path
+   action="M"
+   kind="file">/trunk/ext/openssl/test/Makefile</path>
+<path
+   action="M"
+   kind="file">/trunk/ext/openssl/test/asn1test.c</path>
+<path
+   kind="file"
+   action="M">/trunk/ext/openssl/test/cms-test.pl</path>
+<path
+   kind="file"
+   action="M">/trunk/ext/openssl/test/dummytest.c</path>
+<path
+   action="M"
+   kind="file">/trunk/ext/openssl/test/evptests.txt</path>
+<path
+   action="M"
+   kind="file">/trunk/ext/openssl/test/igetest.c</path>
+<path
+   action="M"
+   kind="file">/trunk/ext/openssl/test/maketests.com</path>
+<path
+   kind="file"
+   action="M">/trunk/ext/openssl/test/methtest.c</path>
+<path
+   kind="dir"
+   action="A">/trunk/ext/openssl/test/ocsp-tests</path>
+<path
+   kind="file"
+   action="A">/trunk/ext/openssl/test/ocsp-tests/D1.ors</path>
+<path
+   kind="file"
+   action="A">/trunk/ext/openssl/test/ocsp-tests/D1_Cert_EE.pem</path>
+<path
+   kind="file"
+   action="A">/trunk/ext/openssl/test/ocsp-tests/D1_Issuer_ICA.pem</path>
+<path
+   kind="file"
+   action="A">/trunk/ext/openssl/test/ocsp-tests/D2.ors</path>
+<path
+   kind="file"
+   action="A">/trunk/ext/openssl/test/ocsp-tests/D2_Cert_ICA.pem</path>
+<path
+   kind="file"
+   action="A">/trunk/ext/openssl/test/ocsp-tests/D2_Issuer_Root.pem</path>
+<path
+   kind="file"
+   action="A">/trunk/ext/openssl/test/ocsp-tests/D3.ors</path>
+<path
+   kind="file"
+   action="A">/trunk/ext/openssl/test/ocsp-tests/D3_Cert_EE.pem</path>
+<path
+   kind="file"
+   action="A">/trunk/ext/openssl/test/ocsp-tests/D3_Issuer_Root.pem</path>
+<path
+   action="A"
+   kind="file">/trunk/ext/openssl/test/ocsp-tests/ISDOSC_D1.ors</path>
+<path
+   action="A"
+   kind="file">/trunk/ext/openssl/test/ocsp-tests/ISDOSC_D2.ors</path>
+<path
+   action="A"
+   kind="file">/trunk/ext/openssl/test/ocsp-tests/ISDOSC_D3.ors</path>
+<path
+   action="A"
+   kind="file">/trunk/ext/openssl/test/ocsp-tests/ISIC_D1_Issuer_ICA.pem</path>
+<path
+   action="A"
+   kind="file">/trunk/ext/openssl/test/ocsp-tests/ISIC_D2_Issuer_Root.pem</path>
+<path
+   action="A"
+   kind="file">/trunk/ext/openssl/test/ocsp-tests/ISIC_D3_Issuer_Root.pem</path>
+<path
+   action="A"
+   kind="file">/trunk/ext/openssl/test/ocsp-tests/ISIC_ND1_Issuer_ICA.pem</path>
+<path
+   action="A"
+   kind="file">/trunk/ext/openssl/test/ocsp-tests/ISIC_ND2_Issuer_Root.pem</path>
+<path
+   action="A"
+   kind="file">/trunk/ext/openssl/test/ocsp-tests/ISIC_ND3_Issuer_Root.pem</path>
+<path
+   kind="file"
+   action="A">/trunk/ext/openssl/test/ocsp-tests/ISOP_D1.ors</path>
+<path
+   action="A"
+   kind="file">/trunk/ext/openssl/test/ocsp-tests/ISOP_D2.ors</path>
+<path
+   action="A"
+   kind="file">/trunk/ext/openssl/test/ocsp-tests/ISOP_D3.ors</path>
+<path
+   action="A"
+   kind="file">/trunk/ext/openssl/test/ocsp-tests/ISOP_ND1.ors</path>
+<path
+   action="A"
+   kind="file">/trunk/ext/openssl/test/ocsp-tests/ISOP_ND2.ors</path>
+<path
+   kind="file"
+   action="A">/trunk/ext/openssl/test/ocsp-tests/ISOP_ND3.ors</path>
+<path
+   kind="file"
+   action="A">/trunk/ext/openssl/test/ocsp-tests/ND1.ors</path>
+<path
+   kind="file"
+   action="A">/trunk/ext/openssl/test/ocsp-tests/ND1_Cert_EE.pem</path>
+<path
+   kind="file"
+   action="A">/trunk/ext/openssl/test/ocsp-tests/ND1_Issuer_ICA.pem</path>
+<path
+   kind="file"
+   action="A">/trunk/ext/openssl/test/ocsp-tests/ND2.ors</path>
+<path
+   kind="file"
+   action="A">/trunk/ext/openssl/test/ocsp-tests/ND2_Cert_ICA.pem</path>
+<path
+   kind="file"
+   action="A">/trunk/ext/openssl/test/ocsp-tests/ND2_Issuer_Root.pem</path>
+<path
+   kind="file"
+   action="A">/trunk/ext/openssl/test/ocsp-tests/ND3.ors</path>
+<path
+   kind="file"
+   action="A">/trunk/ext/openssl/test/ocsp-tests/ND3_Cert_EE.pem</path>
+<path
+   action="A"
+   kind="file">/trunk/ext/openssl/test/ocsp-tests/ND3_Issuer_Root.pem</path>
+<path
+   kind="file"
+   action="A">/trunk/ext/openssl/test/ocsp-tests/WIKH_D1.ors</path>
+<path
+   kind="file"
+   action="A">/trunk/ext/openssl/test/ocsp-tests/WIKH_D2.ors</path>
+<path
+   kind="file"
+   action="A">/trunk/ext/openssl/test/ocsp-tests/WIKH_D3.ors</path>
+<path
+   kind="file"
+   action="A">/trunk/ext/openssl/test/ocsp-tests/WIKH_ND1.ors</path>
+<path
+   action="A"
+   kind="file">/trunk/ext/openssl/test/ocsp-tests/WIKH_ND2.ors</path>
+<path
+   action="A"
+   kind="file">/trunk/ext/openssl/test/ocsp-tests/WIKH_ND3.ors</path>
+<path
+   action="A"
+   kind="file">/trunk/ext/openssl/test/ocsp-tests/WINH_D1.ors</path>
+<path
+   action="A"
+   kind="file">/trunk/ext/openssl/test/ocsp-tests/WINH_D2.ors</path>
+<path
+   action="A"
+   kind="file">/trunk/ext/openssl/test/ocsp-tests/WINH_D3.ors</path>
+<path
+   action="A"
+   kind="file">/trunk/ext/openssl/test/ocsp-tests/WINH_ND1.ors</path>
+<path
+   action="A"
+   kind="file">/trunk/ext/openssl/test/ocsp-tests/WINH_ND2.ors</path>
+<path
+   action="A"
+   kind="file">/trunk/ext/openssl/test/ocsp-tests/WINH_ND3.ors</path>
+<path
+   action="A"
+   kind="file">/trunk/ext/openssl/test/ocsp-tests/WKDOSC_D1.ors</path>
+<path
+   kind="file"
+   action="A">/trunk/ext/openssl/test/ocsp-tests/WKDOSC_D2.ors</path>
+<path
+   kind="file"
+   action="A">/trunk/ext/openssl/test/ocsp-tests/WKDOSC_D3.ors</path>
+<path
+   kind="file"
+   action="A">/trunk/ext/openssl/test/ocsp-tests/WKIC_D1_Issuer_ICA.pem</path>
+<path
+   kind="file"
+   action="A">/trunk/ext/openssl/test/ocsp-tests/WKIC_D2_Issuer_Root.pem</path>
+<path
+   kind="file"
+   action="A">/trunk/ext/openssl/test/ocsp-tests/WKIC_D3_Issuer_Root.pem</path>
+<path
+   kind="file"
+   action="A">/trunk/ext/openssl/test/ocsp-tests/WKIC_ND1_Issuer_ICA.pem</path>
+<path
+   kind="file"
+   action="A">/trunk/ext/openssl/test/ocsp-tests/WKIC_ND2_Issuer_Root.pem</path>
+<path
+   action="A"
+   kind="file">/trunk/ext/openssl/test/ocsp-tests/WKIC_ND3_Issuer_Root.pem</path>
+<path
+   action="A"
+   kind="file">/trunk/ext/openssl/test/ocsp-tests/WRID_D1.ors</path>
+<path
+   kind="file"
+   action="A">/trunk/ext/openssl/test/ocsp-tests/WRID_D2.ors</path>
+<path
+   kind="file"
+   action="A">/trunk/ext/openssl/test/ocsp-tests/WRID_D3.ors</path>
+<path
+   kind="file"
+   action="A">/trunk/ext/openssl/test/ocsp-tests/WRID_ND1.ors</path>
+<path
+   kind="file"
+   action="A">/trunk/ext/openssl/test/ocsp-tests/WRID_ND2.ors</path>
+<path
+   action="A"
+   kind="file">/trunk/ext/openssl/test/ocsp-tests/WRID_ND3.ors</path>
+<path
+   action="A"
+   kind="file">/trunk/ext/openssl/test/ocsp-tests/WSNIC_D1_Issuer_ICA.pem</path>
+<path
+   action="A"
+   kind="file">/trunk/ext/openssl/test/ocsp-tests/WSNIC_D2_Issuer_Root.pem</path>
+<path
+   action="A"
+   kind="file">/trunk/ext/openssl/test/ocsp-tests/WSNIC_D3_Issuer_Root.pem</path>
+<path
+   action="A"
+   kind="file">/trunk/ext/openssl/test/ocsp-tests/WSNIC_ND1_Issuer_ICA.pem</path>
+<path
+   action="A"
+   kind="file">/trunk/ext/openssl/test/ocsp-tests/WSNIC_ND2_Issuer_Root.pem</path>
+<path
+   action="A"
+   kind="file">/trunk/ext/openssl/test/ocsp-tests/WSNIC_ND3_Issuer_Root.pem</path>
+<path
+   action="M"
+   kind="file">/trunk/ext/openssl/test/r160test.c</path>
+<path
+   action="A"
+   kind="file">/trunk/ext/openssl/test/serverinfo.pem</path>
+<path
+   kind="file"
+   action="A">/trunk/ext/openssl/test/smime-certs/ca.cnf</path>
+<path
+   action="A"
+   kind="file">/trunk/ext/openssl/test/smime-certs/mksmime-certs.sh</path>
+<path
+   action="A"
+   kind="file">/trunk/ext/openssl/test/smime-certs/smdh.pem</path>
+<path
+   action="M"
+   kind="file">/trunk/ext/openssl/test/smime-certs/smdsa1.pem</path>
+<path
+   action="M"
+   kind="file">/trunk/ext/openssl/test/smime-certs/smdsa2.pem</path>
+<path
+   kind="file"
+   action="M">/trunk/ext/openssl/test/smime-certs/smdsa3.pem</path>
+<path
+   kind="file"
+   action="A">/trunk/ext/openssl/test/smime-certs/smec1.pem</path>
+<path
+   kind="file"
+   action="A">/trunk/ext/openssl/test/smime-certs/smec2.pem</path>
+<path
+   kind="file"
+   action="M">/trunk/ext/openssl/test/smime-certs/smroot.pem</path>
+<path
+   kind="file"
+   action="M">/trunk/ext/openssl/test/smime-certs/smrsa1.pem</path>
+<path
+   kind="file"
+   action="M">/trunk/ext/openssl/test/smime-certs/smrsa2.pem</path>
+<path
+   kind="file"
+   action="M">/trunk/ext/openssl/test/smime-certs/smrsa3.pem</path>
+<path
+   kind="file"
+   action="M">/trunk/ext/openssl/test/tcrl</path>
+<path
+   kind="file"
+   action="M">/trunk/ext/openssl/test/testenc</path>
+<path
+   action="M"
+   kind="file">/trunk/ext/openssl/test/tests.com</path>
+<path
+   kind="file"
+   action="M">/trunk/ext/openssl/test/testssl</path>
+<path
+   kind="file"
+   action="M">/trunk/ext/openssl/test/testutil.h</path>
+<path
+   kind="file"
+   action="A">/trunk/ext/openssl/test/tocsp</path>
+<path
+   kind="file"
+   action="A">/trunk/ext/openssl/test/tocsp.com</path>
+<path
+   action="M"
+   kind="file">/trunk/ext/openssl/test/tpkcs7</path>
+<path
+   action="M"
+   kind="file">/trunk/ext/openssl/test/tpkcs7d</path>
+<path
+   action="M"
+   kind="file">/trunk/ext/openssl/test/treq</path>
+<path
+   action="M"
+   kind="file">/trunk/ext/openssl/test/trsa</path>
+<path
+   action="M"
+   kind="file">/trunk/ext/openssl/test/tsid</path>
+<path
+   action="M"
+   kind="file">/trunk/ext/openssl/test/tx509</path>
+<path
+   action="A"
+   kind="file">/trunk/ext/openssl/test/v3nametest.c</path>
+<path
+   action="M"
+   kind="file">/trunk/ext/openssl/tools/c_rehash</path>
+<path
+   action="M"
+   kind="file">/trunk/ext/openssl/tools/c_rehash.in</path>
+<path
+   kind="file"
+   action="M">/trunk/ext/openssl/util/ck_errf.pl</path>
+<path
+   action="A"
+   kind="file">/trunk/ext/openssl/util/copy-if-different.pl</path>
+<path
+   kind="file"
+   action="M">/trunk/ext/openssl/util/files.pl</path>
+<path
+   kind="file"
+   action="A">/trunk/ext/openssl/util/indent.pro</path>
+<path
+   kind="file"
+   action="M">/trunk/ext/openssl/util/libeay.num</path>
+<path
+   kind="file"
+   action="M">/trunk/ext/openssl/util/mk1mf.pl</path>
+<path
+   kind="file"
+   action="M">/trunk/ext/openssl/util/mkbuildinf.pl</path>
+<path
+   kind="file"
+   action="M">/trunk/ext/openssl/util/mkdef.pl</path>
+<path
+   kind="file"
+   action="M">/trunk/ext/openssl/util/mkerr.pl</path>
+<path
+   kind="file"
+   action="M">/trunk/ext/openssl/util/mkstack.pl</path>
+<path
+   kind="file"
+   action="A">/trunk/ext/openssl/util/openssl-format-source</path>
+<path
+   action="M"
+   kind="file">/trunk/ext/openssl/util/pl/BC-32.pl</path>
+<path
+   action="M"
+   kind="file">/trunk/ext/openssl/util/pl/VC-32.pl</path>
+<path
+   kind="file"
+   action="M">/trunk/ext/openssl/util/pl/unix.pl</path>
+<path
+   kind="file"
+   action="M">/trunk/ext/openssl/util/ssleay.num</path>
+<path
+   kind="file"
+   action="A">/trunk/ext/openssl/util/su-filter.pl</path>
+</paths>
+<msg>Update to OpenSSL 1.0.2</msg>
+</logentry>
+<logentry
+   revision="26212">
+<author>tortoisesvn</author>
+<date>2015-01-22T19:40:59.922836Z</date>
+<paths>
+<path
+   kind="file"
+   action="M">/trunk/ext/openssl/engines/e_capi.c</path>
+</paths>
+<msg>Adjust and apply the e_capi patch.</msg>
+</logentry>
+<logentry
+   revision="26213">
+<author>XhmikosR</author>
+<date>2015-01-22T20:31:13.683183Z</date>
+<paths>
+<path
+   kind="file"
+   action="M">/trunk/www/package.json</path>
+</paths>
+<msg>www: update dependencies.</msg>
+</logentry>
+<logentry
+   revision="26215">
+<author>luebbe.tortoisesvn</author>
+<date>2015-01-23T07:47:30.275063Z</date>
+<paths>
+<path
+   kind="file"
+   action="M">/trunk/Languages/TortoiseDoc.pot</path>
+<path
+   action="M"
+   kind="file">/trunk/doc/source/en/TortoiseSVN/tsvn_dug/dug_commit.xml</path>
+</paths>
+<msg>Fix a typo and update .pot file</msg>
+</logentry>
+<logentry
+   revision="26216">
+<author>luebbe.tortoisesvn</author>
+<date>2015-01-23T07:53:16.194680Z</date>
+<paths>
+<path
+   action="M"
+   kind="file">/trunk/Languages/af/TortoiseUI.po</path>
+<path
+   kind="file"
+   action="M">/trunk/Languages/ar/TortoiseUI.po</path>
+<path
+   kind="file"
+   action="M">/trunk/Languages/be@tarask/TortoiseUI.po</path>
+<path
+   action="M"
+   kind="file">/trunk/Languages/bg/TortoiseUI.po</path>
+<path
+   action="M"
+   kind="file">/trunk/Languages/ca/TortoiseUI.po</path>
+<path
+   action="M"
+   kind="file">/trunk/Languages/cs/TortoiseUI.po</path>
+<path
+   kind="file"
+   action="M">/trunk/Languages/da/TortoiseUI.po</path>
+<path
+   kind="file"
+   action="M">/trunk/Languages/de/TortoiseDoc.po</path>
+<path
+   kind="file"
+   action="M">/trunk/Languages/de/TortoiseUI.po</path>
+<path
+   kind="file"
+   action="M">/trunk/Languages/el/TortoiseUI.po</path>
+<path
+   kind="file"
+   action="M">/trunk/Languages/eo/TortoiseUI.po</path>
+<path
+   kind="file"
+   action="M">/trunk/Languages/es/TortoiseUI.po</path>
+<path
+   kind="file"
+   action="M">/trunk/Languages/fa/TortoiseUI.po</path>
+<path
+   kind="file"
+   action="M">/trunk/Languages/fi/TortoiseUI.po</path>
+<path
+   kind="file"
+   action="M">/trunk/Languages/fr/TortoiseUI.po</path>
+<path
+   action="M"
+   kind="file">/trunk/Languages/he/TortoiseUI.po</path>
+<path
+   action="M"
+   kind="file">/trunk/Languages/hr/TortoiseUI.po</path>
+<path
+   kind="file"
+   action="M">/trunk/Languages/hu/TortoiseUI.po</path>
+<path
+   kind="file"
+   action="M">/trunk/Languages/id/TortoiseUI.po</path>
+<path
+   kind="file"
+   action="M">/trunk/Languages/is/TortoiseUI.po</path>
+<path
+   kind="file"
+   action="M">/trunk/Languages/it/TortoiseUI.po</path>
+<path
+   action="M"
+   kind="file">/trunk/Languages/ja/TortoiseDoc.po</path>
+<path
+   action="M"
+   kind="file">/trunk/Languages/ja/TortoiseUI.po</path>
+<path
+   action="M"
+   kind="file">/trunk/Languages/ka/TortoiseUI.po</path>
+<path
+   action="M"
+   kind="file">/trunk/Languages/km/TortoiseUI.po</path>
+<path
+   action="M"
+   kind="file">/trunk/Languages/ko/TortoiseUI.po</path>
+<path
+   action="M"
+   kind="file">/trunk/Languages/lt/TortoiseUI.po</path>
+<path
+   action="M"
+   kind="file">/trunk/Languages/lv/TortoiseUI.po</path>
+<path
+   action="M"
+   kind="file">/trunk/Languages/mk/TortoiseUI.po</path>
+<path
+   action="M"
+   kind="file">/trunk/Languages/ml/TortoiseUI.po</path>
+<path
+   kind="file"
+   action="M">/trunk/Languages/nb/TortoiseUI.po</path>
+<path
+   kind="file"
+   action="M">/trunk/Languages/nl/TortoiseUI.po</path>
+<path
+   action="M"
+   kind="file">/trunk/Languages/pl/TortoiseUI.po</path>
+<path
+   action="M"
+   kind="file">/trunk/Languages/pt/TortoiseUI.po</path>
+<path
+   action="M"
+   kind="file">/trunk/Languages/pt_BR/TortoiseUI.po</path>
+<path
+   action="M"
+   kind="file">/trunk/Languages/ro/TortoiseUI.po</path>
+<path
+   kind="file"
+   action="M">/trunk/Languages/ru/TortoiseUI.po</path>
+<path
+   kind="file"
+   action="M">/trunk/Languages/sk/TortoiseUI.po</path>
+<path
+   kind="file"
+   action="M">/trunk/Languages/sl/TortoiseUI.po</path>
+<path
+   kind="file"
+   action="M">/trunk/Languages/sq/TortoiseUI.po</path>
+<path
+   kind="file"
+   action="M">/trunk/Languages/sr/TortoiseUI.po</path>
+<path
+   kind="file"
+   action="M">/trunk/Languages/sr@latin/TortoiseUI.po</path>
+<path
+   kind="file"
+   action="M">/trunk/Languages/sv/TortoiseUI.po</path>
+<path
+   kind="file"
+   action="M">/trunk/Languages/ta_IN/TortoiseUI.po</path>
+<path
+   kind="file"
+   action="M">/trunk/Languages/th/TortoiseUI.po</path>
+<path
+   kind="file"
+   action="M">/trunk/Languages/tr/TortoiseUI.po</path>
+<path
+   action="M"
+   kind="file">/trunk/Languages/uk/TortoiseUI.po</path>
+<path
+   action="M"
+   kind="file">/trunk/Languages/vi/TortoiseUI.po</path>
+<path
+   kind="file"
+   action="M">/trunk/Languages/zh_CN/TortoiseUI.po</path>
+<path
+   kind="file"
+   action="M">/trunk/Languages/zh_TW/TortoiseUI.po</path>
+</paths>
+<msg>Pulled latest translation changes from transifex.com
+Partial update to German doc translation
+Finish German UI translation
+</msg>
+</logentry>
+<logentry
+   revision="26217">
+<author>tortoisesvn</author>
+<date>2015-01-23T16:56:26.205792Z</date>
+<paths>
+<path
+   kind="file"
+   action="D">/trunk/ext/openssl/crypto/opensslconf.h</path>
+</paths>
+<msg>Remove generated file.</msg>
+</logentry>
+<logentry
+   revision="26218">
+<author>tortoisesvn</author>
+<date>2015-01-23T16:57:02.979782Z</date>
+<paths>
+<path
+   kind="file"
+   action="M">/trunk/ext/build/openssl.patch</path>
+</paths>
+<msg>Update the e_capi patch.</msg>
+</logentry>
+<logentry
+   revision="26219">
+<author>tortoisesvn</author>
+<date>2015-01-23T17:18:18.179691Z</date>
+<paths>
+<path
+   action="M"
+   kind="file">/trunk/ext/sqlite/shell.c</path>
+<path
+   action="M"
+   kind="file">/trunk/ext/sqlite/sqlite3.c</path>
+<path
+   kind="file"
+   action="M">/trunk/ext/sqlite/sqlite3.h</path>
+</paths>
+<msg>Update to SQLite 3.8.8.1</msg>
+</logentry>
+<logentry
+   revision="26220">
+<author>tortoisesvn</author>
+<date>2015-01-23T17:40:36.939765Z</date>
+<paths>
+<path
+   action="M"
+   kind="file">/trunk/src/TortoiseProc/Commands/SyncCommand.cpp</path>
+</paths>
+<msg>Include the svn registry settings in the sync.</msg>
+</logentry>
+<logentry
+   revision="26221">
+<author>tortoisesvn</author>
+<date>2015-01-23T19:38:36.177851Z</date>
+<paths>
+<path
+   action="M"
+   kind="file">/trunk/src/TortoiseSVN.sln</path>
+</paths>
+<msg>add the editorconfig.build script to the solution folder.</msg>
+</logentry>
+<logentry
+   revision="26222">
+<author>tortoisesvn</author>
+<date>2015-01-23T19:42:09.762737Z</date>
+<paths>
+<path
+   action="M"
+   kind="file">/trunk/src/TortoiseProc/SVNProgressDlg.cpp</path>
+<path
+   kind="file"
+   action="M">/trunk/src/TortoiseProc/SVNProgressDlg.h</path>
+</paths>
+<msg>Use a deque instead of a vector to store the progress items: a vector needs consecutive memory which might not be available in such a large size.</msg>
+</logentry>
+<logentry
+   revision="26223">
+<author>htcotik</author>
+<date>2015-01-23T22:45:40.383147Z</date>
+<paths>
+<path
+   kind="file"
+   action="M">/trunk/src/TortoiseMerge/BaseView.cpp</path>
+</paths>
+<msg>Don't remember Screen lines while getting scrollbar state is not successful
+Fixes - first click on locatorbar after start left view lines out of sync</msg>
+</logentry>
+<logentry
+   revision="26224">
+<author>tortoisesvn</author>
+<date>2015-01-24T15:27:27.881964Z</date>
+<paths>
+<path
+   action="M"
+   kind="file">/trunk/ext/scintilla/.hg_archival.txt</path>
+<path
+   action="M"
+   kind="file">/trunk/ext/scintilla/.hgignore</path>
+<path
+   kind="file"
+   action="M">/trunk/ext/scintilla/Scintilla.vcxproj</path>
+<path
+   kind="file"
+   action="M">/trunk/ext/scintilla/Scintilla.vcxproj.filters</path>
+<path
+   kind="dir"
+   action="D">/trunk/ext/scintilla/bin</path>
+<path
+   kind="file"
+   action="M">/trunk/ext/scintilla/cppcheck.suppress</path>
+<path
+   kind="file"
+   action="M">/trunk/ext/scintilla/doc/ScintillaDoc.html</path>
+<path
+   action="M"
+   kind="file">/trunk/ext/scintilla/doc/ScintillaDownload.html</path>
+<path
+   kind="file"
+   action="M">/trunk/ext/scintilla/doc/ScintillaHistory.html</path>
+<path
+   kind="file"
+   action="M">/trunk/ext/scintilla/doc/index.html</path>
+<path
+   action="M"
+   kind="file">/trunk/ext/scintilla/include/Platform.h</path>
+<path
+   action="M"
+   kind="file">/trunk/ext/scintilla/include/SciLexer.h</path>
+<path
+   action="M"
+   kind="file">/trunk/ext/scintilla/include/Scintilla.h</path>
+<path
+   action="M"
+   kind="file">/trunk/ext/scintilla/include/Scintilla.iface</path>
+<path
+   action="M"
+   kind="file">/trunk/ext/scintilla/lexers/LexBash.cxx</path>
+<path
+   action="M"
+   kind="file">/trunk/ext/scintilla/lexers/LexCPP.cxx</path>
+<path
+   kind="file"
+   action="A">/trunk/ext/scintilla/lexers/LexHex.cxx</path>
+<path
+   action="M"
+   kind="file">/trunk/ext/scintilla/lexers/LexVerilog.cxx</path>
+<path
+   action="M"
+   kind="file">/trunk/ext/scintilla/lexlib/LexAccessor.h</path>
+<path
+   kind="file"
+   action="M">/trunk/ext/scintilla/lexlib/WordList.cxx</path>
+<path
+   kind="file"
+   action="M">/trunk/ext/scintilla/src/Catalogue.cxx</path>
+<path
+   kind="file"
+   action="M">/trunk/ext/scintilla/src/Document.cxx</path>
+<path
+   kind="file"
+   action="M">/trunk/ext/scintilla/src/EditView.cxx</path>
+<path
+   kind="file"
+   action="M">/trunk/ext/scintilla/src/EditView.h</path>
+<path
+   action="M"
+   kind="file">/trunk/ext/scintilla/src/Editor.cxx</path>
+<path
+   kind="file"
+   action="M">/trunk/ext/scintilla/src/Editor.h</path>
+<path
+   kind="file"
+   action="M">/trunk/ext/scintilla/src/MarginView.cxx</path>
+<path
+   kind="file"
+   action="M">/trunk/ext/scintilla/src/ScintillaBase.cxx</path>
+<path
+   action="M"
+   kind="file">/trunk/ext/scintilla/src/UniConversion.cxx</path>
+<path
+   action="M"
+   kind="file">/trunk/ext/scintilla/src/UniConversion.h</path>
+<path
+   action="M"
+   kind="file">/trunk/ext/scintilla/version.txt</path>
+<path
+   action="M"
+   kind="file">/trunk/ext/scintilla/win32/PlatWin.cxx</path>
+<path
+   action="M"
+   kind="file">/trunk/ext/scintilla/win32/PlatWin.h</path>
+<path
+   kind="file"
+   action="M">/trunk/ext/scintilla/win32/ScintRes.rc</path>
+<path
+   action="M"
+   kind="file">/trunk/ext/scintilla/win32/ScintillaWin.cxx</path>
+<path
+   action="M"
+   kind="file">/trunk/ext/scintilla/win32/scintilla.mak</path>
+</paths>
+<msg>Update to Scintilla 3.5.3</msg>
+</logentry>
+<logentry
+   revision="26225">
+<author>tortoisesvn</author>
+<date>2015-01-24T15:28:36.490333Z</date>
+<paths>
+<path
+   kind="file"
+   action="M">/trunk/ext/scintilla/backgroundcolors.patch</path>
+<path
+   kind="file"
+   action="M">/trunk/ext/scintilla/include/Scintilla.h</path>
+<path
+   action="M"
+   kind="file">/trunk/ext/scintilla/src/EditView.cxx</path>
+<path
+   kind="file"
+   action="M">/trunk/ext/scintilla/src/EditView.h</path>
+<path
+   kind="file"
+   action="M">/trunk/ext/scintilla/src/Editor.cxx</path>
+<path
+   action="M"
+   kind="file">/trunk/ext/scintilla/src/Editor.h</path>
+<path
+   action="M"
+   kind="file">/trunk/ext/scintilla/win32/ScintillaWin.cxx</path>
+</paths>
+<msg>Apply the background colors patch.</msg>
+</logentry>
+<logentry
+   revision="26226">
+<author>tortoisesvn</author>
+<date>2015-01-24T15:41:06.914706Z</date>
+<paths>
+<path
+   kind="file"
+   action="M">/trunk/src/TortoiseBlame/TortoiseBlame.cpp</path>
+<path
+   kind="file"
+   action="M">/trunk/src/TortoiseUDiff/MainWindow.cpp</path>
+<path
+   action="M"
+   kind="file">/trunk/src/Utils/MiscUI/SciEdit.cpp</path>
+</paths>
+<msg>Pass the font name in utf8 encoding to Scintilla, now that it uses those in both (GDI and D2D) paths, not just in the D2D one.</msg>
+</logentry>
+<logentry
+   revision="26227">
+<author>XhmikosR</author>
+<date>2015-01-25T01:03:10.503135Z</date>
+<paths>
+<path
+   action="M"
+   kind="file">/trunk/contrib/diff-scripts/diff-doc.js</path>
+<path
+   kind="file"
+   action="M">/trunk/contrib/diff-scripts/diff-ppt.js</path>
+<path
+   action="M"
+   kind="file">/trunk/contrib/diff-scripts/diff-xls.js</path>
+<path
+   action="M"
+   kind="file">/trunk/contrib/diff-scripts/merge-doc.js</path>
+</paths>
+<msg>diff scripts: minor lint tweaks.</msg>
+</logentry>
+<logentry
+   revision="26228">
+<author>XhmikosR</author>
+<date>2015-01-25T01:03:39.853322Z</date>
+<paths>
+<path
+   action="M"
+   kind="file">/trunk/contrib/choco/chocolateyInstall-ipv6.ps1</path>
+<path
+   kind="file"
+   action="M">/trunk/contrib/choco/chocolateyInstall.ps1</path>
+<path
+   kind="file"
+   action="M">/trunk/contrib/choco/install.ps1</path>
+</paths>
+<msg>Remove trailing whitespace.</msg>
+</logentry>
+<logentry
+   revision="26229">
+<author>XhmikosR</author>
+<date>2015-01-25T01:04:14.405395Z</date>
+<paths>
+<path
+   action="M"
+   kind="file">/trunk/src/Utils/MiscUI/MyGraph.cpp</path>
+</paths>
+<msg>Variable cannot be less than zero so don't check about that.</msg>
+</logentry>
+<logentry
+   revision="26230">
+<author>XhmikosR</author>
+<date>2015-01-25T01:05:47.950438Z</date>
+<paths>
+<path
+   kind="file"
+   action="M">/trunk/www/Gruntfile.js</path>
+<path
+   kind="file"
+   action="M">/trunk/www/package.json</path>
+</paths>
+<msg>www: update dependencies.</msg>
+</logentry>
+<logentry
+   revision="26231">
+<author>luebbe.tortoisesvn</author>
+<date>2015-01-26T09:55:30.438148Z</date>
+<paths>
+<path
+   kind="file"
+   action="M">/trunk/Languages/cs/TortoiseDoc.po</path>
+<path
+   action="M"
+   kind="file">/trunk/Languages/de/TortoiseDoc.po</path>
+<path
+   kind="file"
+   action="M">/trunk/Languages/es/TortoiseDoc.po</path>
+<path
+   kind="file"
+   action="M">/trunk/Languages/fi/TortoiseDoc.po</path>
+<path
+   kind="file"
+   action="M">/trunk/Languages/fr/TortoiseDoc.po</path>
+<path
+   kind="file"
+   action="M">/trunk/Languages/id/TortoiseDoc.po</path>
+<path
+   action="M"
+   kind="file">/trunk/Languages/it/TortoiseDoc.po</path>
+<path
+   kind="file"
+   action="M">/trunk/Languages/ja/TortoiseDoc.po</path>
+<path
+   kind="file"
+   action="M">/trunk/Languages/nl/TortoiseDoc.po</path>
+<path
+   kind="file"
+   action="M">/trunk/Languages/pl/TortoiseDoc.po</path>
+<path
+   action="M"
+   kind="file">/trunk/Languages/pt/TortoiseDoc.po</path>
+<path
+   action="M"
+   kind="file">/trunk/Languages/pt_BR/TortoiseDoc.po</path>
+<path
+   action="M"
+   kind="file">/trunk/Languages/ru/TortoiseDoc.po</path>
+<path
+   action="M"
+   kind="file">/trunk/Languages/sk/TortoiseDoc.po</path>
+<path
+   action="M"
+   kind="file">/trunk/Languages/sl/TortoiseDoc.po</path>
+<path
+   kind="file"
+   action="M">/trunk/Languages/sq/TortoiseDoc.po</path>
+<path
+   action="M"
+   kind="file">/trunk/Languages/sr/TortoiseDoc.po</path>
+<path
+   action="M"
+   kind="file">/trunk/Languages/sr@latin/TortoiseDoc.po</path>
+<path
+   action="M"
+   kind="file">/trunk/Languages/vi/TortoiseDoc.po</path>
+<path
+   kind="file"
+   action="M">/trunk/Languages/zh_CN/TortoiseDoc.po</path>
+</paths>
+<msg>Pulled latest translation changes from transifex.com
+Finish German doc translation
+
+</msg>
+</logentry>
+<logentry
+   revision="26233">
+<author>tortoisesvn</author>
+<date>2015-01-26T20:03:10.321165Z</date>
+<paths>
+<path
+   action="M"
+   kind="file">/trunk/src/Resources/TortoiseProcENG.rc</path>
+</paths>
+<msg>Use "Remove" instead of "Delete" to indicate stopping monitoring a project.</msg>
+</logentry>
+<logentry
+   revision="26234">
+<author>tortoisesvn</author>
+<date>2015-01-26T21:14:11.948194Z</date>
+<paths>
+<path
+   action="M"
+   kind="file">/trunk/src/TortoiseProc/LogDialog/LogDlg.cpp</path>
+<path
+   action="M"
+   kind="file">/trunk/src/TortoiseProc/LogDialog/LogDlg.h</path>
+<path
+   action="M"
+   kind="file">/trunk/src/TortoiseProc/LogDialog/LogDlgHelper.cpp</path>
+<path
+   action="M"
+   kind="file">/trunk/src/TortoiseProc/LogDialog/LogDlgHelper.h</path>
+</paths>
+<msg>Allow to drop file paths and urls onto the tree in the project monitor to add those immediately for monitoring.</msg>
+</logentry>
+<logentry
+   revision="26235">
+<author>tortoisesvn</author>
+<date>2015-01-26T21:14:55.275623Z</date>
+<paths>
+<path
+   kind="file"
+   action="M">/trunk/src/Resources/TortoiseProcENG.rc</path>
+<path
+   action="M"
+   kind="file">/trunk/src/TortoiseProc/LogDialog/LogDlg.cpp</path>
+<path
+   kind="file"
+   action="M">/trunk/src/TortoiseProc/LogDialog/LogDlg.h</path>
+<path
+   kind="file"
+   action="M">/trunk/src/TortoiseProc/MonitorOptionsDlg.cpp</path>
+<path
+   action="M"
+   kind="file">/trunk/src/TortoiseProc/MonitorOptionsDlg.h</path>
+</paths>
+<msg>Add an option to set the default monitor check interval.</msg>
+</logentry>
+<logentry
+   revision="26236">
+<author>tortoisesvn</author>
+<date>2015-01-27T20:54:32.606420Z</date>
+<paths>
+<path
+   kind="file"
+   action="M">/trunk/src/TortoiseProc/LogDialog/LogDlg.cpp</path>
+<path
+   kind="file"
+   action="M">/trunk/src/TortoiseProc/LogDialog/LogDlgHelper.cpp</path>
+<path
+   kind="file"
+   action="M">/trunk/src/TortoiseProc/LogDialog/LogDlgHelper.h</path>
+</paths>
+<msg>Handle url and link drop formats, allow dropping them onto the project monitor.
+Note:
+while it's now possible to drop urls from FireFox and Chrome, it's not possible to drop them from IE! That's because IE runs in protected mode which prevents dropping items onto higher level processes (which TSVN is).
+It's possible to enable this via a registry key for individual processes, but I'm not going to do that in the TSVN installer.
+See here for more info:
+https://msdn.microsoft.com/en-us/library/bb250462%28v=vs.85%29.aspx
+(Understanding and Working in Protected Mode Internet Explorer)</msg>
+</logentry>
+</log>

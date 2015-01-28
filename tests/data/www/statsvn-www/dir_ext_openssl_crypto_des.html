@@ -1,0 +1,124 @@
+<?xml version="1.0"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title>StatSVN - Directory ext/openssl/crypto/des/</title>
+ <meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1"/>
+    <meta name="Generator" content="StatSVN 0.7.0"/>
+<link rel="stylesheet" href="statsvn.css" type="text/css"/>
+  </head>
+
+<body>
+
+<h1>Directory ext/openssl/crypto/des/</h1>
+<div id="parentlink">&#171; <a href="index.html">Development Statistics for /trunk</a></div>
+<dl class="attributes">
+    <dt>Total Files:</dt>
+    <dd>41</dd>
+    <dt>Deleted Files:</dt>
+    <dd>0</dd>
+    <dt>Lines of Code:</dt>
+    <dd>9946</dd>
+</dl>
+<p class="dirtree">
+<a href="dir.html">[root]</a>/<a href="dir_ext.html">ext</a>/<a href="dir_ext_openssl.html">openssl</a>/<a href="dir_ext_openssl_crypto.html">crypto</a>/<strong>des</strong><br/>
+&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;<img src="folder.png" width="15" height="13" alt="directory in repo" title="directory in repo"/> 
+<a href="dir_ext_openssl_crypto_des_asm.html">asm</a> 
+(3 files, 3173 lines)<br />
+</p>
+
+<div class="section">
+<h2>Lines of Code</h2>
+<p class="chart"><img src="loc_module_ext_openssl_crypto_des.png" alt="ext/openssl/crypto/des/ Lines of Code" width="800" height="500" /></p></div>
+<div class="section">
+<h2>Developers</h2>
+  <table  rules="groups" summary="All authors and the number of their changes and lines of code in this directory">
+    <colgroup align="left"/>
+    <colgroup align="right"/>
+    <colgroup align="right"/>
+    <colgroup align="right"/>
+    <thead>
+      <tr>
+        <th>Author</th>
+        <th>Changes</th>
+        <th>Lines of Code</th>
+        <th>Lines per Change</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr  class="odd">
+        <th><a href="user_tortoisesvn.html" class="author">tortoisesvn</a></th>
+        <td>82 (100.0%)</td>
+        <td>6284 (100.0%)</td>
+        <td>76.6</td>
+      </tr>
+    </tbody>
+  </table>
+
+</div>
+<div class="section">
+<h2>Most Recent Commits</h2>
+<dl class="commitlist">
+  <dt><a name="1"></a>
+    <a href="user_tortoisesvn.html" class="author">tortoisesvn</a>
+    <span class="date">2015-01-22 13:57</span>
+    <span class="revisionNumberOuter">Rev.: <span class="revisionNumberInner">26211</span></span>
+  </dt>
+  <dd>
+    <p class="comment">
+Update to OpenSSL 1.0.2
+    </p>
+    <p class="commitdetails"><strong>6284</strong> lines of code changed in <span class="files">82 files</span>:</p>
+    <ul class="commitdetails">
+      <li>
+        <strong>ext/openssl/crypto/des</strong>:
+        Makefile&#160;<span class="new">(new)</span>,
+        cbc3_enc.c&#160;<span class="change">(+38&#160;-42)</span>,
+        cbc_cksm.c&#160;<span class="change">(+47&#160;-50)</span>,
+        cbc_enc.c&#160;<span class="change">(+7&#160;-7)</span>,
+        cfb64ede.c&#160;<span class="change">(+179&#160;-184)</span>,
+        cfb64enc.c&#160;<span class="change">(+64&#160;-63)</span>,
+        cfb_enc.c&#160;<span class="change">(+124&#160;-120)</span>,
+        des.c&#160;<span class="change">(+720&#160;-786)</span>,
+        des.h&#160;<span class="new">(new)</span>,
+        des_enc.c&#160;<span class="new">(new)</span>,
+        des_locl.h&#160;<span class="change">(+346&#160;-335)</span>,
+        des_old.c&#160;<span class="change">(+258&#160;-186)</span>,
+        des_old.h&#160;<span class="new">(new)</span>,
+        des_old2.c&#160;<span class="change">(+17&#160;-19)</span>,
+        des_opts.c&#160;<span class="new">(new)</span>,
+        des_ver.h&#160;<span class="change">(+10&#160;-8)</span>,
+        destest.c&#160;<span class="change">(+796&#160;-819)</span>,
+        ecb3_enc.c&#160;<span class="change">(+26&#160;-27)</span>,
+        ecb_enc.c&#160;<span class="change">(+51&#160;-49)</span>,
+        ede_cbcm_enc.c&#160;<span class="new">(new)</span>,
+        enc_read.c&#160;<span class="change">(+149&#160;-154)</span>,
+        enc_writ.c&#160;<span class="change">(+94&#160;-96)</span>,
+        fcrypt.c&#160;<span class="change">(+128&#160;-131)</span>,
+        fcrypt_b.c&#160;<span class="new">(new)</span>,
+        ncbc_enc.c&#160;<span class="change">(+85&#160;-79)</span>,
+        ofb64ede.c&#160;<span class="new">(new)</span>,
+        ofb64enc.c&#160;<span class="change">(+52&#160;-53)</span>,
+        ofb_enc.c&#160;<span class="new">(new)</span>,
+        pcbc_enc.c&#160;<span class="change">(+58&#160;-66)</span>,
+        qud_cksm.c&#160;<span class="change">(+70&#160;-66)</span>,
+        rand_key.c&#160;<span class="change">(+9&#160;-10)</span>,
+        read2pwd.c&#160;<span class="new">(new)</span>,
+        read_pwd.c&#160;<span class="change">(+362&#160;-350)</span>,
+        rpc_des.h&#160;<span class="change">(+31&#160;-32)</span>,
+        rpc_enc.c&#160;<span class="change">(+37&#160;-35)</span>,
+        rpw.c&#160;<span class="change">(+35&#160;-40)</span>,
+        set_key.c&#160;<span class="new">(new)</span>,
+        speed.c&#160;<span class="new">(new)</span>,
+        spr.h&#160;<span class="new">(new)</span>,
+        str2key.c&#160;<span class="change">(+91&#160;-101)</span>,
+        xcbc_enc.c&#160;<span class="new">(new)</span>
+      </li>
+    </ul>
+  </dd>
+
+</dl>
+
+</div><div id="generatedby">Generated by <a href="http://www.statsvn.org">StatSVN</a> 0.7.0</div>
+</body>
+</html>

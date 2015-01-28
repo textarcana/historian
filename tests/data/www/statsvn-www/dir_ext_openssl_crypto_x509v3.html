@@ -1,0 +1,125 @@
+<?xml version="1.0"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title>StatSVN - Directory ext/openssl/crypto/x509v3/</title>
+ <meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1"/>
+    <meta name="Generator" content="StatSVN 0.7.0"/>
+<link rel="stylesheet" href="statsvn.css" type="text/css"/>
+  </head>
+
+<body>
+
+<h1>Directory ext/openssl/crypto/x509v3/</h1>
+<div id="parentlink">&#171; <a href="index.html">Development Statistics for /trunk</a></div>
+<dl class="attributes">
+    <dt>Total Files:</dt>
+    <dd>45</dd>
+    <dt>Deleted Files:</dt>
+    <dd>0</dd>
+    <dt>Lines of Code:</dt>
+    <dd>15661</dd>
+</dl>
+<p class="dirtree">
+<a href="dir.html">[root]</a>/<a href="dir_ext.html">ext</a>/<a href="dir_ext_openssl.html">openssl</a>/<a href="dir_ext_openssl_crypto.html">crypto</a>/<strong>x509v3</strong><br/>
+</p>
+
+<div class="section">
+<h2>Lines of Code</h2>
+<p class="chart"><img src="loc_module_ext_openssl_crypto_x509v3.png" alt="ext/openssl/crypto/x509v3/ Lines of Code" width="800" height="500" /></p></div>
+<div class="section">
+<h2>Developers</h2>
+  <table  rules="groups" summary="All authors and the number of their changes and lines of code in this directory">
+    <colgroup align="left"/>
+    <colgroup align="right"/>
+    <colgroup align="right"/>
+    <colgroup align="right"/>
+    <thead>
+      <tr>
+        <th>Author</th>
+        <th>Changes</th>
+        <th>Lines of Code</th>
+        <th>Lines per Change</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr  class="odd">
+        <th><a href="user_tortoisesvn.html" class="author">tortoisesvn</a></th>
+        <td>88 (100.0%)</td>
+        <td>9680 (100.0%)</td>
+        <td>110.0</td>
+      </tr>
+    </tbody>
+  </table>
+
+</div>
+<div class="section">
+<h2>Most Recent Commits</h2>
+<dl class="commitlist">
+  <dt><a name="1"></a>
+    <a href="user_tortoisesvn.html" class="author">tortoisesvn</a>
+    <span class="date">2015-01-22 13:57</span>
+    <span class="revisionNumberOuter">Rev.: <span class="revisionNumberInner">26211</span></span>
+  </dt>
+  <dd>
+    <p class="comment">
+Update to OpenSSL 1.0.2
+    </p>
+    <p class="commitdetails"><strong>9680</strong> lines of code changed in <span class="files">88 files</span>:</p>
+    <ul class="commitdetails">
+      <li>
+        <strong>ext/openssl/crypto/x509v3</strong>:
+        Makefile&#160;<span class="new">(new)</span>,
+        ext_dat.h&#160;<span class="new">(new)</span>,
+        pcy_cache.c&#160;<span class="change">(+171&#160;-188)</span>,
+        pcy_data.c&#160;<span class="new">(new)</span>,
+        pcy_int.h&#160;<span class="change">(+92&#160;-87)</span>,
+        pcy_lib.c&#160;<span class="new">(new)</span>,
+        pcy_map.c&#160;<span class="change">(+61&#160;-63)</span>,
+        pcy_node.c&#160;<span class="new">(new)</span>,
+        pcy_tree.c&#160;<span class="change">(+603&#160;-644)</span>,
+        tabtest.c&#160;<span class="change">(+26&#160;-22)</span>,
+        v3_addr.c&#160;<span class="new">(new)</span>,
+        v3_akey.c&#160;<span class="new">(new)</span>,
+        v3_akeya.c&#160;<span class="new">(new)</span>,
+        v3_alt.c&#160;<span class="change">(+456&#160;-463)</span>,
+        v3_asid.c&#160;<span class="change">(+598&#160;-592)</span>,
+        v3_bcons.c&#160;<span class="change">(+54&#160;-46)</span>,
+        v3_bitst.c&#160;<span class="change">(+69&#160;-68)</span>,
+        v3_conf.c&#160;<span class="change">(+359&#160;-352)</span>,
+        v3_cpols.c&#160;<span class="change">(+326&#160;-304)</span>,
+        v3_crld.c&#160;<span class="change">(+429&#160;-483)</span>,
+        v3_enum.c&#160;<span class="change">(+35&#160;-32)</span>,
+        v3_extku.c&#160;<span class="new">(new)</span>,
+        v3_genn.c&#160;<span class="change">(+141&#160;-143)</span>,
+        v3_ia5.c&#160;<span class="new">(new)</span>,
+        v3_info.c&#160;<span class="change">(+127&#160;-110)</span>,
+        v3_int.c&#160;<span class="change">(+30&#160;-27)</span>,
+        v3_lib.c&#160;<span class="change">(+212&#160;-158)</span>,
+        v3_ncons.c&#160;<span class="new">(new)</span>,
+        v3_ocsp.c&#160;<span class="change">(+169&#160;-146)</span>,
+        v3_pci.c&#160;<span class="change">(+256&#160;-267)</span>,
+        v3_pcia.c&#160;<span class="new">(new)</span>,
+        v3_pcons.c&#160;<span class="change">(+59&#160;-60)</span>,
+        v3_pku.c&#160;<span class="change">(+32&#160;-26)</span>,
+        v3_pmaps.c&#160;<span class="change">(+74&#160;-73)</span>,
+        v3_prn.c&#160;<span class="change">(+157&#160;-132)</span>,
+        v3_purp.c&#160;<span class="change">(+591&#160;-507)</span>,
+        v3_scts.c&#160;<span class="new">(new&#160;323)</span>,
+        v3_skey.c&#160;<span class="new">(new)</span>,
+        v3_sxnet.c&#160;<span class="new">(new)</span>,
+        v3_utl.c&#160;<span class="new">(new)</span>,
+        v3conf.c&#160;<span class="new">(new)</span>,
+        v3err.c&#160;<span class="change">(+176&#160;-153)</span>,
+        v3nametest.c&#160;<span class="new">(new&#160;336)</span>,
+        v3prin.c&#160;<span class="new">(new)</span>,
+        x509v3.h&#160;<span class="new">(new)</span>
+      </li>
+    </ul>
+  </dd>
+
+</dl>
+
+</div><div id="generatedby">Generated by <a href="http://www.statsvn.org">StatSVN</a> 0.7.0</div>
+</body>
+</html>

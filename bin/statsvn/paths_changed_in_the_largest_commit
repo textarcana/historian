@@ -1,0 +1,9 @@
+#!/usr/bin/env bash
+
+FILE=$1
+
+xmlstarlet sel -t -v "//cache/path/revision/@number" $FILE | \
+    sort  | uniq -c | \
+    sort -rn | head -n2 | \
+    perl -lane 'print qq{[$F[0], $F[1]]}' | \
+    jq --slurp 'map({count: .[0], revision: .[1]}) | {"paths changed in the largest commits": .}'

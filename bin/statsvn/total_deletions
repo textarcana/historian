@@ -1,0 +1,8 @@
+#!/usr/bin/env bash
+
+FILE=$1
+
+xmlstarlet sel -t -v "//cache/path/revision/@removed" $FILE | \
+    egrep -v '^0$' | \
+    wc -l | \
+    jq --slurp --raw-input 'tonumber | {"total deletions": .}'
