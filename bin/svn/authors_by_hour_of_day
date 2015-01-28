@@ -1,0 +1,12 @@
+#!/usr/bin/env bash
+
+FILE=$1
+
+# kludge because can't interpolate shell variable within single quotes passed to sh -c
+cp $FILE /tmp/svn-analytics.xml
+
+seq -w 0 23 | \
+    xargs -I @ sh -c 'xmlstarlet sel -t -v "//date[contains(text(), \"T@:\")]/../author" /tmp/svn-analytics.xml | sort | uniq | wc -l;' | \
+          jq --slurp --raw-input 'split("\n") | map(tonumber?) | {"count of authors by hour of the day": .}'
+
+rm /tmp/svn-analytics.xml
