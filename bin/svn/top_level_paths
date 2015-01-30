@@ -2,8 +2,6 @@
 
 SVN_XML_LOGFILE=$1
 
-echo '[info]: Active top-level paths'
-
 xmlstarlet sel -t -m "//path" \
            -o '"' -v "."  -o '" ' \
            -n $SVN_XML_LOGFILE | \

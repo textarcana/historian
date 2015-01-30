@@ -12,29 +12,29 @@ test -f $SVN_LOG
 test -f $STATSVN_FILE
 test -d $STATSVN_HTML_DIR
 
-bin/svn/testers $SVN_LOG > /dev/null &
+bin/svn/testers $SVN_LOG | jq -s . > /dev/null &
 
-bin/svn/impact $SVN_LOG > /dev/null &
+bin/svn/impact $SVN_LOG | jq -s . > /dev/null &
 
-bin/svn/authors $SVN_LOG > /dev/null &
+bin/svn/authors $SVN_LOG | jq -s . > /dev/null &
 
-bin/svn/branches $SVN_LOG > /dev/null &
-bin/svn/top_level_paths $SVN_LOG > /dev/null &
-bin/svn/path_affinity $SVN_LOG > /dev/null &
+bin/svn/branches $SVN_LOG | jq -s . > /dev/null &
+bin/svn/top_level_paths $SVN_LOG | jq -s . > /dev/null &
+bin/svn/path_affinity $SVN_LOG | jq -s . > /dev/null &
 
-bin/svn/popular_paths $SVN_LOG > /dev/null &
-bin/svn/authors_by_paths_touched $SVN_LOG > /dev/null &
-bin/svn/log_analytics $SVN_LOG > /dev/null &
+bin/svn/popular_paths $SVN_LOG | jq -s . > /dev/null &
+bin/svn/authors_by_paths_touched $SVN_LOG | jq -s . > /dev/null &
+bin/svn/log_analytics $SVN_LOG | jq -s . > /dev/null &
 
-bin/statsvn_html/paths_changed $STATSVN_HTML_DIR  > /dev/null &
-bin/statsvn_html/commits_per_author $STATSVN_HTML_DIR > /dev/null &
+bin/statsvn_html/paths_changed $STATSVN_HTML_DIR | jq -s . > /dev/null &
+bin/statsvn_html/commits_per_author $STATSVN_HTML_DIR | jq -s . > /dev/null &
 
-bin/svn/authors_by_hour_of_day $SVN_LOG > /dev/null &
+bin/svn/authors_by_hour_of_day $SVN_LOG | jq -s . > /dev/null &
 
-bin/statsvn/insertions_subtracted_from_deletions_per_commit $STATSVN_FILE > /dev/null &
-bin/statsvn/insertions_plus_deletions_per_commit $STATSVN_FILE > /dev/null &
-bin/statsvn/total_insertions $STATSVN_FILE > /dev/null &
-bin/statsvn/total_deletions $STATSVN_FILE > /dev/null &
-bin/statsvn/total_commits $STATSVN_FILE > /dev/null &
-bin/statsvn/paths_changed_in_the_largest_commit $STATSVN_FILE > /dev/null &
-bin/statsvn/unique_paths_per_commit $STATSVN_FILE > /dev/null &
+bin/statsvn/insertions_subtracted_from_deletions_per_commit $STATSVN_FILE | jq -s . > /dev/null &
+bin/statsvn/insertions_plus_deletions_per_commit $STATSVN_FILE | jq -s . > /dev/null &
+bin/statsvn/total_insertions $STATSVN_FILE | jq -s . > /dev/null &
+bin/statsvn/total_deletions $STATSVN_FILE | jq -s . > /dev/null &
+bin/statsvn/total_commits $STATSVN_FILE | jq -s . > /dev/null &
+bin/statsvn/paths_changed_in_the_largest_commit $STATSVN_FILE | jq -s . > /dev/null &
+bin/statsvn/unique_paths_per_commit $STATSVN_FILE | jq -s . > /dev/null &

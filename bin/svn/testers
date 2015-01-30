@@ -1,13 +1,15 @@
 #!/usr/bin/env bash
 
+: ${BUILD_NUMBER:=$RANDOM}
+
 LOGFILE=$1
 
-echo "[info]: find all paths that look like they are tests"
 xmlstarlet sel -t -m "//path[contains(text(), \"test\")]"  -v '.' -n $LOGFILE \
-           > test_asset_paths.txt
+           | tee /tmp/$BUILD_NUMBER-test_asset_paths.txt | jq -sR 'split("\n") | .[0:length-1] | {"paths that look like they are tests": .}'
 
-echo "[info]: get all paths"
 xmlstarlet sel -t -v "//path" -n $LOGFILE | \
-    egrep '\.(py|java|js|rb)$' > all_code_paths.txt
+    egrep '\.(py|java|js|rb)$' | tee /tmp/$BUILD_NUMBER-all_code_paths.txt | jq -sR 'split("\n") | .[0:length-1] | {"paths that look like source code": .}'
 
-wc -l all_code_paths.txt test_asset_paths.txt
+wc -l /tmp/$BUILD_NUMBER-all_code_paths.txt /tmp/$BUILD_NUMBER-test_asset_paths.txt | \
+    perl -lane 'print qq%{"$F[1]": $F[0]}%' | \
+    jq -s '{"testers totals" : .}'
