@@ -1,0 +1,12 @@
+#!/usr/bin/env bash
+
+LOGFILE=$1
+
+xmlstarlet sel -t -m "//path" \
+           -v ../../author -o ' ' \
+           -o '"' -v "."  -o '" ' \
+           -n $LOGFILE | \
+    sort -k1 | \
+    uniq -c | \
+    sort -rh | perl -lwpe 's%\s*(\d+)\s+(.*?)\s*"(.*)"%{"commits": "$1", "author": "$2", "path": "$3"}%' | \
+    jq -s '{"authors and the count of how many times they touched each path": .}'

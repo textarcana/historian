@@ -1,10 +1,32 @@
 #!/usr/bin/env bash
 
+which lynx > /dev/null
+which jq > /dev/null
+which xmlstarlet > /dev/null
+
 SVN_LOG=tests/data/xml/svn-log.xml
 STATSVN_FILE=tests/data/xml/statsvn-data/cache_4cfb86a4-2c7a-11df-bd14-c1e331e6ceac.xml
 STATSVN_HTML_DIR=tests/data/www/statsvn-www
 
-bin/statsvn_html/paths_changed $STATSVN_HTML_DIR
+test -f $SVN_LOG
+test -f $STATSVN_FILE
+test -d $STATSVN_HTML_DIR
+
+bin/svn/testers $SVN_LOG > /dev/null &
+
+bin/svn/impact $SVN_LOG > /dev/null &
+
+bin/svn/authors $SVN_LOG > /dev/null &
+
+bin/svn/branches $SVN_LOG > /dev/null &
+bin/svn/top_level_paths $SVN_LOG > /dev/null &
+bin/svn/path_affinity $SVN_LOG > /dev/null &
+
+bin/svn/popular_paths $SVN_LOG > /dev/null &
+bin/svn/authors_by_paths_touched $SVN_LOG > /dev/null &
+bin/svn/log_analytics $SVN_LOG > /dev/null &
+
+bin/statsvn_html/paths_changed $STATSVN_HTML_DIR  > /dev/null &
 bin/statsvn_html/commits_per_author $STATSVN_HTML_DIR > /dev/null &
 
 bin/svn/authors_by_hour_of_day $SVN_LOG > /dev/null &

@@ -1,0 +1,14 @@
+#!/usr/bin/env bash
+
+SVN_XML_LOGFILE=$1
+
+echo '[info]: Active top-level paths'
+
+xmlstarlet sel -t -m "//path" \
+           -o '"' -v "."  -o '" ' \
+           -n $SVN_XML_LOGFILE | \
+    cut -d'/' -f1-4 | \
+    egrep -v '\.[^.]+$' | \
+    perl -lwpe 's{(/trunk)/.*}{$1}; s{"}{}g'| \
+    sort | uniq -c | sort -rh | perl -lwpe 's{\s*(\d+)\s+(.*)}{[$1, "$2"]}' | \
+    jq -s '.[] | {"count of commits": .[0], path: .[1]}' | jq -s '{"top level paths" : .}'

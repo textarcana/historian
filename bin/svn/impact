@@ -1,0 +1,42 @@
+#!/usr/bin/env bash
+
+: ${BUILD_NUMBER:=$RANDOM}
+
+LOGFILE=$1
+TEMPFILE="/tmp/${BUILD_NUMBER}svn_impact"
+IMPACTFILE="/tmp/${BUILD_NUMBER}svn_impact-data"
+
+xmlstarlet sel -t -m "//path" \
+           -v ../../@revision -o ' "' \
+           -v "." -o '"' \
+           -n $LOGFILE | \
+    sort | uniq -f1 | \
+    cut -d' ' -f1 | uniq -c | \
+    sort -rn | tee $TEMPFILE | perl -lane 'print qq%{"count": $F[0], "revision": $F[1]}%' | \
+    jq -s '{"Commits and count of paths touched": . }'
+
+PATH_COUNT=`wc -l $TEMPFILE | perl -lane 'print $F[0]'`
+MEDIAN_PATH_INDEX=`perl -e "use POSIX; print ceil($PATH_COUNT / 2)"`
+MEDIAN_PATHS_PER_COMMIT=`sed -n "$MEDIAN_PATH_INDEX{p;q;}" $TEMPFILE | perl -lane 'print $F[0]'`
+AVERAGE_PATHS=`perl -lane 'use POSIX; use List::Util qw(sum);BEGIN{my @acc}; push(@acc, $F[0]); END{print floor(sum(@acc)/@acc)}' $TEMPFILE`
+
+echo "{\"Median paths changed by a commit\": $MEDIAN_PATHS_PER_COMMIT}" | jq .
+echo "{\"Average paths changed by a commit\": $AVERAGE_PATHS}" | jq .
+
+xmlstarlet sel -t -m "//path" \
+           -v ../../author -o ' "' \
+           -v "." -o '"' \
+           -n $LOGFILE | \
+    sort | uniq -f1 | \
+    cut -d' ' -f1 | uniq -c | \
+    sort -rn | tee $IMPACTFILE | \
+    perl -lane 'print qq%{"count": $F[0], "author": "$F[1]"}%' | \
+    jq -s '{"Authors who touched the most paths overall": . }'
+
+IMPACT_COUNT=`wc -l $IMPACTFILE | perl -lane 'print $F[0]'`
+MEDIAN_IMPACT_INDEX=`perl -e "use POSIX; print ceil($IMPACT_COUNT / 2)"`
+MEDIAN_IMPACT_PER_COMMIT=`sed -n "$MEDIAN_IMPACT_INDEX{p;q;}" $IMPACTFILE | perl -lane 'print $F[0]'`
+AVERAGE_IMPACT=`perl -lane 'use POSIX; use List::Util qw(sum);BEGIN{my @acc}; push(@acc, $F[0]); END{print floor(sum(@acc)/@acc)}' $IMPACTFILE`
+
+echo "{\"Median paths touched per author\": $MEDIAN_IMPACT_PER_COMMIT}" | jq .
+echo "{\"Average paths touched per author\": $AVERAGE_IMPACT }" | jq .

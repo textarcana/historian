@@ -1,0 +1,54 @@
+#!/usr/bin/env bash
+
+: ${BUILD_NUMBER:=$RANDOM}
+
+LOGFILE=$1
+
+FIRST_REVISION=`xmlstarlet sel -t -v "//logentry/@revision" $LOGFILE | head -n1`
+LAST_REV=`xmlstarlet sel -t -v "//logentry/@revision" $LOGFILE | tail -n1`
+REV_COUNT=`xmlstarlet sel -t -v "//logentry/@revision" $LOGFILE | wc -l  | perl -lane 'print $F[0]'`
+
+START_DATE=`xmlstarlet sel -t -v "//logentry/date" $LOGFILE | head -n1 | cut -d: -f1-2`
+END_DATE=`xmlstarlet sel -t -v "//logentry/date" $LOGFILE | tail -n1 | cut -d: -f1-2`
+
+xmlstarlet sel -t -v "//logentry/author" $LOGFILE | sort | uniq -c | \
+    sort -rn > /tmp/$BUILD_NUMBERauthors-leaderboard
+
+AUTHOR_COUNT=`wc -l /tmp/$BUILD_NUMBERauthors-leaderboard | perl -lane 'print $F[0]'`
+MEDIAN_AUTHOR_INDEX=`perl -e "use POSIX; print ceil($AUTHOR_COUNT / 2)"`
+TOP_AUTHOR=`head -n1 /tmp/$BUILD_NUMBERauthors-leaderboard | perl -lane 'print qq{$F[0] by $F[1]}'`
+MEDIAN_COMMITS_PER_AUTHOR=`sed -n "$MEDIAN_AUTHOR_INDEX{p;q;}" /tmp/$BUILD_NUMBERauthors-leaderboard | perl -lane 'print $F[0]'`
+AVERAGE_COMMITS=`perl -lane 'use POSIX; use List::Util qw(sum);BEGIN{my @acc}; push(@acc, $F[0]); END{print floor(sum(@acc)/@acc)}' /tmp/$BUILD_NUMBERauthors-leaderboard`
+
+jq -n "{duration: {startDate: \"$START_DATE\", endDate: \"$END_DATE\"}}"
+
+jq -n "{\"commit range\": {first: \"$FIRST_REVISION\", last: \"$LAST_REV\"}}"
+
+xmlstarlet sel -t -v "//logentry/paths" $LOGFILE | egrep -v '^ *$' | \
+    sort | uniq -c | sort -rn > /tmp/$BUILD_NUMBERpaths-leaderboard
+
+jq -n "{\"unique authors\": $AUTHOR_COUNT}"
+jq -n "{\"Most commits by a single author\": \"$TOP_AUTHOR\"}"
+jq -n "{\"Median commits per author\": $MEDIAN_COMMITS_PER_AUTHOR }"
+jq -n "{\"Average commits per author\": $AVERAGE_COMMITS}"
+
+array=(sql py java js ps1 xls csv)
+
+for i in "${array[@]}"
+do
+    FILETYPE=$i
+
+    jq -n "{\"most active files by commit\":
+        {$FILETYPE: \"`egrep \"\.$FILETYPE$\" /tmp/$BUILD_NUMBERpaths-leaderboard | \
+            perl -lane 'print qq{$F[0] commits on the most active file ($F[1])}' | \
+            head -n1`\"}}"
+done
+
+cat /tmp/$BUILD_NUMBERpaths-leaderboard | wc -l | tr -d ' ' | \
+    xargs printf "unique paths touched:%'d" | jq -sR 'split(":") | {"\(.[0])":.[1]}'
+
+jq -n "{\"active PyUnit files\": `egrep 'UnitTests.*_test.py' /tmp/$BUILD_NUMBERpaths-leaderboard | wc -l`}"
+
+jq -n "{\"active JUnit files\": `egrep 'Test\.java' /tmp/$BUILD_NUMBERpaths-leaderboard | wc -l`}"
+
+jq -n "{\"active JavaScript test files\": `egrep '\.test\.js' /tmp/$BUILD_NUMBERpaths-leaderboard | wc -l`}"

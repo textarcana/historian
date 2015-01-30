@@ -1,0 +1,13 @@
+#!/usr/bin/env bash
+
+LOGFILE=$1
+
+xmlstarlet sel -t -m "//path" \
+           -v paths -o ' ' \
+           -v ../../author -o ' ' \
+           -o '"' -v "."  -o '" ' \
+           -n $LOGFILE | \
+    sort -k2 | uniq | \
+    cut -d' ' -f3- | uniq -c | \
+    sort -rh | perl -lwpe 's%\s*(\d+)\s+(.*)%{"count of authors": $1, "path": $2}%' | \
+    jq -s '{"paths that had many authors": .}'

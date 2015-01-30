@@ -1,0 +1,12 @@
+#!/usr/bin/env bash
+
+SVN_XML_LOGFILE=$1
+
+xmlstarlet sel -t -v "//path" \
+           -n $SVN_XML_LOGFILE | \
+    cut -d'/' -f1-4 | \
+    egrep -v '\.[^.]+$' | \
+    perl -lwpe 's{(/trunk)/.*}{$1}'| \
+    sort -d | uniq | \
+    egrep -i '\bbranch' | \
+    jq -srR '{"branches with at least 1 commit within this time period" : (split("\n") | .[0:length-1])}'

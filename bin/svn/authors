@@ -1,0 +1,15 @@
+#!/usr/bin/env bash
+
+LOGFILE=$1
+
+xmlstarlet sel -t -v "//logentry/author" $LOGFILE | sort | uniq -c | \
+    sort -rh | perl -lwpe 's%\s*(\d+)\s+(.*)%{"commits": "$1", "author": "$2"}%' | \
+    jq -s '{"count of commits by each author during this time period": . }'
+
+xmlstarlet sel -t -m "//path" -v ../../author \
+           -o ' ' -v "." \
+           -n $LOGFILE | \
+    sort | uniq -c |  \
+    sort -rh | \
+    perl -lwpe 's%\s*(\d+)\s+(.*?)\s+(.*)%{"commits": "$1", "author": "$2", "path": "$3"}%' | \
+    jq -s '{"authors and the count of how many times they touched each path": . }'
