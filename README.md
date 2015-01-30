@@ -1,6 +1,6 @@
-# Subversion Historian
+# Historian
 
-## A sophisticated SVN interface
+## A sophisticated SCM interface
 
 ## Tests
 
