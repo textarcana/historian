@@ -4,6 +4,7 @@ which lynx > /dev/null
 which jq > /dev/null
 which xmlstarlet > /dev/null
 
+LARGE_SVN_LOG=tests/data/xml/svn-log-1000.xml
 SVN_LOG=tests/data/xml/svn-log.xml
 STATSVN_FILE=tests/data/xml/statsvn-data/cache_4cfb86a4-2c7a-11df-bd14-c1e331e6ceac.xml
 STATSVN_HTML_DIR=tests/data/www/statsvn-www
@@ -18,7 +19,7 @@ bin/svn/impact $SVN_LOG | jq -s . > /dev/null &
 
 bin/svn/authors $SVN_LOG | jq -s . > /dev/null &
 
-bin/svn/branches $SVN_LOG | jq -s . > /dev/null &
+bin/svn/branches $LARGE_SVN_LOG | jq -s . > /dev/null &
 bin/svn/top_level_paths $SVN_LOG | jq -s . > /dev/null &
 bin/svn/path_affinity $SVN_LOG | jq -s . > /dev/null &
 
